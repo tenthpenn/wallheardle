@@ -8592,6 +8592,7 @@ var app = (function () {
     "I Wish(좋겠다) - SEVENTEEN",
     "Run To You - SEVENTEEN",
     "Thinkin' about You - SEVENTEEN",
+    "Chilli - SEVENTEEN",
     "Fast Pace - SEVENTEEN",
     "Light a Flame - SEVENTEEN",
     "I Cant Run Away - SEVENTEEN",
@@ -8725,6 +8726,10 @@ var app = (function () {
            {
             url: "https://soundcloud.com/seventeen-sc/24h",
             answer: "24H - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/moonlitpearl/seventeen-chilli",
+            answer: "Chilli - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/light-a-flame",
