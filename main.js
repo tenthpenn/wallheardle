@@ -8598,80 +8598,80 @@ var app = (function () {
             answer: "Hug - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/l2share150/wjsn-chocome-super-yuppers",
-            answer: "Super Yuppers! - SEVENTEEN",
+            url: "https://soundcloud.com/taetae951/seventeen-rocket",
+            answer: "Rocket - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/tina-tiara-350593675/wjsn-save-me-save-you-mp3",
-            answer: "Save Me, Save You - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/rock-with-you",
+            answer: "Rock With You - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/l2share94/wjsn-as-you-wish",
-            answer: "As You Wish - SEVENTEEN",
+            url: "https://soundcloud.com/l2share106/seventeen-i-wish",
+            answer: "I Wish(좋겠다) - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/l2share77/wjsn-boogie-up",
-            answer: "Boogie Up - SEVENTEEN",
+            url: "https://soundcloud.com/l2share106/seventeen-fearless",
+            answer: "Fearless - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/destinee-nsombe/wjsn-cosmic-girls-i-wish",
-            answer: "I Wish - SEVENTEEN",
+            url: "https://soundcloud.com/l2share84/seventeen-fear",
+            answer: "Fear - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/destinee-nsombe/wjsn-cosmic-girls-secret",
-            answer: "Secret - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/to-you",
+            answer: "To You - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/l2share78/wjsn-la-la-love",
-            answer: "La La Love - SEVENTEEN",
+            url: "https://soundcloud.com/bondartraian/seventeen-dont-wanna-cry",
+            answer: "Don't Wanna Cry - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/l2share78/wjsn-la-la-love",
-            answer: "Hmp! - SEVENTEEN",
+            url: "https://soundcloud.com/lesly-ojeda-395305416/seventeen-fast-pace",
+            answer: "Fast Pace - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/l2share131/wjsn-the-black-kiss-your-lips",
-            answer: "Kiss Your Lips - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/light-a-flame",
+            answer: "Light a Flame - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/user-735126937-247708545/wjsn-last-dance",
-            answer: "Last Dance - SEVENTEEN"
+            url: "https://soundcloud.com/seventeen-scmusic/i-cant-run-away",
+            answer: "I Can't Run Away - SEVENTEEN"
           },
           {
-            url: "https://soundcloud.com/tina-tiara-350593675/wjsn-i-yah-ai-mp3",
-            answer: "I-Yah - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/pang",
+            answer: "PANG! - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/kpop-gurl-952407856/dreams-come-true-wjsn-cosmic",
-            answer: "Dream Comes True - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/crush",
+            answer: "Crush - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/chuurrascos/wjsn-pantomime-uploaded-by-chuurrascos",
-            answer: "Pantomine - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/imperfect-love",
+            answer: "Imperfect Love - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/jos-gregorio-su-rez-n-ez/wjsn-luckitty-cat",
-            answer: "Luckitty Cat - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/heavens-cloud",
+            answer: "Heaven's Cloud - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/kpop-gurl-952407856/happy-wjsn-cosmic-girls",
-            answer: "HAPPY - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/wave",
+            answer: "Wave - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/puppy-kim-1/wjsn-you-got",
-            answer: "You Got - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/ready-to-love",
+            answer: "Ready To Love - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/lxuminous/wjsn-cosmic-girls-oh-my-summer",
-            answer: "Oh My Summer - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/gam3-bo1",
+            answer: "GAM3 BO1 - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/helen_mmyo14/easy-wjsn-the-black1",
-            answer: "EASY - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/same-dream-same-mind-same",
+            answer: "Sae=me Dream, Same Mind, Same Night - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/stanaespa/wjsn-unnatural",
-            answer: "Unnatural - SEVENTEEN",
+            url: "https://soundcloud.com/seventeen-scmusic/anyone",
+            answer: "Anyone - SEVENTEEN",
           },
         ],
         Pn
