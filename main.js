@@ -3631,7 +3631,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://github.com/haseul/wjsn-heardle">mirai</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://twitter.com/beomshu">mer</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -8595,7 +8595,16 @@ var app = (function () {
     "Fast Pace - SEVENTEEN",
     "Light a Flame - SEVENTEEN",
     "I Cant Run Away - SEVENTEEN",
-    "Heaven's Cloud - SEVENTEEN"
+    "Heaven's Cloud - SEVENTEEN",
+    "HOME RUN - SEVENTEEN",
+    "PANG! - SEVENTEEN",
+    "Happy Ending (Korean Version) - SEVENTEEN",
+    "Ready to Love - SEVENTEEN",
+    "GAM3 BO1 - SEVENTEEN",
+    "Same Dream, Same Mind, Same Night - SEVENTEEN",
+    "Wave - SEVENTEEN",
+    "Pretty U - SEVENTEEN",
+    
     
   ]),
     On = {
@@ -8680,6 +8689,26 @@ var app = (function () {
           {
             url: "https://soundcloud.com/seventeen-scmusic/anyone",
             answer: "Anyone - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/sunnyb007/pretty-u-seventeen",
+            answer: "Pretty U - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/do-re-mi?in=seventeen-scmusic/sets/semicolon-6",
+            answer: "Do Re Mi - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/hey-buddy?in=seventeen-scmusic/sets/semicolon-6",
+            answer: "HEY BUDDY - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/ah-love?in=seventeen-scmusic/sets/semicolon-6",
+            answer: "AH! LOVE - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/all-my-love?in=seventeen-scmusic/sets/semicolon-6",
+            answer: "All My love - SEVENTEEN",
           },
         ],
         Pn
