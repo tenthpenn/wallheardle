@@ -8604,6 +8604,14 @@ var app = (function () {
     "Same Dream, Same Mind, Same Night - SEVENTEEN",
     "Wave - SEVENTEEN",
     "Pretty U - SEVENTEEN",
+    "NO F.U.N. - SEVENTEEN",
+    "My My - SEVENTEEN",
+    "Left & Right - SEVENTEEN",
+    "Do Re Mi - SEVENTEEN",
+    "HEY BUDDY - SEVENTEEN",
+    "Healing - SEVENTEEN",
+    "AH! LOVE - SEVENTEEN",
+    "All My Love - SEVENTEEN",
     
     
   ]),
@@ -8623,6 +8631,10 @@ var app = (function () {
             answer: "Rock With You - SEVENTEEN",
           },
           {
+            url: "https://soundcloud.com/seventeen-scmusic/kidult?in=seventeen-scmusic/sets/heng-garae-2",
+            answer: "Kidult - SEVENTEEN",
+          },
+          {
             url: "https://soundcloud.com/l2share106/seventeen-i-wish",
             answer: "I Wish(좋겠다) - SEVENTEEN",
           },
@@ -8634,10 +8646,11 @@ var app = (function () {
             url: "https://soundcloud.com/l2share84/seventeen-fear",
             answer: "Fear - SEVENTEEN",
           },
-          {
-            url: "https://soundcloud.com/seventeen-scmusic/to-you",
-            answer: "To You - SEVENTEEN",
+           {
+            url: "https://soundcloud.com/seventeen-scmusic/pang",
+            answer: "PANG! - SEVENTEEN",
           },
+        
           {
             url: "https://soundcloud.com/bondartraian/seventeen-dont-wanna-cry",
             answer: "Don't Wanna Cry - SEVENTEEN",
@@ -8654,10 +8667,7 @@ var app = (function () {
             url: "https://soundcloud.com/seventeen-scmusic/i-cant-run-away",
             answer: "I Can't Run Away - SEVENTEEN"
           },
-          {
-            url: "https://soundcloud.com/seventeen-scmusic/pang",
-            answer: "PANG! - SEVENTEEN",
-          },
+         
           {
             url: "https://soundcloud.com/seventeen-scmusic/crush",
             answer: "Crush - SEVENTEEN",
@@ -8666,10 +8676,7 @@ var app = (function () {
             url: "https://soundcloud.com/seventeen-scmusic/imperfect-love",
             answer: "Imperfect Love - SEVENTEEN",
           },
-          {
-            url: "https://soundcloud.com/seventeen-scmusic/heavens-cloud",
-            answer: "Heaven's Cloud - SEVENTEEN",
-          },
+        
           {
             url: "https://soundcloud.com/seventeen-scmusic/wave",
             answer: "Wave - SEVENTEEN",
@@ -8703,13 +8710,44 @@ var app = (function () {
             answer: "HEY BUDDY - SEVENTEEN",
           },
           {
+            url: "https://soundcloud.com/seventeen-scmusic/to-you",
+            answer: "To You - SEVENTEEN",
+          },
+          {
             url: "https://soundcloud.com/seventeen-scmusic/ah-love?in=seventeen-scmusic/sets/semicolon-6",
             answer: "AH! LOVE - SEVENTEEN",
+          },
+           {
+            url: "https://soundcloud.com/seventeen-scmusic/left-right?in=seventeen-scmusic/sets/heng-garae-2",
+            answer: "Left & Right - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/all-my-love?in=seventeen-scmusic/sets/semicolon-6",
             answer: "All My love - SEVENTEEN",
           },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/heavens-cloud",
+            answer: "Heaven's Cloud - SEVENTEEN",
+          },
+      
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/my-my?in=seventeen-scmusic/sets/heng-garae-2",
+            answer: "My My - SEVENTEEN",
+          },
+        
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/together?in=seventeen-scmusic/sets/heng-garae-2",
+            answer: "Together - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/clio-lim/seventeen-no-fun",
+            answer: "NO F.U.N. - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/user-404882099/seventeen-very-nice",
+            answer: "Very Nice - SEVENTEEN",
+          },
+        
         ],
         Pn
       ).subscribe,
