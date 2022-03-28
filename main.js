@@ -3631,7 +3631,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://twitter.com/beomshu">mer</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n <p>Have questions/run into bugs? DM me @beomshu on twitter... currently trying to fix the double answer bug. </p>  \n\n\n\n\ <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://twitter.com/beomshu">mer</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3842,12 +3842,13 @@ var app = (function () {
       {
         c() {
           (n = w("p")),
+            (s = w("p")),
             (n.textContent =
-              "If you enjoyed the game and would like to support the Heardle devs with server costs to keep the original game running, please consider donating!"),
+              "Have questions/run into bugs? DM me @beomshu on twitter... currently tryng to fix the double answer bug. DM with advice if u have it lol"),
             (r = x()),
             (s = w("p")),
             (s.innerHTML =
-              '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
+              '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle and would like to support the Heardle devs with server costs to keep the original game running, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -4274,7 +4275,6 @@ var app = (function () {
           (r = _("\n                second")),
           (s = _(a)),
           (i = _("."));
-        (t = _("You got today's SEVENTEEN Heardle within the first ")),
       },
       m(e, o) {
         g(e, t, o), g(e, n, o), g(e, r, o), g(e, s, o), g(e, i, o);
