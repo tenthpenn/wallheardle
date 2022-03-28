@@ -8621,6 +8621,15 @@ var app = (function () {
     "TRAUMA - SEVENTEEN",
     "Let Me Hear You Say - SEVENTEEN",
     "Back It Up - SEVENTEEN",
+    "If I - SEVENTEEN",
+    "My I - SEVENTEEN",
+    "Swimming Fool - SEVENTEEN",
+    "Drift Away - SEVENTEEN",
+    "Hit Song - SEVENTEEN",
+    "Habit - SEVENTEEN",
+    "Oh My! - SEVENTEEN",
+    "Our Dawn is Hotter Than Day - SEVENTEEN",
+    
     
     
   ]),
@@ -8644,8 +8653,12 @@ var app = (function () {
             answer: "Rock With You - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/the8-music/side-by-side-korean-version?in=the8-music/sets/side-by-side",
-            answer: "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
+            url: "https://soundcloud.com/seventeen-scmusic/snap-shoot",
+            answer: "Snap Shoot - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/pledis_seventeen/seventeen-mixtape-vol18-ruby-woozi",
+            answer: "Mansae - SEVENTEEN's WOOZI",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/kidult?in=seventeen-scmusic/sets/heng-garae-2",
@@ -8664,6 +8677,10 @@ var app = (function () {
             answer: "I Wish(좋겠다) - SEVENTEEN",
           },
           {
+            url: "https://soundcloud.com/the8-music/side-by-side-korean-version?in=the8-music/sets/side-by-side",
+            answer: "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
+          },
+          {
             url: "https://soundcloud.com/l2share106/seventeen-fearless",
             answer: "Fearless - SEVENTEEN",
           },
@@ -8679,7 +8696,14 @@ var app = (function () {
             url: "https://soundcloud.com/seventeen-scmusic/pang",
             answer: "PANG! - SEVENTEEN",
           },
-        
+          {
+            url: "https://soundcloud.com/lunniekim/seventeen-oh-my",
+            answer: "Oh My! - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/jaeguchi/seventeen-our-dawn-is-hotter-than-day",
+            answer: "Our Dawn is Hotter Than Day - SEVENTEEN",
+          },
           {
             url: "https://soundcloud.com/bondartraian/seventeen-dont-wanna-cry",
             answer: "Don't Wanna Cry - SEVENTEEN",
