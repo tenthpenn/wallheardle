@@ -4274,6 +4274,7 @@ var app = (function () {
           (r = _("\n                second")),
           (s = _(a)),
           (i = _("."));
+        (t = _("You got today's SEVENTEEN Heardle within the first ")),
       },
       m(e, o) {
         g(e, t, o), g(e, n, o), g(e, r, o), g(e, s, o), g(e, i, o);
