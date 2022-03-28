@@ -8629,6 +8629,12 @@ var app = (function () {
     "Habit - SEVENTEEN",
     "Oh My! - SEVENTEEN",
     "Our Dawn is Hotter Than Day - SEVENTEEN",
+    "Mansae - SEVENTEEN",
+    "Lucky - SEVENTEEN",
+    "Network Love - SEVENTEEN",
+    "Flower - SEVENTEEN",
+    "Clap - SEVENTEEN",
+    "Smile Flower - SEVENTEEN",
     
     
     
@@ -8657,8 +8663,8 @@ var app = (function () {
             answer: "Snap Shoot - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/pledis_seventeen/seventeen-mixtape-vol18-ruby-woozi",
-            answer: "Mansae - SEVENTEEN's WOOZI",
+            url: "https://soundcloud.com/raninovializa/seventeen-mansae",
+            answer: "Mansae - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/kidult?in=seventeen-scmusic/sets/heng-garae-2",
@@ -8697,6 +8703,10 @@ var app = (function () {
             answer: "PANG! - SEVENTEEN",
           },
           {
+            url: "https://soundcloud.com/harram-sajjad-867858641/seventeen-clap",
+            answer: "Clap - SEVENTEEN",
+          },
+          {
             url: "https://soundcloud.com/lunniekim/seventeen-oh-my",
             answer: "Oh My! - SEVENTEEN",
           },
@@ -8722,7 +8732,11 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/i-cant-run-away",
-            answer: "I Can't Run Away - SEVENTEEN"
+            answer: "I Can't Run Away - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/clio-lim/seventeen-flower-1",
+            answer: "Flower - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/do-re-mi?in=seventeen-scmusic/sets/semicolon-6",
@@ -8754,6 +8768,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/seventeen-scmusic/gam3-bo1",
             answer: "GAM3 BO1 - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/user-763874617/seventeen-smile-flower",
+            answer:"Smile Flower - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/same-dream-same-mind-same",
