@@ -4,4 +4,6 @@ A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://hear
 
 Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN's discography.
 
-code from: [WJSN Heardle](https://github.com/haseul/wjsn-heardle) <3
+code taken from: [WJSN Heardle](https://github.com/haseul/wjsn-heardle) <3
+
+dm me with any issues. @beomshu on Twitter.

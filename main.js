@@ -8589,6 +8589,18 @@ var app = (function () {
     "Lilili Yabbay - SEVENTEEN",
     "To You - SEVENTEEN",
     "Don't Wanna Cry - SEVENTEEN",
+    "I Wish - SEVENTEEN",
+    "Run To You - SEVENTEEN",
+    "Thinkin' about You - SEVENTEEN",
+    "Fast Pace - SEVENTEEN",
+    "Light a Flame - SEVENTEEN",
+    "I Cant Run Away - SEVENTEEN",
+    "Heaven's Cloud - SEVENTEEN"
+    "HOME;RUN - SEVENTEEN",
+    "PANG! - SEVENTEEN",
+    "Hug - SEVENTEEN",
+    
+    
   ]),
     On = {
       subscribe: ue(
@@ -8667,7 +8679,7 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/same-dream-same-mind-same",
-            answer: "Sae=me Dream, Same Mind, Same Night - SEVENTEEN",
+            answer: "Same Dream, Same Mind, Same Night - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/anyone",
@@ -9020,12 +9032,12 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "WJSN Heardle"),
+          (An.title = "SEVENTEEN Heardle"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the WJSN song from the intro in as few tries as possible"
+            "Guess the SEVENTEEN song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
