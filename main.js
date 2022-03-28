@@ -708,7 +708,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "WJSN Heardle"),
+            (u.textContent = "SVT Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -3631,7 +3631,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for WJSN songs.</p> \n\n<p class="mb-3">Each WJSN Heardle is randomly chosen from WJSN\'s discography.</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. WJSN version made by <a href ="https://github.com/haseul/wjsn-heardle">mirai</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://github.com/haseul/wjsn-heardle">mirai</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3847,7 +3847,7 @@ var app = (function () {
             (r = x()),
             (s = w("p")),
             (s.innerHTML =
-              '<p class="mb-3">If you\'ve enjoyed playing WJSN Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
+              '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -4026,14 +4026,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next WJSN song in:"),
+            (k.textContent = "Next SEVENTEEN song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">WJSN Heardle?</span>'),
+              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">SEVEMTEEN Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4242,7 +4242,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's WJSN Heardle within the first ")),
+        (t = _("You got today's SEVENTEEN Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4269,7 +4269,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's WJSN Heardle within ")),
+        (t = _("You got today's SEVENTEEN Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4299,7 +4299,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's WJSN Heardle. Better luck tomorrow!");
+        n = _("You didn't get today's SEVENTEEN Heardle. Better luck tomorrow!");
       },
       m(e, t) {
         g(e, n, t);
@@ -4439,7 +4439,7 @@ var app = (function () {
         u,
         c,
         () => {
-          let e = "WJSN Heardle #" + (s.id + 1),
+          let e = "SEVENTEEN Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4542,7 +4542,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct WJSN song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct SEVENTEEN song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8581,97 +8581,97 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-    "Take My Breath - WJSN",
-    "Tick-Tock - WJSN",
-    "Catch Me - WJSN",
-    "Memories - WJSN",
-    "12 O'clock - WJSN",
-    "Masquerade - WJSN",
-    "Hurry Up - WJSN",
-    "Robot - WJSN",
+    "Rocket- SEVENTEEN",
+    "Hug - SEVENTEEN",
+    "Rock With You - SEVENTEEN",
+    "Fear - SEVENTEEN",
+    "Fearless - SEVENTEEN",
+    "Lilili Yabbay - SEVENTEEN",
+    "To You - SEVENTEEN",
+    "Don't Wanna Cry - SEVENTEEN",
   ]),
     On = {
       subscribe: ue(
         [
           {
-            url: "https://soundcloud.com/petcharaporn-kampee/wjsn-hug-u",
-            answer: "Hug U - WJSN",
+            url: "https://soundcloud.com/moonlitpearl/seventeen-hug",
+            answer: "Hug - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share150/wjsn-chocome-super-yuppers",
-            answer: "Super Yuppers! - WJSN CHOCOME",
+            answer: "Super Yuppers! - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/tina-tiara-350593675/wjsn-save-me-save-you-mp3",
-            answer: "Save Me, Save You - WJSN",
+            answer: "Save Me, Save You - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share94/wjsn-as-you-wish",
-            answer: "As You Wish - WJSN",
+            answer: "As You Wish - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share77/wjsn-boogie-up",
-            answer: "Boogie Up - WJSN",
+            answer: "Boogie Up - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/destinee-nsombe/wjsn-cosmic-girls-i-wish",
-            answer: "I Wish - WJSN",
+            answer: "I Wish - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/destinee-nsombe/wjsn-cosmic-girls-secret",
-            answer: "Secret - WJSN",
+            answer: "Secret - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share78/wjsn-la-la-love",
-            answer: "La La Love - WJSN",
+            answer: "La La Love - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share78/wjsn-la-la-love",
-            answer: "Hmp! - WJSN CHOCOME",
+            answer: "Hmp! - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share131/wjsn-the-black-kiss-your-lips",
-            answer: "Kiss Your Lips - WJSN THE BLACK",
+            answer: "Kiss Your Lips - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/user-735126937-247708545/wjsn-last-dance",
-            answer: "Last Dance - WJSN"
+            answer: "Last Dance - SEVENTEEN"
           },
           {
             url: "https://soundcloud.com/tina-tiara-350593675/wjsn-i-yah-ai-mp3",
-            answer: "I-Yah - WJSN",
+            answer: "I-Yah - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/kpop-gurl-952407856/dreams-come-true-wjsn-cosmic",
-            answer: "Dream Comes True - WJSN",
+            answer: "Dream Comes True - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/chuurrascos/wjsn-pantomime-uploaded-by-chuurrascos",
-            answer: "Pantomine - WJSN",
+            answer: "Pantomine - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/jos-gregorio-su-rez-n-ez/wjsn-luckitty-cat",
-            answer: "Luckitty Cat - WJSN",
+            answer: "Luckitty Cat - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/kpop-gurl-952407856/happy-wjsn-cosmic-girls",
-            answer: "HAPPY - WJSN",
+            answer: "HAPPY - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/puppy-kim-1/wjsn-you-got",
-            answer: "You Got - WJSN",
+            answer: "You Got - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/lxuminous/wjsn-cosmic-girls-oh-my-summer",
-            answer: "Oh My Summer - WJSN",
+            answer: "Oh My Summer - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/helen_mmyo14/easy-wjsn-the-black1",
-            answer: "EASY - WJSN THE BLACK",
+            answer: "EASY - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/stanaespa/wjsn-unnatural",
-            answer: "Unnatural - WJSN",
+            answer: "Unnatural - SEVENTEEN",
           },
         ],
         Pn
