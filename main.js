@@ -8612,6 +8612,12 @@ var app = (function () {
     "Healing - SEVENTEEN",
     "AH! LOVE - SEVENTEEN",
     "All My Love - SEVENTEEN",
+    "HIT - SEVENTEEN",
+    "24H - SEVENTEEN",
+    "Kidult - SEVENTEEN",
+    "Fronting - SEVENTEEN",
+    "Ruby - SEVENTEEN's WOOZI",
+    "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
     
     
   ]),
@@ -8627,8 +8633,16 @@ var app = (function () {
             answer: "Rocket - SEVENTEEN",
           },
           {
+            url: "https://soundcloud.com/pledis_seventeen/seventeen-mixtape-vol18-ruby-woozi",
+            answer: "Ruby - SEVENTEEN's WOOZI",
+          },
+          {
             url: "https://soundcloud.com/seventeen-scmusic/rock-with-you",
             answer: "Rock With You - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/the8-music/side-by-side-korean-version?in=the8-music/sets/side-by-side",
+            answer: "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/kidult?in=seventeen-scmusic/sets/heng-garae-2",
@@ -8641,6 +8655,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/l2share106/seventeen-fearless",
             answer: "Fearless - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/hit",
+            answer: "HIT - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share84/seventeen-fear",
@@ -8658,6 +8676,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/lesly-ojeda-395305416/seventeen-fast-pace",
             answer: "Fast Pace - SEVENTEEN",
+          },
+           {
+            url: "https://soundcloud.com/seventeen-sc/24h",
+            answer: "24H - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/light-a-flame",
