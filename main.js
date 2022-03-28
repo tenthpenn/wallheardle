@@ -8618,6 +8618,9 @@ var app = (function () {
     "Fronting - SEVENTEEN",
     "Ruby - SEVENTEEN's WOOZI",
     "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
+    "TRAUMA - SEVENTEEN",
+    "Let Me Hear You Say - SEVENTEEN",
+    "Back It Up - SEVENTEEN",
     
     
   ]),
@@ -8647,6 +8650,14 @@ var app = (function () {
           {
             url: "https://soundcloud.com/seventeen-scmusic/kidult?in=seventeen-scmusic/sets/heng-garae-2",
             answer: "Kidult - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/user-417709640/seventeen-trauma-2",
+            answer: "TRAUMA - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/let-me-hear-you-say?in=seventeen-scmusic/sets/an-ode-3",
+            answer: "Let Me Hear You Say - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/l2share106/seventeen-i-wish",
@@ -8689,6 +8700,18 @@ var app = (function () {
             url: "https://soundcloud.com/seventeen-scmusic/i-cant-run-away",
             answer: "I Can't Run Away - SEVENTEEN"
           },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/do-re-mi?in=seventeen-scmusic/sets/semicolon-6",
+            answer: "Do Re Mi - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/back-it-up",
+            answer: "Back It Up - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/seventeen-scmusic/ready-to-love",
+            answer: "Ready To Love - SEVENTEEN",
+          },
          
           {
             url: "https://soundcloud.com/seventeen-scmusic/crush",
@@ -8703,10 +8726,7 @@ var app = (function () {
             url: "https://soundcloud.com/seventeen-scmusic/wave",
             answer: "Wave - SEVENTEEN",
           },
-          {
-            url: "https://soundcloud.com/seventeen-scmusic/ready-to-love",
-            answer: "Ready To Love - SEVENTEEN",
-          },
+      
           {
             url: "https://soundcloud.com/seventeen-scmusic/gam3-bo1",
             answer: "GAM3 BO1 - SEVENTEEN",
@@ -8722,10 +8742,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/sunnyb007/pretty-u-seventeen",
             answer: "Pretty U - SEVENTEEN",
-          },
-          {
-            url: "https://soundcloud.com/seventeen-scmusic/do-re-mi?in=seventeen-scmusic/sets/semicolon-6",
-            answer: "Do Re Mi - SEVENTEEN",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/hey-buddy?in=seventeen-scmusic/sets/semicolon-6",
