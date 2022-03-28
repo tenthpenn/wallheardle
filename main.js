@@ -8581,7 +8581,6 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-    "Rocket- SEVENTEEN",
     "Hug - SEVENTEEN",
     "Rock With You - SEVENTEEN",
     "Fear - SEVENTEEN",
@@ -8594,6 +8593,7 @@ var app = (function () {
     "Thinkin' about You - SEVENTEEN",
     "Chilli - SEVENTEEN",
     "Fast Pace - SEVENTEEN",
+    "Rocket - SEVENTEEN",
     "Light a Flame - SEVENTEEN",
     "I Cant Run Away - SEVENTEEN",
     "Heaven's Cloud - SEVENTEEN",
@@ -8636,9 +8636,6 @@ var app = (function () {
     "Flower - SEVENTEEN",
     "Clap - SEVENTEEN",
     "Smile Flower - SEVENTEEN",
-    
-    
-    
   ]),
     On = {
       subscribe: ue(
