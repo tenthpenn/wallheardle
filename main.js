@@ -708,7 +708,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "SVT Heardle"),
+            (u.textContent = "SEVENTEEN Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -4033,7 +4033,7 @@ var app = (function () {
             (T = w("div")),
             (Y = w("div")),
             (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">SEVEMTEEN Heardle?</span>'),
+              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">SEVENTEEN Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4456,7 +4456,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "\n\nhttps://wjsn-heardle.glitch.me/";
+          let o = e + "\n\n" + t + "\n\nhttps://SVT-heardle.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -8589,24 +8589,20 @@ var app = (function () {
     "Lilili Yabbay - SEVENTEEN",
     "To You - SEVENTEEN",
     "Don't Wanna Cry - SEVENTEEN",
-    "I Wish - SEVENTEEN",
+    "I Wish(좋겠다) - SEVENTEEN",
     "Run To You - SEVENTEEN",
     "Thinkin' about You - SEVENTEEN",
     "Fast Pace - SEVENTEEN",
     "Light a Flame - SEVENTEEN",
     "I Cant Run Away - SEVENTEEN",
     "Heaven's Cloud - SEVENTEEN"
-    "HOME;RUN - SEVENTEEN",
-    "PANG! - SEVENTEEN",
-    "Hug - SEVENTEEN",
-    
     
   ]),
     On = {
       subscribe: ue(
         [
           {
-            url: "https://soundcloud.com/moonlitpearl/seventeen-hug",
+           url: "https://soundcloud.com/moonlitpearl/seventeen-hug",
             answer: "Hug - SEVENTEEN",
           },
           {
