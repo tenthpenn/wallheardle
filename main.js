@@ -4300,7 +4300,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's SEVENTEEN Heardle. Better luck tomorrow!");
+        n = _("You didn't get today's SEVENTEEN Heardle. Better luck tomorrow! 💎");
       },
       m(e, t) {
         g(e, n, t);
