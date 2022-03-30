@@ -8637,6 +8637,28 @@ var app = (function () {
     "Flower - SEVENTEEN",
     "Clap - SEVENTEEN",
     "Smile Flower - SEVENTEEN",
+    "BOOMBOOM - SEVENTEEN",
+    "Silent Boarding Gate - SEVENTEEN's JUN",
+    "Bring It - SEVENTEEN",
+    "Shhh - SEVENTEEN",
+    "Moonwalker -SEVENTEEN",
+    "Change Up - SEVENTEEN",
+    "Without You - SEVENTEEN",
+    "OMG - SEVENTEEN",
+    "Rock - SEVENTEEN",
+    "247 - SEVENTEEN",
+    "Swimming Fool - SEVENTEEN",
+    "Pinwheel - SEVENTEEN",
+    "Falling for U - SEVENTEEN",
+    "Crazy in Love - SEVENTEEN",
+    "Holiday - SEVENTEEN",
+    "What's Good - SEVENTEEN",
+    "Still Lonely - SEVENTEEN",
+    "Chuck - SEVENTEEN",
+    "Good to Me - SEVENTEEN",
+    "Highlight - SEVENTEEN",
+    "Beautiful - SEVENTEEN",
+    "Call Call Call! - SEVENTEEN",
   ]),
     On = {
       subscribe: ue(
@@ -8666,6 +8688,10 @@ var app = (function () {
             answer: "Mansae - SEVENTEEN",
           },
           {
+            url: "https://soundcloud.com/user-83173740/seventeen-crazy-in-love-al1",
+            answer: "Crazy in Love - SEVENTEEN",
+          },
+          {
             url: "https://soundcloud.com/seventeen-scmusic/kidult?in=seventeen-scmusic/sets/heng-garae-2",
             answer: "Kidult - SEVENTEEN",
           },
@@ -8680,10 +8706,6 @@ var app = (function () {
           {
             url: "https://soundcloud.com/l2share106/seventeen-i-wish",
             answer: "I Wish(좋겠다) - SEVENTEEN",
-          },
-          {
-            url: "https://soundcloud.com/the8-music/side-by-side-korean-version?in=the8-music/sets/side-by-side",
-            answer: "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
           },
           {
             url: "https://soundcloud.com/l2share106/seventeen-fearless",
@@ -8829,6 +8851,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/user-404882099/seventeen-very-nice",
             answer: "Very Nice - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/the8-music/side-by-side-korean-version?in=the8-music/sets/side-by-side",
+            answer: "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
           },
         
         ],
