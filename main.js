@@ -8647,7 +8647,6 @@ var app = (function () {
     "OMG - SEVENTEEN",
     "Rock - SEVENTEEN",
     "247 - SEVENTEEN",
-    "Swimming Fool - SEVENTEEN",
     "Pinwheel - SEVENTEEN",
     "Falling for U - SEVENTEEN",
     "Crazy in Love - SEVENTEEN",
@@ -8684,7 +8683,7 @@ var app = (function () {
             answer: "Snap Shoot - SEVENTEEN",
           },
           {
-            url: "https://soundcloud.com/raninovializa/seventeen-mansae",
+            url: "https://soundcloud.com/steven-zheng-374198245/mansae",
             answer: "Mansae - SEVENTEEN",
           },
           {
