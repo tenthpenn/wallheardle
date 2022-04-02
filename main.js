@@ -8618,8 +8618,8 @@ var app = (function () {
     "24H - SEVENTEEN",
     "Kidult - SEVENTEEN",
     "Fronting - SEVENTEEN",
-    "Ruby - SEVENTEEN's WOOZI",
-    "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
+    "Ruby - Woozi",
+    "Side by Side (KOREAN VERSION) - THE8",
     "TRAUMA - SEVENTEEN",
     "Let Me Hear You Say - SEVENTEEN",
     "Back It Up - SEVENTEEN",
@@ -8638,7 +8638,7 @@ var app = (function () {
     "Clap - SEVENTEEN",
     "Smile Flower - SEVENTEEN",
     "BOOMBOOM - SEVENTEEN",
-    "Silent Boarding Gate - SEVENTEEN's JUN",
+    "Silent Boarding Gate - Wen Junhui",
     "Bring It - SEVENTEEN",
     "Shhh - SEVENTEEN",
     "Moonwalker -SEVENTEEN",
@@ -8658,6 +8658,7 @@ var app = (function () {
     "Highlight - SEVENTEEN",
     "Beautiful - SEVENTEEN",
     "Call Call Call! - SEVENTEEN",
+    "Just Do It - BSS",
   ]),
     On = {
       subscribe: ue(
@@ -8672,7 +8673,7 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/pledis_seventeen/seventeen-mixtape-vol18-ruby-woozi",
-            answer: "Ruby - SEVENTEEN's WOOZI",
+            answer: "Ruby - Woozi
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/rock-with-you",
@@ -8713,6 +8714,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/seventeen-scmusic/hit",
             answer: "HIT - SEVENTEEN",
+          },
+          {
+            url: "https://soundcloud.com/zevi-hyun/seventeen-booseoksoon-just-do",
+            answer: "Just Do It - BSS",
           },
           {
             url: "https://soundcloud.com/l2share84/seventeen-fear",
@@ -8853,7 +8858,7 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/the8-music/side-by-side-korean-version?in=the8-music/sets/side-by-side",
-            answer: "Side by Side (KOREAN VERSION) - SEVENTEEN's THE8",
+            answer: "Side by Side (KOREAN VERSION) - THE8",
           },
         
         ],
