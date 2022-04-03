@@ -3631,7 +3631,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n <p>Have questions/run into bugs? DM me @beomshu on twitter... currently trying to fix the double answer bug. </p>  \n\n\n\n\ <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://twitter.com/beomshu">mer</a>.</p> '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n <p>Have questions/run into bugs? DM me @beomshu on twitter... </p>  \n\n\n\n\ <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://twitter.com/beomshu">mer</a>.</p> '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3844,7 +3844,7 @@ var app = (function () {
           (n = w("p")),
             (s = w("p")),
             (n.textContent =
-              "Have questions/run into bugs? DM me @beomshu on twitter... currently tryng to fix the double answer bug. DM with advice if u have it lol"),
+              "Have questions/run into bugs? DM me @beomshu on twitter..."),
             (r = x()),
             (s = w("p")),
             (s.innerHTML =
@@ -4457,7 +4457,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "\n\nhttps://SVT-heardle.glitch.me/";
+          let o = e + "\n\n" + t + "@pledis_17 #SEVENTEEN ";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
