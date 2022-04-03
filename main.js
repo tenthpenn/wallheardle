@@ -4457,7 +4457,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "@pledis_17 #SEVENTEEN ";
+          let o = e + "\n\n" + t + "\n\n" + "@pledis_17 #SEVENTEEN" + "\n\n" + "https://svt-heardle.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
