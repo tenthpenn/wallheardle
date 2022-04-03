@@ -8673,7 +8673,7 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/pledis_seventeen/seventeen-mixtape-vol18-ruby-woozi",
-            answer: "Ruby - Woozi
+            answer: "Ruby - Woozi",
           },
           {
             url: "https://soundcloud.com/seventeen-scmusic/rock-with-you",
