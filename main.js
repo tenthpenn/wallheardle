@@ -8630,7 +8630,6 @@ var app = (function () {
       "Traveling at the Speed of Light - Joywave",
       "Nice House - Joywave",
       "Bad Dreams - Joywave",
-
     ]),
     On = {
       subscribe: ue(
@@ -8762,6 +8761,42 @@ var app = (function () {
           {
             url: "https://soundcloud.com/joywave/lets-talk-about-feelings",
             answer: "Let's Talk About Feelings - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/joywave-somebody-new",
+            answer: "Somebody New - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/carry-me",
+            answer: "Carry Me - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/tongues",
+            answer: "Tongues (feat. KOPPS) - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/destruction",
+            answer: "Destruction - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/now",
+            answer: "Now - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/feels-like-a-lie",
+            answer: "Feels Like a Lie - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/traveling-at-the-speed-of-1",
+            answer: "Traveling at the Speed of Light - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/nice-house",
+            answer: "Nice House - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/bad-dreams",
+            answer: "Bad Dreams - Joywave",
           },
         ],
         Pn
