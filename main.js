@@ -3352,7 +3352,8 @@ var app = (function () {
     });
     return (
       (e.$$set = (e) => {
-        console.log('all', s.pop())
+        s.pop()
+        // console.log('all', s)
         "allOptions" in e && n(6, (s = e.allOptions)),
           "currentAttempt" in e && n(0, (i = e.currentAttempt)),
           "config" in e && n(1, (o = e.config)),
@@ -8632,6 +8633,14 @@ var app = (function () {
       "Traveling at the Speed of Light - Joywave",
       "Nice House - Joywave",
       "Bad Dreams - Joywave",
+      "AM - Joywave",
+      "Who Do You Like? - Joywave",
+      "Golden State - Joywave",
+      "True Grit - Joywave",
+      "Anemone - Joywave",
+      "Bridge - Joywave",
+      "Smokestacks - Joywave",
+
     ]),
     On = {
       subscribe: ue(
@@ -8799,6 +8808,34 @@ var app = (function () {
           {
             url: "https://soundcloud.com/joywave/bad-dreams",
             answer: "Bad Dreams - Joywave",
+          },
+          {
+              url: "https://soundcloud.com/joywave/am",
+              answer: "AM - Joywave",
+          },
+          {
+              url: "https://soundcloud.com/joywave/who-do-you-like-1",
+              answer: "Who Do You Like? - Joywave",
+          },
+          {
+              url: "https://soundcloud.com/joywave/golden-state-2",
+              answer: "Golden State - Joywave",
+          },
+          {
+              url: "https://soundcloud.com/joywave/true-grit-koda-vista",
+              answer: "True Grit - Joywave",
+          },
+          {
+              url: "https://soundcloud.com/joywave/anemone",
+              answer: "Anemone - Joywave",
+          },
+          {
+              url: "https://soundcloud.com/joywave/bridge",
+              answer: "Bridge - Joywave",
+          },
+          {
+              url: "https://soundcloud.com/joywave/smokestacks",
+              answer: "Smokestacks - Joywave",
           },
         ],
         Pn
@@ -9382,8 +9419,9 @@ var app = (function () {
       p,
       function (e) {
         let t = e.detail.currentSong;
-        n(2, (l.artist = l.correctAnswer.split(" - ")[0]), l),
-          n(2, (l.title = l.correctAnswer.split(" - ")[1]), l),
+        console.log('crurent song', l)
+        n(2, (l.artist = l.correctAnswer.split(" - ")[1]), l),
+          n(2, (l.title = l.correctAnswer.split(" - ")[0]), l),
           n(2, (l.img = t.artwork_url), l),
           n(2, (l.duration = t.duration), l),
           n(2, (l.genre = t.genre), l),
