@@ -5,5 +5,3 @@ A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://hear
 Each Joywave Heardle is randomly chosen from Joywave's discography.
 
 code taken from: [WJSN Heardle](https://github.com/haseul/wjsn-heardle) <3
-
-
