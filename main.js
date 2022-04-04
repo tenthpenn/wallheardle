@@ -708,7 +708,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "SEVENTEEN Heardle"),
+            (u.textContent = "Joywave Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -3631,7 +3631,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for SEVENTEEN songs.</p> \n\n<p class="mb-3">Each SEVENTEEN Heardle is randomly chosen from SEVENTEEN\'s discography.</p> \n\n\n\n <p>Have questions/run into bugs? DM me @beomshu on twitter... </p>  \n\n\n\n\ <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. SEVENTEEN version made by <a href ="https://twitter.com/beomshu">mer</a>.</p> '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Joywave songs.</p> \n\n<p class="mb-3">Each Joywave Heardle is randomly chosen from Joywave\'s discography.</p> \n\n\n\n <p>Have questions/run into bugs? DM me @beomshu on twitter... </p>  \n\n\n\n\ <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3843,12 +3843,12 @@ var app = (function () {
         c() {
           (n = w("p")),
             (s = w("p")),
-            (n.textContent =
-              "Have questions/run into bugs? DM me @beomshu on twitter..."),
+            // (n.textContent =
+            //   "Have questions/run into bugs? DM me @beomshu on twitter..."),
             (r = x()),
             (s = w("p")),
-            (s.innerHTML =
-              '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle and would like to support the Heardle devs with server costs to keep the original game running, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
+            // (s.innerHTML =
+            //   '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle and would like to support the Heardle devs with server costs to keep the original game running, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -4027,14 +4027,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next SEVENTEEN song in:"),
+            (k.textContent = "Next Joywave song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">SEVENTEEN Heardle?</span>'),
+              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Joywave Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4243,7 +4243,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's SEVENTEEN Heardle within the first ")),
+        (t = _("You got today's Joywave Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4270,7 +4270,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's SEVENTEEN Heardle within ")),
+        (t = _("You got today's Joywave Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4300,7 +4300,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's SEVENTEEN Heardle. Better luck tomorrow! 💎");
+        n = _("You didn't get today's Joywave Heardle. Better luck tomorrow! 💎");
       },
       m(e, t) {
         g(e, n, t);
@@ -4440,7 +4440,7 @@ var app = (function () {
         u,
         c,
         () => {
-          let e = "SEVENTEEN Heardle #" + (s.id + 1),
+          let e = "Joywave Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4543,7 +4543,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct SEVENTEEN song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Joywave song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8583,82 +8583,15 @@ var app = (function () {
   });
   const Cn = ue([
     "Pray For The Reboot - Joywave",
-    "Rock With You - SEVENTEEN",
-    // "Fear - SEVENTEEN",
-    // "Fearless - SEVENTEEN",
-    // "Lilili Yabbay - SEVENTEEN",
-    // "To You - SEVENTEEN",
-    // "Don't Wanna Cry - SEVENTEEN",
-    // "I Wish(좋겠다) - SEVENTEEN",
-    // "Run To You - SEVENTEEN",
-    // "Thinkin' about You - SEVENTEEN",
-    // "Chilli - SEVENTEEN",
-    // "Fast Pace - SEVENTEEN",
-    // "Rocket - SEVENTEEN",
-    // "Light a Flame - SEVENTEEN",
-    // "I Cant Run Away - SEVENTEEN",
-    // "Heaven's Cloud - SEVENTEEN",
-    // "HOME RUN - SEVENTEEN",
-    // "PANG! - SEVENTEEN",
-    // "Happy Ending (Korean Version) - SEVENTEEN",
-    // "Ready to Love - SEVENTEEN",
-    // "GAM3 BO1 - SEVENTEEN",
-    // "Same Dream, Same Mind, Same Night - SEVENTEEN",
-    // "Wave - SEVENTEEN",
-    // "Pretty U - SEVENTEEN",
-    // "NO F.U.N. - SEVENTEEN",
-    // "My My - SEVENTEEN",
-    // "Left & Right - SEVENTEEN",
-    // "Do Re Mi - SEVENTEEN",
-    // "HEY BUDDY - SEVENTEEN",
-    // "Healing - SEVENTEEN",
-    // "AH! LOVE - SEVENTEEN",
-    // "All My Love - SEVENTEEN",
-    // "HIT - SEVENTEEN",
-    // "24H - SEVENTEEN",
-    // "Kidult - SEVENTEEN",
-    // "Fronting - SEVENTEEN",
-    // "Ruby - Woozi",
-    // "Side by Side (KOREAN VERSION) - THE8",
-    // "TRAUMA - SEVENTEEN",
-    // "Let Me Hear You Say - SEVENTEEN",
-    // "Back It Up - SEVENTEEN",
-    // "If I - SEVENTEEN",
-    // "My I - SEVENTEEN",
-    // "Swimming Fool - SEVENTEEN",
-    // "Drift Away - SEVENTEEN",
-    // "Hit Song - SEVENTEEN",
-    // "Habit - SEVENTEEN",
-    // "Oh My! - SEVENTEEN",
-    // "Our Dawn is Hotter Than Day - SEVENTEEN",
-    // "Mansae - SEVENTEEN",
-    // "Lucky - SEVENTEEN",
-    // "Network Love - SEVENTEEN",
-    // "Flower - SEVENTEEN",
-    // "Clap - SEVENTEEN",
-    // "Smile Flower - SEVENTEEN",
-    // "BOOMBOOM - SEVENTEEN",
-    // "Silent Boarding Gate - Wen Junhui",
-    // "Bring It - SEVENTEEN",
-    // "Shhh - SEVENTEEN",
-    // "Moonwalker -SEVENTEEN",
-    // "Change Up - SEVENTEEN",
-    // "Without You - SEVENTEEN",
-    // "OMG - SEVENTEEN",
-    // "Rock - SEVENTEEN",
-    // "247 - SEVENTEEN",
-    // "Pinwheel - SEVENTEEN",
-    // "Falling for U - SEVENTEEN",
-    // "Crazy in Love - SEVENTEEN",
-    // "Holiday - SEVENTEEN",
-    // "What's Good - SEVENTEEN",
-    // "Still Lonely - SEVENTEEN",
-    // "Chuck - SEVENTEEN",
-    // "Good to Me - SEVENTEEN",
-    // "Highlight - SEVENTEEN",
-    // "Beautiful - SEVENTEEN",
-    // "Call Call Call! - SEVENTEEN",
-    // "Just Do It - BSS",
+    "Buy American - Joywave",
+    "Every Window Is A Mirror - Joywave",
+    "Cyn City 2000 - Joywave",
+    "After Coffee - Joywave",
+    "We Are All We Need - Joywave",
+    "Goodbye Tommy - Joywave",
+    "The Inversion - Joywave",
+    "Why Would You Want To Be Young Again? - Joywave",
+    "Have You Ever Lit A Year On Fire? - Joywave",
   ]),
     On = {
       subscribe: ue(
@@ -8668,198 +8601,38 @@ var app = (function () {
             answer: "Pray For The Reboot - Joywave",
           },
           {
-            url: "https://soundcloud.com/taetae951/seventeen-rocket",
-            answer: "Rocket - SEVENTEEN",
+            url: "https://soundcloud.com/joywave/buy-american",
+            answer: "Buy American - Joywave",
           },
-//           {
-//             url: "https://soundcloud.com/pledis_seventeen/seventeen-mixtape-vol18-ruby-woozi",
-//             answer: "Ruby - Woozi",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/rock-with-you",
-//             answer: "Rock With You - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/snap-shoot",
-//             answer: "Snap Shoot - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/steven-zheng-374198245/mansae",
-//             answer: "Mansae - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/user-83173740/seventeen-crazy-in-love-al1",
-//             answer: "Crazy in Love - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/kidult?in=seventeen-scmusic/sets/heng-garae-2",
-//             answer: "Kidult - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/user-417709640/seventeen-trauma-2",
-//             answer: "TRAUMA - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/let-me-hear-you-say?in=seventeen-scmusic/sets/an-ode-3",
-//             answer: "Let Me Hear You Say - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/l2share106/seventeen-i-wish",
-//             answer: "I Wish(좋겠다) - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/l2share106/seventeen-fearless",
-//             answer: "Fearless - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/hit",
-//             answer: "HIT - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/zevi-hyun/seventeen-booseoksoon-just-do",
-//             answer: "Just Do It - BSS",
-//           },
-//           {
-//             url: "https://soundcloud.com/l2share84/seventeen-fear",
-//             answer: "Fear - SEVENTEEN",
-//           },
-//            {
-//             url: "https://soundcloud.com/seventeen-scmusic/pang",
-//             answer: "PANG! - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/harram-sajjad-867858641/seventeen-clap",
-//             answer: "Clap - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/lunniekim/seventeen-oh-my",
-//             answer: "Oh My! - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/jaeguchi/seventeen-our-dawn-is-hotter-than-day",
-//             answer: "Our Dawn is Hotter Than Day - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/bondartraian/seventeen-dont-wanna-cry",
-//             answer: "Don't Wanna Cry - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/lesly-ojeda-395305416/seventeen-fast-pace",
-//             answer: "Fast Pace - SEVENTEEN",
-//           },
-//            {
-//             url: "https://soundcloud.com/seventeen-sc/24h",
-//             answer: "24H - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/moonlitpearl/seventeen-chilli",
-//             answer: "Chilli - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/light-a-flame",
-//             answer: "Light a Flame - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/i-cant-run-away",
-//             answer: "I Can't Run Away - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/clio-lim/seventeen-flower-1",
-//             answer: "Flower - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/do-re-mi?in=seventeen-scmusic/sets/semicolon-6",
-//             answer: "Do Re Mi - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/back-it-up",
-//             answer: "Back It Up - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/ready-to-love",
-//             answer: "Ready To Love - SEVENTEEN",
-//           },
-         
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/crush",
-//             answer: "Crush - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/imperfect-love",
-//             answer: "Imperfect Love - SEVENTEEN",
-//           },
-        
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/wave",
-//             answer: "Wave - SEVENTEEN",
-//           },
-      
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/gam3-bo1",
-//             answer: "GAM3 BO1 - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/user-763874617/seventeen-smile-flower",
-//             answer:"Smile Flower - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/same-dream-same-mind-same",
-//             answer: "Same Dream, Same Mind, Same Night - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/anyone",
-//             answer: "Anyone - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/sunnyb007/pretty-u-seventeen",
-//             answer: "Pretty U - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/hey-buddy?in=seventeen-scmusic/sets/semicolon-6",
-//             answer: "HEY BUDDY - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/to-you",
-//             answer: "To You - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/ah-love?in=seventeen-scmusic/sets/semicolon-6",
-//             answer: "AH! LOVE - SEVENTEEN",
-//           },
-//            {
-//             url: "https://soundcloud.com/seventeen-scmusic/left-right?in=seventeen-scmusic/sets/heng-garae-2",
-//             answer: "Left & Right - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/all-my-love?in=seventeen-scmusic/sets/semicolon-6",
-//             answer: "All My love - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/heavens-cloud",
-//             answer: "Heaven's Cloud - SEVENTEEN",
-//           },
-      
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/my-my?in=seventeen-scmusic/sets/heng-garae-2",
-//             answer: "My My - SEVENTEEN",
-//           },
-        
-//           {
-//             url: "https://soundcloud.com/seventeen-scmusic/together?in=seventeen-scmusic/sets/heng-garae-2",
-//             answer: "Together - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/clio-lim/seventeen-no-fun",
-//             answer: "NO F.U.N. - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/user-404882099/seventeen-very-nice",
-//             answer: "Very Nice - SEVENTEEN",
-//           },
-//           {
-//             url: "https://soundcloud.com/the8-music/side-by-side-korean-version?in=the8-music/sets/side-by-side",
-//             answer: "Side by Side (KOREAN VERSION) - THE8",
-//           },
+          {
+            url: "https://soundcloud.com/joywave/cyn-city-2000",
+            answer: "Cyn City 2000 - Joywave",
+          },
+          {
+           url: "https://soundcloud.com/joywave/after-coffee",
+            answer: "After Coffee - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/we-are-all-we-need",
+            answer: "We Are All We Need - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/goodbye-tommy",
+            answer:  "Goodbye Tommy - Joywave",
+          },
+          {
+           url: "https://soundcloud.com/joywave/the-inversion",
+            answer: "The Inversion - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
+            answer:  "Why Would You Want To Be Young Again? - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
+            answer:  "Have You Ever Lit A Year On Fire? - Joywave",
+          },
+          
         
         ],
         Pn
@@ -9208,12 +8981,12 @@ var app = (function () {
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "SEVENTEEN Heardle"),
+          (An.title = "Joywave Heardle"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the SEVENTEEN song from the intro in as few tries as possible"
+            "Guess the Joywave song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
