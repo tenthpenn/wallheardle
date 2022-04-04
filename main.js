@@ -4412,6 +4412,7 @@ var app = (function () {
     };
   }
   function fn(e, t, n) {
+    console.log('current', t)
     let { userGuesses: r } = t,
       { currentHeardle: s } = t,
       { config: i } = t,
@@ -4506,7 +4507,7 @@ var app = (function () {
       super(),
         re(this, e, fn, hn, i, {
           userGuesses: 0,
-          currentHeardle: 7,
+          currentHeardle: 0,
           config: 1,
           hasFinished: 2,
           gotCorrect: 8,
