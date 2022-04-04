@@ -597,7 +597,11 @@ var app = (function () {
       c() {
         (t = k("svg")),
           (n = k("path")),
-          M(n, "d" ,"M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"),
+          M(
+            n,
+            "d",
+            "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+          ),
           M(t, "xmlns", "http://www.w3.org/2000/svg"),
           M(t, "width", "24"),
           M(t, "height", "24"),
@@ -1310,7 +1314,8 @@ var app = (function () {
     let n;
     return {
       c() {
-        (n = w("div"))},
+        n = w("div");
+      },
       m(e, t) {
         g(e, n, t);
       },
@@ -3631,7 +3636,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Joywave songs.</p> \n\n<p class="mb-3">Each Joywave Heardle is randomly chosen from Joywave\'s discography.</p> \n\n\n\n <p>Have questions/run into bugs? DM me @beomshu on twitter... </p>  \n\n\n\n\ <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Joywave songs.</p> \n\n<p class="mb-3">Each Joywave Heardle is randomly chosen from Joywave\'s discography.</p> \n\n\n\n <p>Have questions/run into bugs? DM me @beomshu on twitter... </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3724,7 +3729,7 @@ var app = (function () {
     let n, r, s, i, o, a, l, u, c, d;
     return {
       c() {
-          (n = w("div")),
+        (n = w("div")),
           (r = w("div")),
           (s = x()),
           (i = w("div")),
@@ -3900,15 +3905,7 @@ var app = (function () {
       maxAttempts: 6,
       startDate: "2022-03-27",
     },
-    Jt = [
-      "0",
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-    ];
+    Jt = ["0", "1", "2", "3", "4", "5", "6"];
   function Kt(t) {
     let n, r;
     return {
@@ -4300,7 +4297,9 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's Joywave Heardle. Better luck tomorrow! 💎");
+        n = _(
+          "You didn't get today's Joywave Heardle. Better luck tomorrow! 💎"
+        );
       },
       m(e, t) {
         g(e, n, t);
@@ -4457,7 +4456,14 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o = e + "\n\n" + t + "\n\n" + "@pledis_17 #SEVENTEEN" + "\n\n" + "https://svt-heardle.glitch.me/";
+          let o =
+            e +
+            "\n\n" +
+            t +
+            "\n\n" +
+            "@pledis_17 #SEVENTEEN" +
+            "\n\n" +
+            "https://svt-heardle.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -8582,58 +8588,116 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-    "Pray For The Reboot - Joywave",
-    "Buy American - Joywave",
-    "Every Window Is A Mirror - Joywave",
-    "Cyn City 2000 - Joywave",
-    "After Coffee - Joywave",
-    "We Are All We Need - Joywave",
-    "Goodbye Tommy - Joywave",
-    "The Inversion - Joywave",
-    "Why Would You Want To Be Young Again? - Joywave",
-    "Have You Ever Lit A Year On Fire? - Joywave",
-  ]),
+      "Pray For The Reboot",
+      "Buy American",
+      "Every Window Is A Mirror",
+      "Cyn City 2000",
+      "After Coffee",
+      "We Are All We Need",
+      "Goodbye Tommy",
+      "The Inversion",
+      "Why Would You Want To Be Young Again?",
+      "Have You Ever Lit A Year On Fire?",
+      "Like a Kennedy",
+      "Coming Apart",
+      "Half Your Age",
+      "Obsession",
+      "Blank Slate",
+      "F.E.A.R.",
+      "Funny Thing About Opinions",
+      "Who Owns Who?",
+      "Blastoffff",
+      "Possession",
+      "No Shoulder",
+      "Mr. Eastman",
+    ]),
     On = {
       subscribe: ue(
         [
           {
-           url: "https://soundcloud.com/joywave/pray-for-the-reboot",
-            answer: "Pray For The Reboot - Joywave",
+            url: "https://soundcloud.com/joywave/pray-for-the-reboot",
+            answer: "Pray For The Reboot",
           },
           {
             url: "https://soundcloud.com/joywave/buy-american",
-            answer: "Buy American - Joywave",
+            answer: "Buy American",
           },
           {
             url: "https://soundcloud.com/joywave/cyn-city-2000",
-            answer: "Cyn City 2000 - Joywave",
+            answer: "Cyn City 2000",
           },
           {
-           url: "https://soundcloud.com/joywave/after-coffee",
-            answer: "After Coffee - Joywave",
+            url: "https://soundcloud.com/joywave/after-coffee",
+            answer: "After Coffee",
           },
           {
             url: "https://soundcloud.com/joywave/we-are-all-we-need",
-            answer: "We Are All We Need - Joywave",
+            answer: "We Are All We Need",
           },
           {
             url: "https://soundcloud.com/joywave/goodbye-tommy",
-            answer:  "Goodbye Tommy - Joywave",
+            answer: "Goodbye Tommy",
           },
           {
-           url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "The Inversion - Joywave",
+            url: "https://soundcloud.com/joywave/the-inversion",
+            answer: "The Inversion",
           },
           {
             url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-            answer:  "Why Would You Want To Be Young Again? - Joywave",
+            answer: "Why Would You Want To Be Young Again?",
           },
           {
             url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
-            answer:  "Have You Ever Lit A Year On Fire? - Joywave",
+            answer: "Have You Ever Lit A Year On Fire?",
           },
-          
-        
+          {
+            url: "https://soundcloud.com/joywave/like-a-kennedy",
+            answer: "Like a Kennedy",
+          },
+          {
+            url: "https://soundcloud.com/joywave/coming-apart",
+            answer: "Coming Apart",
+          },
+          {
+            url: "https://soundcloud.com/joywave/half-your-age",
+            answer: "Half Your Age",
+          },
+          {
+            url: "https://soundcloud.com/joywave/obsession",
+            answer: "Obsession",
+          },
+          {
+            url: "https://soundcloud.com/joywave/blank-slate",
+            answer: "Blank Slate",
+          },
+          {
+            url: "https://soundcloud.com/joywave/f-e-a-r",
+            answer: "F.E.A.R.",
+          },
+          {
+            url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
+            answer: "Funny Thing About Opinions",
+          },
+          {
+            url: "https://soundcloud.com/joywave/who-owns-who",
+            answer: "Who Owns Who?",
+          },
+          {
+            url: "https://soundcloud.com/joywave/blastoffff-1",
+            answer: "Blastoffff",
+          },
+          {
+            url: "https://soundcloud.com/joywave/possession",
+            answer: "Possession",
+          },
+          {
+            url: "https://soundcloud.com/joywave/no-shoulder",
+            answer: "No Shoulder",
+          },
+          {
+            url: "https://soundcloud.com/joywave/mr-eastman",
+            answer: "Mr. Eastman",
+          },
         ],
         Pn
       ).subscribe,
