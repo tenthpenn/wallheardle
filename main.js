@@ -3342,7 +3342,7 @@ var app = (function () {
             },
             input: {
               selection: (t) => {
-                const s = t.detail.selection.value;
+                let s = t.detail.selection.value;
                 (e.input.value = s), n(4, (r = s));
               },
             },
@@ -3352,6 +3352,7 @@ var app = (function () {
     });
     return (
       (e.$$set = (e) => {
+        console.log('all', s.pop())
         "allOptions" in e && n(6, (s = e.allOptions)),
           "currentAttempt" in e && n(0, (i = e.currentAttempt)),
           "config" in e && n(1, (o = e.config)),
@@ -3903,7 +3904,7 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-03-27",
+      startDate: "2022-04-04",
     },
     Jt = ["0", "1", "2", "3", "4", "5", "6"];
   function Kt(t) {
