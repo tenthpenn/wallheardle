@@ -8591,253 +8591,253 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-      "Pray For The Reboot - Joywave",
-      "Buy American - Joywave",
-      "Every Window Is A Mirror - Joywave",
-      "Cyn City 2000 - Joywave",
-      "After Coffee - Joywave",
-      "We Are All We Need - Joywave",
-      "Goodbye Tommy - Joywave",
-      "The Inversion - Joywave",
-      "Why Would You Want To Be Young Again? - Joywave",
-      "Have You Ever Lit A Year On Fire? - Joywave",
-      "Like a Kennedy - Joywave",
-      "Coming Apart - Joywave",
-      "Half Your Age - Joywave",
-      "Obsession - Joywave",
-      "Blank Slate - Joywave",
-      "F.E.A.R. - Joywave",
-      "Funny Thing About Opinions - Joywave",
-      "Who Owns Who? - Joywave",
-      "Blastoffff - Joywave",
-      "Possession - Joywave",
-      "No Shoulder - Joywave",
-      "Mr. Eastman - Joywave",
-      "Content - Joywave",
-      "Shutdown - Jo- Joywave",
-      "It's A Trip! - Joywave",
-      "Rumors - Joywave",
-      "Confidence - Joywave",
-      "Doubt - Joywave",
-      "Going to a Place - Joywave",
-      "Little Lies You're Told - Joywave",
-      "When You're Bored - Joywave",
-      "Thanks. Thanks for Coming - Joywave",
       "Let's Talk About Feelings - Joywave",
-      "Somebody New - Joywave",
-      "Carry Me - Joywave",
-      "Tongues (feat. KOPPS) - Joywave",
-      "Destruction - Joywave",
-      "Now - Joywave",
-      "Feels Like a Lie - Joywave",
-      "Traveling at the Speed of Light - Joywave",
-      "Nice House - Joywave",
-      "Bad Dreams - Joywave",
-      "AM - Joywave",
-      "Who Do You Like? - Joywave",
-      "Golden State - Joywave",
-      "True Grit - Joywave",
-      "Anemone - Joywave",
+      "Goodbye Tommy - Joywave",
+      "Who Owns Who? - Joywave",
+      "F.E.A.R. - Joywave",
+      "Why Would You Want To Be Young Again? - Joywave",
+      "Confidence - Joywave",
+      "Going to a Place - Joywave",
+      "Obsession - Joywave",
+      "Buy American - Joywave",
       "Bridge - Joywave",
+      "Possession - Joywave",
       "Smokestacks - Joywave",
+      "Mr. Eastman - Joywave",
+      "When You're Bored - Joywave",
+      "Traveling at the Speed of Light - Joywave",
+      "Golden State - Joywave",
+      "Have You Ever Lit A Year On Fire? - Joywave",
+      "It's A Trip! - Joywave",
+      "True Grit - Joywave",
+      "Pray For The Reboot - Joywave",
+      "After Coffee - Joywave",
+      "Shutdown - Joywave",
+      "Who Do You Like? - Joywave",
+      "Carry Me - Joywave",
+      "Coming Apart - Joywave",
+      "Like a Kennedy - Joywave",
+      "Blastoffff - Joywave",
+      "Anemone - Joywave",
+      "Feels Like a Lie - Joywave",
+      "Blank Slate - Joywave",
+      "AM - Joywave",
+      "The Inversion - Joywave",
+      "Doubt - Joywave",
+      "Tongues (feat. KOPPS) - Joywave",
+      "Bad Dreams - Joywave",
+      "Every Window Is A Mirror - Joywave",
+      "Half Your Age - Joywave",
+      "Rumors - Joywave",
+      "Cyn City 2000 - Joywave",
+      "Little Lies You're Told - Joywave",
+      "Content - Joywave",
+      "No Shoulder - Joywave",
+      "Nice House - Joywave",
+      "Funny Thing About Opinions - Joywave",
+      "Somebody New - Joywave",
+      "Now - Joywave",
+      "Thanks. Thanks for Coming - Joywave",
+      "Destruction - Joywave",
+      "We Are All We Need - Joywave",
 
     ]),
     On = {
       subscribe: ue(
-        [
-          {
-            url: "https://soundcloud.com/joywave/pray-for-the-reboot",
-            answer: "Pray For The Reboot - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/buy-american",
-            answer: "Buy American - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/cyn-city-2000",
-            answer: "Cyn City 2000 - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/after-coffee",
-            answer: "After Coffee - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/we-are-all-we-need",
-            answer: "We Are All We Need - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/goodbye-tommy",
-            answer: "Goodbye Tommy - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "The Inversion - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-            answer: "Why Would You Want To Be Young Again? - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
-            answer: "Have You Ever Lit A Year On Fire? - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/like-a-kennedy",
-            answer: "Like a Kennedy - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/coming-apart",
-            answer: "Coming Apart - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/half-your-age",
-            answer: "Half Your Age - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/obsession",
-            answer: "Obsession - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/blank-slate",
-            answer: "Blank Slate - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/f-e-a-r",
-            answer: "F.E.A.R. - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-            answer: "Funny Thing About Opinions - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/who-owns-who",
-            answer: "Who Owns Who? - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/blastoffff-1",
-            answer: "Blastoffff - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/possession",
-            answer: "Possession - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/no-shoulder",
-            answer: "No Shoulder - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/mr-eastman",
-            answer: "Mr. Eastman - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/content",
-            answer: "Content - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/shutdown",
-            answer: "Shutdown - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/its-a-trip",
-            answer: "It's A Trip! - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/rumors",
-            answer: "Rumors - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/confidence",
-            answer: "Confidence - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/doubt",
-            answer: "Doubt - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/going-to-a-place",
-            answer: "Going to a Place - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/little-lies-youre-told",
-            answer: "Little Lies You're Told - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/when-youre-bored",
-            answer: "When You're Bored - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
-            answer: "Thanks. Thanks for Coming - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/lets-talk-about-feelings",
-            answer: "Let's Talk About Feelings - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/joywave-somebody-new",
-            answer: "Somebody New - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/carry-me",
-            answer: "Carry Me - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/tongues",
-            answer: "Tongues (feat. KOPPS) - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/destruction",
-            answer: "Destruction - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/now",
-            answer: "Now - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/feels-like-a-lie",
-            answer: "Feels Like a Lie - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/traveling-at-the-speed-of-1",
-            answer: "Traveling at the Speed of Light - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/nice-house",
-            answer: "Nice House - Joywave",
-          },
-          {
-            url: "https://soundcloud.com/joywave/bad-dreams",
-            answer: "Bad Dreams - Joywave",
-          },
-          {
-              url: "https://soundcloud.com/joywave/am",
-              answer: "AM - Joywave",
-          },
-          {
-              url: "https://soundcloud.com/joywave/who-do-you-like-1",
-              answer: "Who Do You Like? - Joywave",
-          },
-          {
-              url: "https://soundcloud.com/joywave/golden-state-2",
-              answer: "Golden State - Joywave",
-          },
-          {
-              url: "https://soundcloud.com/joywave/true-grit-koda-vista",
-              answer: "True Grit - Joywave",
-          },
-          {
-              url: "https://soundcloud.com/joywave/anemone",
-              answer: "Anemone - Joywave",
-          },
-          {
-              url: "https://soundcloud.com/joywave/bridge",
-              answer: "Bridge - Joywave",
-          },
-          {
-              url: "https://soundcloud.com/joywave/smokestacks",
-              answer: "Smokestacks - Joywave",
-          },
-        ],
+          [
+            {
+              url: "https://soundcloud.com/joywave/pray-for-the-reboot",
+              answer: "Pray For The Reboot - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/buy-american",
+              answer: "Buy American - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/cyn-city-2000",
+              answer: "Cyn City 2000 - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/after-coffee",
+              answer: "After Coffee - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/we-are-all-we-need",
+              answer: "We Are All We Need - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/goodbye-tommy",
+              answer: "Goodbye Tommy - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/the-inversion",
+              answer: "The Inversion - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
+              answer: "Why Would You Want To Be Young Again? - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
+              answer: "Have You Ever Lit A Year On Fire? - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/like-a-kennedy",
+              answer: "Like a Kennedy - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/coming-apart",
+              answer: "Coming Apart - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/half-your-age",
+              answer: "Half Your Age - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/obsession",
+              answer: "Obsession - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/blank-slate",
+              answer: "Blank Slate - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/f-e-a-r",
+              answer: "F.E.A.R. - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
+              answer: "Funny Thing About Opinions - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/who-owns-who",
+              answer: "Who Owns Who? - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/blastoffff-1",
+              answer: "Blastoffff - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/possession",
+              answer: "Possession - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/no-shoulder",
+              answer: "No Shoulder - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/mr-eastman",
+              answer: "Mr. Eastman - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/content",
+              answer: "Content - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/shutdown",
+              answer: "Shutdown - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/its-a-trip",
+              answer: "It's A Trip! - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/rumors",
+              answer: "Rumors - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/confidence",
+              answer: "Confidence - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/doubt",
+              answer: "Doubt - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/going-to-a-place",
+              answer: "Going to a Place - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/little-lies-youre-told",
+              answer: "Little Lies You're Told - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/when-youre-bored",
+              answer: "When You're Bored - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
+              answer: "Thanks. Thanks for Coming - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/lets-talk-about-feelings",
+              answer: "Let's Talk About Feelings - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/joywave-somebody-new",
+              answer: "Somebody New - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/carry-me",
+              answer: "Carry Me - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/tongues",
+              answer: "Tongues (feat. KOPPS) - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/destruction",
+              answer: "Destruction - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/now",
+              answer: "Now - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/feels-like-a-lie",
+              answer: "Feels Like a Lie - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/traveling-at-the-speed-of-1",
+              answer: "Traveling at the Speed of Light - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/nice-house",
+              answer: "Nice House - Joywave",
+            },
+            {
+              url: "https://soundcloud.com/joywave/bad-dreams",
+              answer: "Bad Dreams - Joywave",
+            },
+            {
+                url: "https://soundcloud.com/joywave/am",
+                answer: "AM - Joywave",
+            },
+            {
+                url: "https://soundcloud.com/joywave/who-do-you-like-1",
+                answer: "Who Do You Like? - Joywave",
+            },
+            {
+                url: "https://soundcloud.com/joywave/golden-state-2",
+                answer: "Golden State - Joywave",
+            },
+            {
+                url: "https://soundcloud.com/joywave/true-grit-koda-vista",
+                answer: "True Grit - Joywave",
+            },
+            {
+                url: "https://soundcloud.com/joywave/anemone",
+                answer: "Anemone - Joywave",
+            },
+            {
+                url: "https://soundcloud.com/joywave/bridge",
+                answer: "Bridge - Joywave",
+            },
+            {
+                url: "https://soundcloud.com/joywave/smokestacks",
+                answer: "Smokestacks - Joywave",
+            },
+          ],
         Pn
       ).subscribe,
     };
@@ -9343,6 +9343,7 @@ var app = (function () {
         hasFinished: !1,
         hasStarted: !1,
       };
+    console.log('a', l)
     var c, d;
     void 0 !== document.hidden
       ? ((c = "hidden"), (d = "visibilitychange"))
