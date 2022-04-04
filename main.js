@@ -8803,10 +8803,9 @@ var app = (function () {
             answer: "Rumors - Joywave",
           },
           {
-            url: "https://soundcloud.com/joywave/rumors",
-            answer: "Rumors - Joywave",
+            url: "https://soundcloud.com/joywave/life-in-a-bubble-i-blew-bonus-track",
+            answer: "Life In A Bubble I Blew - Joywave",
           },
-          ?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
           {
             url: "https://soundcloud.com/joywave/cyn-city-2000",
             answer: "Cyn City 2000 - Joywave",
