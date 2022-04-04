@@ -3661,15 +3661,15 @@ var app = (function () {
       c() {
         (n = w("div")),
           (r = w("a")),
-          (r.innerHTML =
-            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the Heardle devs on Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
-          M(
-            r,
-            "class",
-            "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
-          ),
-          M(r, "href", "https://ko-fi.com/heardle"),
-          M(r, "title", "Support the Heardle devs on Ko-Fi"),
+          // (r.innerHTML =
+          //   '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the Heardle devs on Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+          // M(
+          //   r,
+          //   "class",
+          //   "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
+          // ),
+          // M(r, "href", "https://ko-fi.com/heardle"),
+          // M(r, "title", "Support the Heardle devs on Ko-Fi"),
           M(
             n,
             "class",
@@ -4030,8 +4030,8 @@ var app = (function () {
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
-            (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Joywave Heardle?</span>'),
+            // (Y.innerHTML =
+            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Joywave Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -8588,115 +8588,180 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-      "Pray For The Reboot",
-      "Buy American",
-      "Every Window Is A Mirror",
-      "Cyn City 2000",
-      "After Coffee",
-      "We Are All We Need",
-      "Goodbye Tommy",
-      "The Inversion",
-      "Why Would You Want To Be Young Again?",
-      "Have You Ever Lit A Year On Fire?",
-      "Like a Kennedy",
-      "Coming Apart",
-      "Half Your Age",
-      "Obsession",
-      "Blank Slate",
-      "F.E.A.R.",
-      "Funny Thing About Opinions",
-      "Who Owns Who?",
-      "Blastoffff",
-      "Possession",
-      "No Shoulder",
-      "Mr. Eastman",
+      "Pray For The Reboot - Joywave",
+      "Buy American - Joywave",
+      "Every Window Is A Mirror - Joywave",
+      "Cyn City 2000 - Joywave",
+      "After Coffee - Joywave",
+      "We Are All We Need - Joywave",
+      "Goodbye Tommy - Joywave",
+      "The Inversion - Joywave",
+      "Why Would You Want To Be Young Again? - Joywave",
+      "Have You Ever Lit A Year On Fire? - Joywave",
+      "Like a Kennedy - Joywave",
+      "Coming Apart - Joywave",
+      "Half Your Age - Joywave",
+      "Obsession - Joywave",
+      "Blank Slate - Joywave",
+      "F.E.A.R. - Joywave",
+      "Funny Thing About Opinions - Joywave",
+      "Who Owns Who? - Joywave",
+      "Blastoffff - Joywave",
+      "Possession - Joywave",
+      "No Shoulder - Joywave",
+      "Mr. Eastman - Joywave",
+      "Content - Joywave",
+      "Shutdown - Jo- Joywave",
+      "It's A Trip! - Joywave",
+      "Rumors - Joywave",
+      "Confidence - Joywave",
+      "Doubt - Joywave",
+      "Going to a Place - Joywave",
+      "Little Lies You're Told - Joywave",
+      "When You're Bored - Joywave",
+      "Thanks. Thanks for Coming - Joywave",
+      "Let's Talk About Feelings - Joywave",
+      "Somebody New - Joywave",
+      "Carry Me - Joywave",
+      "Tongues (feat. KOPPS) - Joywave",
+      "Destruction - Joywave",
+      "Now - Joywave",
+      "Feels Like a Lie - Joywave",
+      "Traveling at the Speed of Light - Joywave",
+      "Nice House - Joywave",
+      "Bad Dreams - Joywave",
+
     ]),
     On = {
       subscribe: ue(
         [
           {
             url: "https://soundcloud.com/joywave/pray-for-the-reboot",
-            answer: "Pray For The Reboot",
+            answer: "Pray For The Reboot - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/buy-american",
-            answer: "Buy American",
+            answer: "Buy American - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/cyn-city-2000",
-            answer: "Cyn City 2000",
+            answer: "Cyn City 2000 - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/after-coffee",
-            answer: "After Coffee",
+            answer: "After Coffee - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/we-are-all-we-need",
-            answer: "We Are All We Need",
+            answer: "We Are All We Need - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/goodbye-tommy",
-            answer: "Goodbye Tommy",
+            answer: "Goodbye Tommy - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "The Inversion",
+            answer: "The Inversion - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-            answer: "Why Would You Want To Be Young Again?",
+            answer: "Why Would You Want To Be Young Again? - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
-            answer: "Have You Ever Lit A Year On Fire?",
+            answer: "Have You Ever Lit A Year On Fire? - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/like-a-kennedy",
-            answer: "Like a Kennedy",
+            answer: "Like a Kennedy - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/coming-apart",
-            answer: "Coming Apart",
+            answer: "Coming Apart - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/half-your-age",
-            answer: "Half Your Age",
+            answer: "Half Your Age - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/obsession",
-            answer: "Obsession",
+            answer: "Obsession - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/blank-slate",
-            answer: "Blank Slate",
+            answer: "Blank Slate - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/f-e-a-r",
-            answer: "F.E.A.R.",
+            answer: "F.E.A.R. - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-            answer: "Funny Thing About Opinions",
+            answer: "Funny Thing About Opinions - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/who-owns-who",
-            answer: "Who Owns Who?",
+            answer: "Who Owns Who? - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/blastoffff-1",
-            answer: "Blastoffff",
+            answer: "Blastoffff - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/possession",
-            answer: "Possession",
+            answer: "Possession - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/no-shoulder",
-            answer: "No Shoulder",
+            answer: "No Shoulder - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/mr-eastman",
-            answer: "Mr. Eastman",
+            answer: "Mr. Eastman - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/content",
+            answer: "Content - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/shutdown",
+            answer: "Shutdown - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/its-a-trip",
+            answer: "It's A Trip! - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/rumors",
+            answer: "Rumors - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/confidence",
+            answer: "Confidence - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/doubt",
+            answer: "Doubt - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/going-to-a-place",
+            answer: "Going to a Place - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/little-lies-youre-told",
+            answer: "Little Lies You're Told - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/when-youre-bored",
+            answer: "When You're Bored - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
+            answer: "Thanks. Thanks for Coming - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/lets-talk-about-feelings",
+            answer: "Let's Talk About Feelings - Joywave",
           },
         ],
         Pn
