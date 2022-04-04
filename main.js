@@ -8602,6 +8602,7 @@ var app = (function () {
       "Rearranged - Joywave",
       "We Are All We Need - Joywave",
       "Shutdown - Joywave",
+      "Appearances - Joywave",
       "Every Window Is A Mirror - Joywave",
       "Bridge - Joywave",
       "Winnipeg - Joywave",
@@ -8708,6 +8709,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/joywave/shutdown",
             answer: "Shutdown - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/bthan/joywave-appearances",
+            answer: "Appearances - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/every-window-is-a-mirror",
