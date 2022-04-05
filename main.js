@@ -8637,6 +8637,7 @@ var app = (function () {
       "Goodbye Tommy - Joywave",
       "Golden State - Joywave",
       "Content - Joywave",
+      "Traveling at the Speed of Light (77777 Mixtape) - Joywave",
       "Going to a Place - Joywave",
       "After Coffee - Joywave",
       "Why Would You Want To Be Young Again? - Joywave",
@@ -8840,6 +8841,10 @@ var app = (function () {
           {
             url: "https://soundcloud.com/joywave/content",
             answer: "Content - Joywave",
+          },
+          {
+            url: "https://soundcloud.com/joywave/10-traveling-at-the-speed-of",
+            answer: "Traveling at the Speed of Light (77777 Mixtape) - Joywave",
           },
           {
             url: "https://soundcloud.com/joywave/going-to-a-place",
