@@ -4442,6 +4442,7 @@ var app = (function () {
         u,
         c,
         () => {
+          // console.log('answer', r.length)
           let e = "Joywave Heardle #" + (s.id + 1),
             t = "";
           a
