@@ -4463,10 +4463,12 @@ var app = (function () {
             e +
             "\n\n" +
             t +
-            "\n\n" +
+            "\n\n" 
+            // +
             // "@pledis_17 #Joywave" +
             // "\n\n" +
-            "https://joywave-heardle.glitch.me/";
+            // "https://joywave-heardle.glitch.me/"
+          ;
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
