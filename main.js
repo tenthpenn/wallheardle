@@ -712,7 +712,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "Joywave Heardle"),
+            (u.textContent = "Taylor Swift Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -3638,7 +3638,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Joywave songs.</p> \n\n<p class="mb-3">Each Joywave Heardle is randomly chosen from Joywave\'s discography.</p> \n\n\n\n <p class="mb-3">Have questions/run into bugs? DM me @joywavez on twitter! </p>  \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/joywave-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Taylor Swift songs.</p> \n\n<p class="mb-3">Each Taylor Swift Heardle is randomly chosen from Taylor Swift/'s discography.</p> \n\n\n\n <p class="mb-3">Have questions/run into bugs? DM me @beachboysstan on twitter! </p>  \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/joywave-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3851,7 +3851,7 @@ var app = (function () {
           (n = w("p")),
             (s = w("p")),
             (n.textContent =
-              "Have questions/run into bugs? DM me @joywavez on twitter!"),
+              "Have questions/run into bugs? DM me @beachboysstan on twitter!"),
             (r = x()),
             (s = w("p")),
             // (s.innerHTML =
@@ -3905,7 +3905,7 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-04-04",
+      startDate: "2022-04-06",
     },
     Jt = ["0", "1", "2", "3", "4", "5", "6"];
   function Kt(t) {
@@ -4026,14 +4026,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next Joywave song in:"),
+            (k.textContent = "Next Taylor Swift song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             // (Y.innerHTML =
-            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Joywave Heardle?</span>'),
+            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Taylor Swift Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4242,7 +4242,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's Joywave Heardle within the first ")),
+        (t = _("You got today's Taylor Swift Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4269,7 +4269,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's Joywave Heardle within ")),
+        (t = _("You got today's Taylor Swift Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4300,7 +4300,7 @@ var app = (function () {
     return {
       c() {
         n = _(
-          "You didn't get today's Joywave Heardle. Better luck tomorrow! 💎"
+          "You didn't get today's Taylor Swift Heardle. Better luck tomorrow! 💎"
         );
       },
       m(e, t) {
@@ -4443,7 +4443,7 @@ var app = (function () {
         c,
         () => {
           // console.log('answer', r.length)
-          let e = "Joywave Heardle #" + (s.id + 1),
+          let e = "Taylor Swift Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4466,9 +4466,9 @@ var app = (function () {
             t +
             "\n\n" 
             // +
-            // "@pledis_17 #Joywave" +
+            // "@pledis_17 #TaylorSwift" +
             // "\n\n" +
-            // "https://joywave-heardle.glitch.me/"
+            // "https://taylor-swift-heardle.glitch.me/"
           ;
           if (
             !navigator.share ||
@@ -4555,7 +4555,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Joywave song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Taylor Swift song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8594,78 +8594,78 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-      "No Shoulder - Joywave",
-      "Buy American - Joywave",
-      "When You're Bored - Joywave",
-      "It's A Trip! - Joywave",
-      "Traveling at the Speed of Light - Joywave",
-      "AM - Joywave",
-      "PM - Joywave",
-      "Confidence - Joywave",
-      "Rearranged - Joywave",
-      "We Are All We Need - Joywave",
-      "Shutdown - Joywave",
-      "Appearances - Joywave",
-      "Every Window Is A Mirror - Joywave",
-      "Bridge - Joywave",
-      "Winnipeg - Joywave",
-      "Rumors - Joywave",
-      "True Grit - Joywave",
-      "Let's Talk About Feelings - Joywave",
-      "Half Your Age - Joywave",
-      "Ridge - Joywave",
-      "Space Walk - Joywave",
-      "Mr. Eastman - Joywave",
-      "Tongues (feat. KOPPS) - Joywave",
-      "Coming Apart - Joywave",
-      "Now - Joywave",
-      "Cyn City 2000 - Joywave",
-      "Nice House - Joywave",
-      "Who Do You Like? - Joywave",
-      "Somebody New - Joywave",
-      "Waterbed - Joywave",
-      "Pray For The Reboot - Joywave",
-      "Betelgeuse (77777 Mixtape) - Joywave",
-      "All I Want - Joywave",
-      "Facility (feat. STS) - Joywave",
-      "Obsession - Joywave",
-      "Possession - Joywave",
-      "Blastoffff - Joywave",
-      "Ray Lewis (Slappers Only) feat. STS - Joywave",
-      "Feet Become Hammers - Joywave",
-      "The Launch - Joywave",
-      "Goodbye Tommy - Joywave",
-      "Golden State - Joywave",
-      "Content - Joywave",
-      "Traveling at the Speed of Light (77777 Mixtape) - Joywave",
-      "Going to a Place - Joywave",
-      "After Coffee - Joywave",
-      "Why Would You Want To Be Young Again? - Joywave",
-      "Blank Slate - Joywave",
-      "Titan - Joywave",
-      "London - Joywave",
-      "Who Owns Who? - Joywave",
-      "Dying Well - Joywave",
-      "Carry Me - Joywave",
-      "Motherless Child - Joywave",
-      "Destruction - Joywave",
-      "Smokestacks - Joywave",
-      "Little Lies You're Told - Joywave",
-      "Cold Open - Joywave",
-      "Have You Ever Lit A Year On Fire? - Joywave",
-      "Theme From 88888 - Joywave",
-      "Doubt - Joywave",
-      "Feels Like a Lie - Joywave",
-      "Funny Thing About Opinions - Joywave",
-      "Anemone - Joywave",
-      "Virus.exe - Joywave",
-      "Hang With Me - Joywave",
-      "F.E.A.R. - Joywave",
-      "Like a Kennedy - Joywave",
-      "The Inversion - Joywave",
-      "Numbers Station - Joywave",
-      "Bad Dreams - Joywave",
-      "Thanks. Thanks for Coming - Joywave",
+      "No Shoulder - Taylor Swift",
+      "Buy American - Taylor Swift",
+      "When You're Bored - Taylor Swift",
+      "It's A Trip! - Taylor Swift",
+      "Traveling at the Speed of Light - Taylor Swift",
+      "AM - Taylor Swift",
+      "PM - Taylor Swift",
+      "Confidence - Taylor Swift",
+      "Rearranged - Taylor Swift",
+      "We Are All We Need - Taylor Swift",
+      "Shutdown - Taylor Swift",
+      "Appearances - Taylor Swift",
+      "Every Window Is A Mirror - Taylor Swift",
+      "Bridge - Taylor Swift",
+      "Winnipeg - Taylor Swift",
+      "Rumors - Taylor Swift",
+      "True Grit - Taylor Swift",
+      "Let's Talk About Feelings - Taylor Swift",
+      "Half Your Age - Taylor Swift",
+      "Ridge - Taylor Swift",
+      "Space Walk - Taylor Swift",
+      "Mr. Eastman - Taylor Swift",
+      "Tongues (feat. KOPPS) - Taylor Swift",
+      "Coming Apart - Taylor Swift",
+      "Now - Taylor Swift",
+      "Cyn City 2000 - Taylor Swift",
+      "Nice House - Taylor Swift",
+      "Who Do You Like? - Taylor Swift",
+      "Somebody New - Taylor Swift",
+      "Waterbed - Taylor Swift",
+      "Pray For The Reboot - Taylor Swift",
+      "Betelgeuse (77777 Mixtape) - Taylor Swift",
+      "All I Want - Taylor Swift",
+      "Facility (feat. STS) - Taylor Swift",
+      "Obsession - Taylor Swift",
+      "Possession - Taylor Swift",
+      "Blastoffff - Taylor Swift",
+      "Ray Lewis (Slappers Only) feat. STS - Taylor Swift",
+      "Feet Become Hammers - Taylor Swift",
+      "The Launch - Taylor Swift",
+      "Goodbye Tommy - Taylor Swift",
+      "Golden State - Taylor Swift",
+      "Content - Taylor Swift",
+      "Traveling at the Speed of Light (77777 Mixtape) - Taylor Swift",
+      "Going to a Place - Taylor Swift",
+      "After Coffee - Taylor Swift",
+      "Why Would You Want To Be Young Again? - Taylor Swift",
+      "Blank Slate - Taylor Swift",
+      "Titan - Taylor Swift",
+      "London - Taylor Swift",
+      "Who Owns Who? - Taylor Swift",
+      "Dying Well - Taylor Swift",
+      "Carry Me - Taylor Swift",
+      "Motherless Child - Taylor Swift",
+      "Destruction - Taylor Swift",
+      "Smokestacks - Taylor Swift",
+      "Little Lies You're Told - Taylor Swift",
+      "Cold Open - Taylor Swift",
+      "Have You Ever Lit A Year On Fire? - Taylor Swift",
+      "Theme From 88888 - Taylor Swift",
+      "Doubt - Taylor Swift",
+      "Feels Like a Lie - Taylor Swift",
+      "Funny Thing About Opinions - Taylor Swift",
+      "Anemone - Taylor Swift",
+      "Virus.exe - Taylor Swift",
+      "Hang With Me - Taylor Swift",
+      "F.E.A.R. - Taylor Swift",
+      "Like a Kennedy - Taylor Swift",
+      "The Inversion - Taylor Swift",
+      "Numbers Station - Taylor Swift",
+      "Bad Dreams - Taylor Swift",
+      "Thanks. Thanks for Coming - Taylor Swift",
     ]),
     On = {
       subscribe: ue(
