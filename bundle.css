@@ -822,9 +822,9 @@ a:active {
     text-indent: 0.25em
 }
 :root {
-    --color-positive: #1d7e05;
-    --color-negative: #ff0000;
-    --color-fg: #ffffff;
+    --color-positive: #9B7A8E;
+    --color-negative: #C8613D;
+    --color-fg: #DCC8A8;
     --color-mg: #444;
     --color-bg: #121212;
     --color-line: #888;
