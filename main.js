@@ -3638,7 +3638,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Taylor Swift songs.</p> \n\n<p class="mb-3">Each Taylor Swift Heardle is randomly chosen from Taylor Swift/'s discography.</p> \n\n\n\n <p class="mb-3">Have questions/run into bugs? DM me @beachboysstan on twitter! </p>  \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/joywave-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Taylor Swift songs.</p> \n\n<p class="mb-3">Each Taylor Swift Heardle is randomly chosen from Taylor Swift\'s discography.</p> \n\n\n\n <p class="mb-3">Have questions/run into bugs? DM me @beachboysstan on twitter! </p>  \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/joywave-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -8770,7 +8770,7 @@ var app = (function () {
       subscribe: ue(
         [
           {
-            url: "https://soundcloud.com/joywave/no-shoulder",
+            url: "https://soundcloud.com/taylorswiftofficial/no-body-no-crime-feat-haim",
             answer: "no body, no crime feat. HAIM",
           },
           {
@@ -9283,67 +9283,167 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/joywave/little-lies-youre-told",
-            answer: "Ours",
+            answer: "I Bet You Think About Me Ft. Chris Stapleton (Taylor’s Version) (From the Vault)",
           },
           {
             url: "https://soundcloud.com/joywave/cold-open",
-            answer: "22 (Taylor’s Version)",
+            answer: "Tied Together with a Smile",
           },
           {
             url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
-            answer: "The Man",
+            answer: "Cornelia Street",
           },
           {
             url: "https://soundcloud.com/joywave/theme-from-88888",
-            answer: "hoax",
+            answer: "Sparks Fly",
           },
           {
             url: "https://soundcloud.com/joywave/doubt",
-            answer: "That’s When (From The Vault) Ft. Keith Urban",
+            answer: "long story short",
           },
           {
             url: "https://soundcloud.com/joywave/feels-like-a-lie",
-            answer: "I’d Lie",
+            answer: "invisible string",
           },
           {
             url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-            answer: "All Too Well (Taylor’s Version)",
+            answer: "seven",
           },
           {
             url: "https://soundcloud.com/joywave/anemone",
-            answer: "Cruel Summer",
+            answer: "Untouchable (Taylor’s Version)",
           },
           {
             url: "https://soundcloud.com/joywave/06-virus-exe",
-            answer: "Today Was a Fairytale (Taylor’s Version)",
+            answer: "Cold as You",
           },
           {
             url: "https://soundcloud.com/joywave/08-hang-with-me",
-            answer: "We Are Never Ever Getting Back Together (Taylor’s Version)",
+            answer: "epiphany",
           },
           {
             url: "https://soundcloud.com/joywave/f-e-a-r",
-            answer: "Forever & Always (Piano Version) (Taylor’s Version)",
+            answer: "Bad Blood",
           },
           {
             url: "https://soundcloud.com/joywave/like-a-kennedy",
-            answer: "Mary’s Song (Oh My My My)",
+            answer: "Getaway Car",
           },
           {
             url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "Better Man (Taylor’s Version) (From the Vault)",
+            answer: "Should’ve Said No",
           },
           {
             url: "https://soundcloud.com/joywave/numbers-station",
-            answer: "Clean",
+            answer: "So It Goes…",
           },
           {
             url: "https://soundcloud.com/joywave/bad-dreams",
-            answer: "Holy Ground (Taylor’s Version)",
+            answer: "If This Was a Movie",
           },
           {
             url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
-            answer: "I Forgot That You Existed",
+            answer: "Ronan (Taylor’s Version)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/smokestacks",
+            answer: "mad woman",
+          },
+          {
+            url: "https://soundcloud.com/joywave/little-lies-youre-told",
+            answer: "Miss Americana & The Heartbreak Prince",
+          },
+          {
+            url: "https://soundcloud.com/joywave/cold-open",
+            answer: "I Almost Do (Taylor’s Version)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
+            answer: "champagne problems",
+          },
+          {
+            url: "https://soundcloud.com/joywave/theme-from-88888",
+            answer: "I’m Only Me When I’m with You",
+          },
+          {
+            url: "https://soundcloud.com/joywave/doubt",
+            answer: "Paper Rings",
+          },
+          {
+            url: "https://soundcloud.com/joywave/feels-like-a-lie",
+            answer: "Haunted",
+          },
+          {
+            url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
+            answer: "Wildest Dreams",
+          },
+          {
+            url: "https://soundcloud.com/joywave/anemone",
+            answer: "Better than Revenge",
+          },
+          {
+            url: "https://soundcloud.com/joywave/06-virus-exe",
+            answer: "Invisible",
+          },
+          {
+            url: "https://soundcloud.com/joywave/08-hang-with-me",
+            answer: "evermore feat. Bon Iver",
+          },
+          {
+            url: "https://soundcloud.com/joywave/f-e-a-r",
+            answer: "We Were Happy (From The Vault)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/like-a-kennedy",
+            answer: "Look What You Made Me Do",
+          },
+          {
+            url: "https://soundcloud.com/joywave/the-inversion",
+            answer: "You All Over Me (From The Vault) Ft. Maren Morris",
+          },
+          {
+            url: "https://soundcloud.com/joywave/numbers-station",
+            answer: "You Are in Love",
+          },
+          {
+            url: "https://soundcloud.com/joywave/bad-dreams",
+            answer: "Fifteen (Taylor’s Version)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
+            answer: "Forever Winter (Taylor’s Version) (From the Vault)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/f-e-a-r",
+            answer: "Shake It Off",
+          },
+          {
+            url: "https://soundcloud.com/joywave/like-a-kennedy",
+            answer: "Our Song",
+          },
+          {
+            url: "https://soundcloud.com/joywave/the-inversion",
+            answer: "Treacherous (Taylor’s Version)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/numbers-station",
+            answer: "tolerate it",
+          },
+          {
+            url: "https://soundcloud.com/joywave/bad-dreams",
+            answer: "You’re Not Sorry (Taylor’s Version)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
+            answer: "Breathe (Ft. Colbie Caillat) (Taylor’s Version)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/bad-dreams",
+            answer: "The Other Side of the Door (Taylor’s Version)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
+            answer: "my tears ricochet",
           },
         ],
         Pn
