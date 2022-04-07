@@ -8826,95 +8826,95 @@ var app = (function () {
             answer: "The Story of Us",
           },
           {
-            url: "https://soundcloud.com/joywave/01-winnipeg",
+            url: "https://soundcloud.com/taylorswiftofficial/me-feat-brendon-urie-of-panic",
             answer: "ME! Ft. Brendon Urie",
           },
           {
-            url: "https://soundcloud.com/joywave/rumors",
+            url: "https://soundcloud.com/taylorswiftofficial/speak-now",
             answer: "Speak Now",
           },
           {
-            url: "https://soundcloud.com/joywave/true-grit-koda-vista",
+            url: "https://soundcloud.com/taylorswiftofficial/its-nice-to-have-a-friend",
             answer: "It’s Nice to Have a Friend",
           },
           {
-            url: "https://soundcloud.com/joywave/lets-talk-about-feelings",
+            url: "https://soundcloud.com/taylorswiftofficial/the-archer",
             answer: "The Archer",
           },
           {
-            url: "https://soundcloud.com/joywave/half-your-age",
+            url: "https://soundcloud.com/taylorswiftofficial/babe-taylors-version-from-the",
             answer: "Babe (Taylor’s Version) (From the Vault)",
           },
           {
-            url: "https://soundcloud.com/joywave/ridge",
+            url: "https://soundcloud.com/taylorswiftofficial/fearless-taylors-version",
             answer: "Fearless (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/11-space-walk",
+            url: "https://soundcloud.com/taylorswiftofficial/long-live-1",
             answer: "Long Live",
           },
           {
-            url: "https://soundcloud.com/joywave/mr-eastman",
+            url: "https://soundcloud.com/taylorswiftofficial/i-did-something-bad",
             answer: "I Did Something Bad",
           },
           {
-            url: "https://soundcloud.com/joywave/tongues",
+            url: "https://soundcloud.com/taylorswiftofficial/a-place-in-this-world",
             answer: "A Place in This World",
           },
           {
-            url: "https://soundcloud.com/joywave/coming-apart",
+            url: "https://soundcloud.com/taylorswiftofficial/girl-at-home-taylors-version",
             answer: "Girl at Home (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/now",
+            url: "https://soundcloud.com/taylorswiftofficial/dress",
             answer: "Dress - Taylor Swift",
           },
           {
-            url: "https://soundcloud.com/joywave/cyn-city-2000",
+            url: "https://soundcloud.com/taylorswiftofficial/dorothea",
             answer: "dorothea - Taylor Swift",
           },
           {
-            url: "https://soundcloud.com/joywave/nice-house",
+            url: "https://soundcloud.com/taylorswiftofficial/closure",
             answer: "closure - Taylor Swift",
           },
           {
-            url: "https://soundcloud.com/joywave/who-do-you-like-1",
+            url: "https://soundcloud.com/taylorswiftofficial/you-belong-with-me-taylors",
             answer: "You Belong with Me (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/joywave-somebody-new",
+            url: "https://soundcloud.com/taylorswiftofficial/august",
             answer: "august - Taylor Swift",
           },
           {
-            url: "https://soundcloud.com/joywave/waterbed",
+            url: "https://soundcloud.com/taylorswiftofficial/mr-perfectly-fine-taylors",
             answer: "Mr. Perfectly Fine (From The Vault)",
           },
           {
-            url: "https://soundcloud.com/joywave/pray-for-the-reboot",
+            url: "https://soundcloud.com/taylorswiftofficial/change-taylors-version",
             answer: "Change (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/07-betelgeuse",
+            url: "https://soundcloud.com/taylorswiftofficial/soon-youll-get-better-feat",
             answer: "Soon You’ll Get Better Ft. Dixie Chicks",
           },
           {
-            url: "https://soundcloud.com/joywave/all-i-want",
+            url: "https://soundcloud.com/taylorswiftofficial/starlight-taylors-version",
             answer: "Starlight (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/facility-feat-sts",
+            url: "https://soundcloud.com/taylorswiftofficial/mine-us-version?in=taylorswiftofficial/sets/speak-now-3",
             answer: "Mine",
           },
           {
-            url: "https://soundcloud.com/joywave/obsession",
+            url: "https://soundcloud.com/taylorswiftofficial/all-too-well-10-minute-version",
             answer: "All Too Well (10-minute version) (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/possession",
+            url: "https://soundcloud.com/taylorswiftofficial/the-best-day-taylors-version",
             answer: "The Best Day (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/blastoffff-1",
+            url: "https://soundcloud.com/taylorswiftofficial/stay-stay-stay-taylors-version",
             answer: "Stay Stay Stay (Taylor’s Version)",
           },
           {

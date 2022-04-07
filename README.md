@@ -1,8 +1,8 @@
-# joywave-heardle
+# taylor-swift-heardle
 
 A clone of [Heardle](https://www.heardle.app/), and [K-Pop Heardle](https://heardle-kpop.glitch.me/) but for Joywave songs.
 
-Each Joywave Heardle is randomly chosen from Joywave's discography.
+Each Taylor Swift Heardle is randomly chosen from Joywave's discography.
 
 code edited from: [WJSN Heardle](https://github.com/haseul/wjsn-heardle)
 
