@@ -8774,55 +8774,55 @@ var app = (function () {
             answer: "no body, no crime feat. HAIM",
           },
           {
-            url: "https://soundcloud.com/joywave/buy-american",
+            url: "https://soundcloud.com/taylorswiftofficial/back-to-december-us-version",
             answer: "Back to December",
           },
           {
-            url: "https://soundcloud.com/joywave/when-youre-bored",
+            url: "https://soundcloud.com/taylorswiftofficial/i-knew-you-were-trouble-3",
             answer: "I Knew You Were Trouble (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/its-a-trip",
+            url: "https://soundcloud.com/taylorswiftofficial/the-moment-i-knew-taylors",
             answer: "The Moment I Knew (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/traveling-at-the-speed-of-1",
+            url: "https://soundcloud.com/taylorswiftofficial/style",
             answer: "Style",
           },
           {
-            url: "https://soundcloud.com/joywave/am",
+            url: "https://soundcloud.com/taylorswiftofficial/innocent",
             answer: "Innocent",
           },
           {
-            url: "https://soundcloud.com/joywave/04-pm",
+            url: "https://soundcloud.com/taylorswiftofficial/gold-rush",
             answer: "gold rush",
           },
           {
-            url: "https://soundcloud.com/joywave/confidence",
+            url: "https://soundcloud.com/taylorswiftofficial/false-god",
             answer: "False God",
           },
           {
-            url: "https://soundcloud.com/joywave/05-rearranged",
+            url: "https://soundcloud.com/taylorswiftofficial/death-by-a-thousand-cuts",
             answer: "Death By A Thousand Cuts",
           },
           {
-            url: "https://soundcloud.com/joywave/we-are-all-we-need",
+            url: "https://soundcloud.com/taylorswiftofficial/happiness",
             answer: "happiness",
           },
           {
-            url: "https://soundcloud.com/joywave/shutdown",
+            url: "https://soundcloud.com/taylorswiftofficial/new-romantics",
             answer: "New Romantics",
           },
           {
-            url: "https://soundcloud.com/bthan/joywave-appearances",
+            url: "https://soundcloud.com/taylorswiftofficial/new-years-day",
             answer: "New Year’s Day",
           },
           {
-            url: "https://soundcloud.com/joywave/every-window-is-a-mirror",
+            url: "https://soundcloud.com/taylorswiftofficial/this-is-why-we-cant-have-nice",
             answer: "This Is Why We Can’t Have Nice Things",
           },
           {
-            url: "https://soundcloud.com/joywave/bridge",
+            url: "https://soundcloud.com/taylorswiftofficial/the-story-of-us-us-version",
             answer: "The Story of Us",
           },
           {
