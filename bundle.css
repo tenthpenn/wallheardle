@@ -824,10 +824,10 @@ a:active {
 :root {
     --color-positive: #9B7A8E;
     --color-negative: #C8613D;
-    --color-fg: #DCC8A8;
-    --color-mg: #444;
+    --color-fg: #EFF0E7;
+    --color-mg: #B18F7D;
     --color-bg: #121212;
-    --color-line: #888;
+    --color-line: #DCC8A8;
     --color-shade: rgba(0, 0, 0, 0.1);
     --color-highlight: rgba(255, 255, 255, 0.05)
 }
