@@ -4465,10 +4465,10 @@ var app = (function () {
             "\n\n" +
             t +
             "\n\n" 
-            // +
+            +
             // "@pledis_17 #TaylorSwift" +
-            // "\n\n" +
-            // "https://taylor-swift-heardle.glitch.me/"
+            "\n\n" +
+            "https://taylor-swift-heardle.glitch.me/"
           ;
           if (
             !navigator.share ||
@@ -8902,7 +8902,7 @@ var app = (function () {
             answer: "Starlight (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/taylorswiftofficial/mine-us-version?in=taylorswiftofficial/sets/speak-now-3",
+            url: "https://soundcloud.com/taylorswiftofficial/mine-us-version",
             answer: "Mine",
           },
           {
@@ -8918,19 +8918,19 @@ var app = (function () {
             answer: "Stay Stay Stay (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/ray-lewis-feat-sts",
+            url: "https://soundcloud.com/taylorswiftofficial/i-think-he-knows",
             answer: "I Think He Knows",
           },
           {
-            url: "https://soundcloud.com/joywave/09-feet-become-hammers",
+            url: "https://soundcloud.com/taylorswiftofficial/daylight",
             answer: "Daylight",
           },
           {
-            url: "https://soundcloud.com/joywave/02-the-launch",
+            url: "https://soundcloud.com/taylorswiftofficial/i-know-places",
             answer: "I Know Places",
           },
           {
-            url: "https://soundcloud.com/joywave/goodbye-tommy",
+            url: "https://soundcloud.com/taylorswiftofficial/love-story-taylors-version",
             answer: "Love Story (Taylor’s Version)",
           },
           {
@@ -8950,7 +8950,7 @@ var app = (function () {
             answer: "…Ready for It?",
           },
           {
-            url: "https://soundcloud.com/joywave/after-coffee",
+            url: "https://soundcloud.com/taylorswiftofficial/white-horse-taylors-version",
             answer: "White Horse (Taylor’s Version)",
           },
           {
@@ -8982,7 +8982,7 @@ var app = (function () {
             answer: "Tim McGraw",
           },
           {
-            url: "https://soundcloud.com/joywave/motherless-child",
+            url: "https://soundcloud.com/taylorswiftofficial/the-way-i-loved-you-taylors",
             answer: "The Way I Loved You (Taylor’s Version)",
           },
           {
@@ -9002,7 +9002,7 @@ var app = (function () {
             answer: "22 (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
+            url: "https://soundcloud.com/taylorswiftofficial/the-man",
             answer: "The Man",
           },
           {
@@ -9022,7 +9022,7 @@ var app = (function () {
             answer: "All Too Well (Taylor’s Version)",
           },
           {
-            url: "https://soundcloud.com/joywave/anemone",
+            url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
             answer: "Cruel Summer",
           },
           {
