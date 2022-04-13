@@ -4467,7 +4467,6 @@ var app = (function () {
             "\n\n" 
             +
             // "@pledis_17 #TaylorSwift" +
-            "\n\n" +
             "https://taylor-swift-heardle.glitch.me/"
           ;
           if (
