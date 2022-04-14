@@ -8667,7 +8667,7 @@ var app = (function () {
         [
           {
             url: "https://soundcloud.com/zaynofficial/talk-to-me",
-            answer: "Talk To Me",
+            answer: "Talk To Me - ZAYN",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/back-to-december-us-version",
@@ -8855,496 +8855,97 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/joywave/blank-slate",
-            answer: "illicit affairs",
+            answer: "Vibez",
           },
           {
             url: "https://soundcloud.com/joywave/03-titan",
-            answer: "Red (Taylor’s Version)",
+            answer: "Better",
           },
           {
             url: "https://soundcloud.com/joywave/london",
-            answer: "The Outside",
+            answer: "Icarus Interlude",
           },
           {
             url: "https://soundcloud.com/joywave/who-owns-who",
             answer:
-              "Nothing New Ft. Phoebe Bridges (Taylor’s Version) (From the Vault)",
+              "Still Got Time (feat. PARTYNEXTDOOR)",
           },
           {
             url: "https://soundcloud.com/joywave/dying-well",
-            answer: "willow",
+            answer: "BoRdErSz",
           },
           {
             url: "https://soundcloud.com/joywave/carry-me",
-            answer: "Tim McGraw",
+            answer: "LIKE I WOULD",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/the-way-i-loved-you-taylors",
-            answer: "The Way I Loved You (Taylor’s Version)",
+            answer: "Connexion",
           },
           {
             url: "https://soundcloud.com/joywave/destruction",
-            answer: "Don’t Blame Me",
+            answer: "Natural",
           },
           {
             url: "https://soundcloud.com/joywave/smokestacks",
-            answer: "The Lucky One (Taylor’s Version)",
+            answer: "Trampoline (with ZAYN)",
           },
           {
             url: "https://soundcloud.com/joywave/little-lies-youre-told",
-            answer: "Ours",
+            answer: "When Love's Around (feat. Syd)",
           },
           {
             url: "https://soundcloud.com/joywave/cold-open",
-            answer: "22 (Taylor’s Version)",
+            answer: "Outside",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/the-man",
-            answer: "The Man",
+            answer: "rEaR vIeW",
           },
           {
             url: "https://soundcloud.com/joywave/theme-from-88888",
-            answer: "hoax",
+            answer: "Let Me",
           },
           {
             url: "https://soundcloud.com/joywave/doubt",
-            answer: "That’s When (From The Vault) Ft. Keith Urban",
+            answer: "Entertainer",
           },
           {
             url: "https://soundcloud.com/joywave/feels-like-a-lie",
-            answer: "I’d Lie",
+            answer: "Dusk Till Dawn (feat. Sia) - Radio Edit",
           },
           {
             url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-            answer: "All Too Well (Taylor’s Version)",
+            answer: "River Road",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
-            answer: "Cruel Summer",
+            answer: "Stand Still",
           },
           {
             url: "https://soundcloud.com/joywave/06-virus-exe",
-            answer: "Today Was a Fairytale (Taylor’s Version)",
+            answer: "lUcOzAdE",
           },
           {
             url: "https://soundcloud.com/joywave/08-hang-with-me",
             answer:
-              "We Are Never Ever Getting Back Together (Taylor’s Version)",
+              "A Whole New World (End Title) - From Aladdin",
           },
           {
             url: "https://soundcloud.com/joywave/f-e-a-r",
-            answer: "Forever & Always (Piano Version) (Taylor’s Version)",
+            answer: "All That",
           },
           {
             url: "https://soundcloud.com/joywave/like-a-kennedy",
-            answer: "Mary’s Song (Oh My My My)",
+            answer: "Entertainer",
           },
           {
             url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "Better Man (Taylor’s Version) (From the Vault)",
+            answer: "Imprint",
           },
           {
             url: "https://soundcloud.com/joywave/numbers-station",
-            answer: "Clean",
-          },
-          {
-            url: "https://soundcloud.com/joywave/bad-dreams",
-            answer: "Holy Ground (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
-            answer: "I Forgot That You Existed",
-          },
-          {
-            url: "https://soundcloud.com/joywave/no-shoulder",
-            answer: "betty",
-          },
-          {
-            url: "https://soundcloud.com/joywave/buy-american",
-            answer: "this is me trying",
-          },
-          {
-            url: "https://soundcloud.com/joywave/when-youre-bored",
-            answer: "Tell Me Why (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/its-a-trip",
-            answer: "How You Get the Girl",
-          },
-          {
-            url: "https://soundcloud.com/joywave/traveling-at-the-speed-of-1",
-            answer: "Jump Then Fall (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/am",
-            answer: "marjorie",
-          },
-          {
-            url: "https://soundcloud.com/joywave/04-pm",
-            answer: "Enchanted",
-          },
-          {
-            url: "https://soundcloud.com/joywave/confidence",
-            answer: "Blank Space",
-          },
-          {
-            url: "https://soundcloud.com/joywave/05-rearranged",
-            answer: "Stay Beautiful",
-          },
-          {
-            url: "https://soundcloud.com/joywave/we-are-all-we-need",
-            answer: "Afterglow",
-          },
-          {
-            url: "https://soundcloud.com/joywave/shutdown",
-            answer: "London Boy",
-          },
-          {
-            url: "https://soundcloud.com/bthan/joywave-appearances",
-            answer: "The Very First Night (Taylor’s Version) (From the Vault)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/every-window-is-a-mirror",
-            answer: "King of My Heart",
-          },
-          {
-            url: "https://soundcloud.com/joywave/bridge",
-            answer: "Come In With the Rain (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/01-winnipeg",
-            answer: "Welcome to New York",
-          },
-          {
-            url: "https://soundcloud.com/joywave/rumors",
-            answer: "’tis the damn season",
-          },
-          {
-            url: "https://soundcloud.com/joywave/true-grit-koda-vista",
-            answer: "cardigan",
-          },
-          {
-            url: "https://soundcloud.com/joywave/lets-talk-about-feelings",
-            answer: "ivy",
-          },
-          {
-            url: "https://soundcloud.com/joywave/half-your-age",
-            answer: "Begin Again (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/ridge",
-            answer: "Picture to Burn",
-          },
-          {
-            url: "https://soundcloud.com/joywave/11-space-walk",
-            answer: "cowboy like me",
-          },
-          {
-            url: "https://soundcloud.com/joywave/mr-eastman",
-            answer:
-              "Everything Has Changed (Taylor’s Version) (featuring Ed Sheeran)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/tongues",
-            answer: "Dear John",
-          },
-          {
-            url: "https://soundcloud.com/joywave/coming-apart",
-            answer: "Never Grow Up",
-          },
-          {
-            url: "https://soundcloud.com/joywave/now",
-            answer: "Hey Stephen (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/cyn-city-2000",
-            answer: "right where you left me",
-          },
-          {
-            url: "https://soundcloud.com/joywave/nice-house",
-            answer: "Out of the Woods",
-          },
-          {
-            url: "https://soundcloud.com/joywave/who-do-you-like-1",
-            answer: "the 1",
-          },
-          {
-            url: "https://soundcloud.com/joywave/joywave-somebody-new",
-            answer: "State of Grace (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/waterbed",
-            answer: "All You Had to Do Was Stay",
-          },
-          {
-            url: "https://soundcloud.com/joywave/pray-for-the-reboot",
-            answer: "it’s time to go",
-          },
-          {
-            url: "https://soundcloud.com/joywave/07-betelgeuse",
-            answer: "exile Ft. Bon Iver",
-          },
-          {
-            url: "https://soundcloud.com/joywave/all-i-want",
-            answer: "Wonderland",
-          },
-          {
-            url: "https://soundcloud.com/joywave/facility-feat-sts",
-            answer: "Mean",
-          },
-          {
-            url: "https://soundcloud.com/joywave/obsession",
-            answer: "mirrorball",
-          },
-          {
-            url: "https://soundcloud.com/joywave/possession",
-            answer: "the last great american dynasty",
-          },
-          {
-            url: "https://soundcloud.com/joywave/blastoffff-1",
-            answer: "Sad Beautiful Tragic (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/ray-lewis-feat-sts",
-            answer: "coney island feat. The National",
-          },
-          {
-            url: "https://soundcloud.com/joywave/09-feet-become-hammers",
-            answer: "You Need to Calm Down",
-          },
-          {
-            url: "https://soundcloud.com/joywave/02-the-launch",
-            answer: "SuperStar (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/goodbye-tommy",
-            answer: "Bye Bye Baby (From The Vault)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/golden-state-2",
-            answer: "Delicate",
-          },
-          {
-            url: "https://soundcloud.com/joywave/content",
-            answer: "Last Kiss",
-          },
-          {
-            url: "https://soundcloud.com/joywave/10-traveling-at-the-speed-of",
-            answer: "peace",
-          },
-          {
-            url: "https://soundcloud.com/joywave/going-to-a-place",
-            answer: "Forever & Always (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/after-coffee",
-            answer: "Run Ft. Ed Sheeran (Taylor’s Version) (From the Vault)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-            answer: "Come Back… Be Here (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/blank-slate",
-            answer: "Message in a Bottle (Taylor’s Version) (From the Vault)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/03-titan",
-            answer: "Gorgeous",
-          },
-          {
-            url: "https://soundcloud.com/joywave/london",
-            answer: "Here (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/who-owns-who",
-            answer: "Teardrops on My Guitar",
-          },
-          {
-            url: "https://soundcloud.com/joywave/dying-well",
-            answer: "A Perfectly Good Heart",
-          },
-          {
-            url: "https://soundcloud.com/joywave/carry-me",
-            answer: "End Game (featuring Ed Sheeran and Future)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/motherless-child",
-            answer:
-              "The Last Time (Taylor’s Version) (featuring Gary Lightbody)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/destruction",
-            answer: "Lover",
-          },
-          {
-            url: "https://soundcloud.com/joywave/smokestacks",
-            answer: "I Wish You Would",
-          },
-          {
-            url: "https://soundcloud.com/joywave/little-lies-youre-told",
-            answer:
-              "I Bet You Think About Me Ft. Chris Stapleton (Taylor’s Version) (From the Vault)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/cold-open",
-            answer: "Tied Together with a Smile",
-          },
-          {
-            url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
-            answer: "Cornelia Street",
-          },
-          {
-            url: "https://soundcloud.com/joywave/theme-from-88888",
-            answer: "Sparks Fly",
-          },
-          {
-            url: "https://soundcloud.com/joywave/doubt",
-            answer: "long story short",
-          },
-          {
-            url: "https://soundcloud.com/joywave/feels-like-a-lie",
-            answer: "invisible string",
-          },
-          {
-            url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-            answer: "seven",
-          },
-          {
-            url: "https://soundcloud.com/joywave/anemone",
-            answer: "Untouchable (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/06-virus-exe",
-            answer: "Cold as You",
-          },
-          {
-            url: "https://soundcloud.com/joywave/08-hang-with-me",
-            answer: "epiphany",
-          },
-          {
-            url: "https://soundcloud.com/joywave/f-e-a-r",
-            answer: "Bad Blood",
-          },
-          {
-            url: "https://soundcloud.com/joywave/like-a-kennedy",
-            answer: "Getaway Car",
-          },
-          {
-            url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "Should’ve Said No",
-          },
-          {
-            url: "https://soundcloud.com/joywave/numbers-station",
-            answer: "So It Goes…",
-          },
-          {
-            url: "https://soundcloud.com/joywave/bad-dreams",
-            answer: "If This Was a Movie",
-          },
-          {
-            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
-            answer: "Ronan (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/smokestacks",
-            answer: "mad woman",
-          },
-          {
-            url: "https://soundcloud.com/joywave/little-lies-youre-told",
-            answer: "Miss Americana & The Heartbreak Prince",
-          },
-          {
-            url: "https://soundcloud.com/joywave/cold-open",
-            answer: "I Almost Do (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/have-you-ever-lit-a-year-on",
-            answer: "champagne problems",
-          },
-          {
-            url: "https://soundcloud.com/joywave/theme-from-88888",
-            answer: "I’m Only Me When I’m with You",
-          },
-          {
-            url: "https://soundcloud.com/joywave/doubt",
-            answer: "Paper Rings",
-          },
-          {
-            url: "https://soundcloud.com/joywave/feels-like-a-lie",
-            answer: "Haunted",
-          },
-          {
-            url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-            answer: "Wildest Dreams",
-          },
-          {
-            url: "https://soundcloud.com/joywave/anemone",
-            answer: "Better than Revenge",
-          },
-          {
-            url: "https://soundcloud.com/joywave/06-virus-exe",
-            answer: "Invisible",
-          },
-          {
-            url: "https://soundcloud.com/joywave/08-hang-with-me",
-            answer: "evermore feat. Bon Iver",
-          },
-          {
-            url: "https://soundcloud.com/joywave/f-e-a-r",
-            answer: "We Were Happy (From The Vault)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/like-a-kennedy",
-            answer: "Look What You Made Me Do",
-          },
-          {
-            url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "You All Over Me (From The Vault) Ft. Maren Morris",
-          },
-          {
-            url: "https://soundcloud.com/joywave/numbers-station",
-            answer: "You Are in Love",
-          },
-          {
-            url: "https://soundcloud.com/joywave/bad-dreams",
-            answer: "Fifteen (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
-            answer: "Forever Winter (Taylor’s Version) (From the Vault)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/f-e-a-r",
-            answer: "Shake It Off",
-          },
-          {
-            url: "https://soundcloud.com/joywave/like-a-kennedy",
-            answer: "Our Song",
-          },
-          {
-            url: "https://soundcloud.com/joywave/the-inversion",
-            answer: "Treacherous (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/numbers-station",
-            answer: "tolerate it",
-          },
-          {
-            url: "https://soundcloud.com/joywave/bad-dreams",
-            answer: "You’re Not Sorry (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
-            answer: "Breathe (Ft. Colbie Caillat) (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/bad-dreams",
-            answer: "The Other Side of the Door (Taylor’s Version)",
-          },
-          {
-            url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
-            answer: "my tears ricochet",
+            answer: "tRuTh",
           },
         ],
         Pn
