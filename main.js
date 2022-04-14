@@ -4299,9 +4299,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _(
-          "You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎"
-        );
+        n = _("You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎");
       },
       m(e, t) {
         g(e, n, t);
@@ -4464,11 +4462,9 @@ var app = (function () {
             e +
             "\n\n" +
             t +
-            "\n\n" 
-            +
+            "\n\n" +
             // "@pledis_17 #TaylorSwift" +
-            "https://taylor-swift-heardle.glitch.me/"
-          ;
+            "https://taylor-swift-heardle.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -8593,77 +8589,79 @@ var app = (function () {
     })();
   });
   const Cn = ue([
-['Talk To Me',
- 'Too Much (feat. Timbaland)',
- 'Calamity',
- 'BLUE',
- 'Rainberry',
- 'Common',
- 'PILLOWTALK REMIX (feat. Lil Wayne)',
- 'wRoNg (feat. Kehlani)',
- 'BRIGHT',
- 'To Begin Again',
- 'Satisfaction',
- 'wHo',
- "I Don't Mind",
- 'dRuNk',
- 'Tightrope',
- 'Insomnia',
- 'I Don’t Wanna Live Forever (Fifty Shades Darker)',
- "SHE DON'T LOVE ME",
- 'fOoL fOr YoU',
- 'PILLOWTALK',
- 'You Wish You Knew',
- 'Freedun',
- 'Flames',
- 'If I Got You',
- "iT's YoU",
- 'INTERMISSION: fLoWer',
- 'No Candle No Light (feat. Nicki Minaj)',
- 'Unfuckwitable',
- 'Cruel (feat. ZAYN)',
- 'Back To Sleep REMIX (feat. Usher & ZAYN)',
- 'There You Are',
- 'Fingers',
- 'TiO',
- 'Fresh Air',
- 'Windowsill (feat. Devlin)',
- 'Scripted',
- 'Flight Of The Stars',
- 'Sour Diesel',
- 'Good Guy',
- 'sHe',
- 'Tonight',
- 'Good Years',
- 'Rumors (feat. ZAYN)',
- 'Back To Life',
- 'Sweat',
- "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
- 'BeFoUr',
- 'Vibez',
- 'Better',
- 'Icarus Interlude',
- 'Still Got Time (feat. PARTYNEXTDOOR)',
- 'BoRdErSz',
- 'LIKE I WOULD',
- 'Connexion',
- 'Natural',
- 'Trampoline (with ZAYN)',
- "When Love's Around (feat. Syd)",
- 'Outside',
- 'rEaR vIeW',
- 'Let Me',
- 'Entertainer',
- 'Dusk Till Dawn (feat. Sia) - Radio Edit',
- 'River Road',
- 'Stand Still',
- 'lUcOzAdE',
- 'A Whole New World (End Title) - From Aladdin',
- 'All That',
- 'Entertainer',
- 'Imprint',
- 'tRuTh']
-]),
+      [
+        "Talk To Me",
+        "Too Much (feat. Timbaland)",
+        "Calamity",
+        "BLUE",
+        "Rainberry",
+        "Common",
+        "PILLOWTALK REMIX (feat. Lil Wayne)",
+        "wRoNg (feat. Kehlani)",
+        "BRIGHT",
+        "To Begin Again",
+        "Satisfaction",
+        "wHo",
+        "I Don't Mind",
+        "dRuNk",
+        "Tightrope",
+        "Insomnia",
+        "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+        "SHE DON'T LOVE ME",
+        "fOoL fOr YoU",
+        "PILLOWTALK",
+        "You Wish You Knew",
+        "Freedun",
+        "Flames",
+        "If I Got You",
+        "iT's YoU",
+        "INTERMISSION: fLoWer",
+        "No Candle No Light (feat. Nicki Minaj)",
+        "Unfuckwitable",
+        "Cruel (feat. ZAYN)",
+        "Back To Sleep REMIX (feat. Usher & ZAYN)",
+        "There You Are",
+        "Fingers",
+        "TiO",
+        "Fresh Air",
+        "Windowsill (feat. Devlin)",
+        "Scripted",
+        "Flight Of The Stars",
+        "Sour Diesel",
+        "Good Guy",
+        "sHe",
+        "Tonight",
+        "Good Years",
+        "Rumors (feat. ZAYN)",
+        "Back To Life",
+        "Sweat",
+        "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
+        "BeFoUr",
+        "Vibez",
+        "Better",
+        "Icarus Interlude",
+        "Still Got Time (feat. PARTYNEXTDOOR)",
+        "BoRdErSz",
+        "LIKE I WOULD",
+        "Connexion",
+        "Natural",
+        "Trampoline (with ZAYN)",
+        "When Love's Around (feat. Syd)",
+        "Outside",
+        "rEaR vIeW",
+        "Let Me",
+        "Entertainer",
+        "Dusk Till Dawn (feat. Sia) - Radio Edit",
+        "River Road",
+        "Stand Still",
+        "lUcOzAdE",
+        "A Whole New World (End Title) - From Aladdin",
+        "All That",
+        "Entertainer",
+        "Imprint",
+        "tRuTh",
+      ],
+    ]),
     On = {
       subscribe: ue(
         [
@@ -8705,155 +8703,155 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/happiness",
-            answer: "happiness",
+            answer: "To Begin Again",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/new-romantics",
-            answer: "New Romantics",
+            answer: "Satisfaction",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/new-years-day",
-            answer: "New Year’s Day",
+            answer: "wHo",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/this-is-why-we-cant-have-nice",
-            answer: "This Is Why We Can’t Have Nice Things",
+            answer: "I Don't Mind",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/the-story-of-us-us-version",
-            answer: "The Story of Us",
+            answer: "dRuNk",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/me-feat-brendon-urie-of-panic",
-            answer: "ME! Ft. Brendon Urie",
+            answer: "Tightrope",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/speak-now",
-            answer: "Speak Now",
+            answer: "Insomnia",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/its-nice-to-have-a-friend",
-            answer: "It’s Nice to Have a Friend",
+            answer: "I Don’t Wanna Live Forever (Fifty Shades Darker)",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/the-archer",
-            answer: "The Archer",
+            answer: "SHE DON'T LOVE ME",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/babe-taylors-version-from-the",
-            answer: "Babe (Taylor’s Version) (From the Vault)",
+            answer: "fOoL fOr YoU",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/fearless-taylors-version",
-            answer: "Fearless (Taylor’s Version)",
+            answer: "PILLOWTALK",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/long-live-1",
-            answer: "Long Live",
+            answer: "You Wish You Knew",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/i-did-something-bad",
-            answer: "I Did Something Bad",
+            answer: "Freedun",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/a-place-in-this-world",
-            answer: "A Place in This World",
+            answer: "Flames",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/girl-at-home-taylors-version",
-            answer: "Girl at Home (Taylor’s Version)",
+            answer: "If I Got You",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/dress",
-            answer: "Dress - ZAYN",
+            answer: "iT's YoU",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/dorothea",
-            answer: "dorothea - ZAYN",
+            answer: "INTERMISSION: fLoWer",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/closure",
-            answer: "closure - ZAYN",
+            answer: "No Candle No Light (feat. Nicki Minaj)",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/you-belong-with-me-taylors",
-            answer: "You Belong with Me (Taylor’s Version)",
+            answer: "Unfuckwitable",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/august",
-            answer: "august - ZAYN",
+            answer: "Cruel (feat. ZAYN)",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/mr-perfectly-fine-taylors",
-            answer: "Mr. Perfectly Fine (From The Vault)",
+            answer: "Back To Sleep REMIX (feat. Usher & ZAYN)",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/change-taylors-version",
-            answer: "Change (Taylor’s Version)",
+            answer: "There You Are",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/soon-youll-get-better-feat",
-            answer: "Soon You’ll Get Better Ft. Dixie Chicks",
+            answer: "Fingers",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/starlight-taylors-version",
-            answer: "Starlight (Taylor’s Version)",
+            answer: "TiO",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/mine-us-version",
-            answer: "Mine",
+            answer: "Fresh Air",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/all-too-well-10-minute-version",
-            answer: "All Too Well (10-minute version) (Taylor’s Version)",
+            answer: "Windowsill (feat. Devlin)",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/the-best-day-taylors-version",
-            answer: "The Best Day (Taylor’s Version)",
+            answer: "Scripted",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/stay-stay-stay-taylors-version",
-            answer: "Stay Stay Stay (Taylor’s Version)",
+            answer: "Flight Of The Stars",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/i-think-he-knows",
-            answer: "I Think He Knows",
+            answer: "Sour Diesel",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/daylight",
-            answer: "Daylight",
+            answer: "Good Guy",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/i-know-places",
-            answer: "I Know Places",
+            answer: "sHe",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/love-story-taylors-version",
-            answer: "Love Story (Taylor’s Version)",
+            answer: "Tonight",
           },
           {
             url: "https://soundcloud.com/joywave/golden-state-2",
-            answer: "Superman",
+            answer: "Good Years",
           },
           {
             url: "https://soundcloud.com/joywave/content",
-            answer: "the lakes",
+            answer: "Rumors (feat. ZAYN)",
           },
           {
             url: "https://soundcloud.com/joywave/10-traveling-at-the-speed-of",
-            answer: "Call It What You Want",
+            answer: "Back To Life",
           },
           {
             url: "https://soundcloud.com/joywave/going-to-a-place",
-            answer: "…Ready for It?",
+            answer: "Sweat",
           },
           {
             url: "https://soundcloud.com/taylorswiftofficial/white-horse-taylors-version",
-            answer: "White Horse (Taylor’s Version)",
+            answer: "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
           },
           {
             url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-            answer: "Don’t You (From The Vault)",
+            answer: "BeFoUr",
           },
           {
             url: "https://soundcloud.com/joywave/blank-slate",
@@ -8869,7 +8867,8 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/joywave/who-owns-who",
-            answer: "Nothing New Ft. Phoebe Bridges (Taylor’s Version) (From the Vault)",
+            answer:
+              "Nothing New Ft. Phoebe Bridges (Taylor’s Version) (From the Vault)",
           },
           {
             url: "https://soundcloud.com/joywave/dying-well",
@@ -8929,7 +8928,8 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/joywave/08-hang-with-me",
-            answer: "We Are Never Ever Getting Back Together (Taylor’s Version)",
+            answer:
+              "We Are Never Ever Getting Back Together (Taylor’s Version)",
           },
           {
             url: "https://soundcloud.com/joywave/f-e-a-r",
@@ -8955,7 +8955,7 @@ var app = (function () {
             url: "https://soundcloud.com/joywave/thanks-thanks-for-coming",
             answer: "I Forgot That You Existed",
           },
-                    {
+          {
             url: "https://soundcloud.com/joywave/no-shoulder",
             answer: "betty",
           },
@@ -9041,7 +9041,8 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/joywave/mr-eastman",
-            answer: "Everything Has Changed (Taylor’s Version) (featuring Ed Sheeran)",
+            answer:
+              "Everything Has Changed (Taylor’s Version) (featuring Ed Sheeran)",
           },
           {
             url: "https://soundcloud.com/joywave/tongues",
@@ -9169,7 +9170,8 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/joywave/motherless-child",
-            answer: "The Last Time (Taylor’s Version) (featuring Gary Lightbody)",
+            answer:
+              "The Last Time (Taylor’s Version) (featuring Gary Lightbody)",
           },
           {
             url: "https://soundcloud.com/joywave/destruction",
@@ -9181,7 +9183,8 @@ var app = (function () {
           },
           {
             url: "https://soundcloud.com/joywave/little-lies-youre-told",
-            answer: "I Bet You Think About Me Ft. Chris Stapleton (Taylor’s Version) (From the Vault)",
+            answer:
+              "I Bet You Think About Me Ft. Chris Stapleton (Taylor’s Version) (From the Vault)",
           },
           {
             url: "https://soundcloud.com/joywave/cold-open",
