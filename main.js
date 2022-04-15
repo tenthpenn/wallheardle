@@ -3907,7 +3907,7 @@ var app = (function () {
       maxAttempts: 6,
       startDate: "2022-04-07",
     },
-    Jt = ["0", "1", "2", "3", "4", "5", "6"];
+    Jt = ["Tsk tsk", "Zquad indeed", "You must've done this BeFoUr", "Impressive", "Nicely done", "Phew", "Almost got exposed"];
   function Kt(t) {
     let n, r;
     return {
