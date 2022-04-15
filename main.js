@@ -3309,7 +3309,7 @@ var app = (function () {
     P(() => {
       !(function () {
         const e = new wt({
-          placeHolder: "Know it? Search for the artist / title",
+          placeHolder: "Know it? Search for the title",
           threshold: 1,
           wrapper: !1,
           resultsList: {
