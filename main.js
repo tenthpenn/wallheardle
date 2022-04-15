@@ -120,10 +120,10 @@ var app = (function () {
       ? e.style.removeProperty(t)
       : e.style.setProperty(t, n, r ? "important" : "");
   }
-  function Y(e, t, n) {
+  function C(e, t, n) {
     e.classList[n ? "add" : "remove"](t);
   }
-  function C(e) {
+  function Y(e) {
     a = e;
   }
   function O() {
@@ -154,31 +154,31 @@ var app = (function () {
   }
   const N = [],
     H = [],
-    I = [],
     W = [],
+    I = [],
     R = Promise.resolve();
   let F = !1;
   function G(e) {
-    I.push(e);
+    W.push(e);
   }
   const E = new Set();
-  let j = 0;
-  function B() {
+  let B = 0;
+  function j() {
     const e = a;
     do {
-      for (; j < N.length; ) {
-        const e = N[j];
-        j++, C(e), z(e.$$);
+      for (; B < N.length; ) {
+        const e = N[B];
+        B++, Y(e), z(e.$$);
       }
-      for (C(null), N.length = 0, j = 0; H.length; ) H.pop()();
-      for (let e = 0; e < I.length; e += 1) {
-        const t = I[e];
+      for (Y(null), N.length = 0, B = 0; H.length; ) H.pop()();
+      for (let e = 0; e < W.length; e += 1) {
+        const t = W[e];
         E.has(t) || (E.add(t), t());
       }
-      I.length = 0;
+      W.length = 0;
     } while (N.length);
-    for (; W.length; ) W.pop()();
-    (F = !1), E.clear(), C(e);
+    for (; I.length; ) I.pop()();
+    (F = !1), E.clear(), Y(e);
   }
   function z(e) {
     if (null !== e.fragment) {
@@ -192,11 +192,7 @@ var app = (function () {
   const U = new Set();
   let V;
   function J() {
-    V = {
-      r: 0,
-      c: [],
-      p: V,
-    };
+    V = { r: 0, c: [], p: V };
   }
   function K() {
     V.r || r(V.c), (V = V.p);
@@ -243,12 +239,12 @@ var app = (function () {
   }
   function ne(e, t) {
     -1 === e.$$.dirty[0] &&
-      (N.push(e), F || ((F = !0), R.then(B)), e.$$.dirty.fill(0)),
+      (N.push(e), F || ((F = !0), R.then(j)), e.$$.dirty.fill(0)),
       (e.$$.dirty[(t / 31) | 0] |= 1 << t % 31);
   }
   function re(t, s, i, o, l, u, c, d = [-1]) {
     const h = a;
-    C(t);
+    Y(t);
     const f = (t.$$ = {
       fragment: null,
       ctx: null,
@@ -295,9 +291,9 @@ var app = (function () {
       } else f.fragment && f.fragment.c();
       s.intro && Z(t.$$.fragment),
         ee(t, s.target, s.anchor, s.customElement),
-        B();
+        j();
     }
-    C(h);
+    Y(h);
   }
   class se {
     $destroy() {
@@ -333,8 +329,8 @@ var app = (function () {
             "class",
             "px-2 py-2 uppercase tracking-widest bg-custom-mg border-none flex items-center font-semibold text-sm svelte-1r54uzk"
           ),
-          Y(t, "bg-custom-positive", e[0]),
-          Y(t, "bg-custom-mg", e[1]);
+          C(t, "bg-custom-positive", e[0]),
+          C(t, "bg-custom-mg", e[1]);
       },
       m(i, a) {
         g(i, t, a),
@@ -347,8 +343,8 @@ var app = (function () {
           o.p &&
           (!n || 4 & r) &&
           f(o, i, e, e[2], n ? h(i, e[2], r, null) : m(e[2]), null),
-          1 & r && Y(t, "bg-custom-positive", e[0]),
-          2 & r && Y(t, "bg-custom-mg", e[1]);
+          1 & r && C(t, "bg-custom-positive", e[0]),
+          2 & r && C(t, "bg-custom-mg", e[1]);
       },
       i(e) {
         n || (Z(o, e), (n = !0));
@@ -384,11 +380,7 @@ var app = (function () {
   }
   class ae extends se {
     constructor(e) {
-      super(),
-        re(this, e, oe, ie, i, {
-          primary: 0,
-          secondary: 1,
-        });
+      super(), re(this, e, oe, ie, i, { primary: 0, secondary: 1 });
     }
   }
   const le = [];
@@ -445,14 +437,7 @@ var app = (function () {
         t()
           ? n()
           : e.forEach(
-              ({
-                type: e,
-                url: t,
-                options: n = {
-                  async: !0,
-                  defer: !0,
-                },
-              }) => {
+              ({ type: e, url: t, options: n = { async: !0, defer: !0 } }) => {
                 const r = "script" === e,
                   i = document.createElement(r ? "script" : "link");
                 r
@@ -517,13 +502,7 @@ var app = (function () {
   }
   function pe(e, t) {
     t.send_to || delete t.send_to,
-      ce.update((n) => [
-        ...n,
-        {
-          event: e,
-          data: t,
-        },
-      ]);
+      ce.update((n) => [...n, { event: e, data: t }]);
   }
   function ge(e) {
     let t, n, r, s;
@@ -597,11 +576,7 @@ var app = (function () {
       c() {
         (t = k("svg")),
           (n = k("path")),
-          M(
-            n,
-            "d",
-            "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-          ),
+          M(n, "d", "M12 20v-6M6 20V10M18 20V4"),
           M(t, "xmlns", "http://www.w3.org/2000/svg"),
           M(t, "width", "24"),
           M(t, "height", "24"),
@@ -658,47 +633,19 @@ var app = (function () {
     let t, n, r, s, i, o, a, l, u, c, d, h, f, m, v;
     return (
       (i = new ae({
-        props: {
-          $$slots: {
-            default: [ge],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { $$slots: { default: [ge] }, $$scope: { ctx: e } },
       })),
       i.$on("click", e[1]),
       (a = new ae({
-        props: {
-          $$slots: {
-            default: [ye],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { $$slots: { default: [ye] }, $$scope: { ctx: e } },
       })),
       a.$on("click", e[2]),
       (h = new ae({
-        props: {
-          $$slots: {
-            default: [ve],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { $$slots: { default: [ve] }, $$scope: { ctx: e } },
       })),
       h.$on("click", e[3]),
       (m = new ae({
-        props: {
-          $$slots: {
-            default: [we],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { $$slots: { default: [we] }, $$scope: { ctx: e } },
       })),
       m.$on("click", e[4]),
       {
@@ -712,7 +659,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "ZAYN Heardle"),
+            (u.textContent = "Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -752,33 +699,13 @@ var app = (function () {
         },
         p(e, [t]) {
           const n = {};
-          64 & t &&
-            (n.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            i.$set(n);
+          64 & t && (n.$$scope = { dirty: t, ctx: e }), i.$set(n);
           const r = {};
-          64 & t &&
-            (r.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            a.$set(r);
+          64 & t && (r.$$scope = { dirty: t, ctx: e }), a.$set(r);
           const s = {};
-          64 & t &&
-            (s.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            h.$set(s);
+          64 & t && (s.$$scope = { dirty: t, ctx: e }), h.$set(s);
           const o = {};
-          64 & t &&
-            (o.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            m.$set(o);
+          64 & t && (o.$$scope = { dirty: t, ctx: e }), m.$set(o);
         },
         i(e) {
           v ||
@@ -804,37 +731,21 @@ var app = (function () {
   function _e(e) {
     const t = A();
     function n(e, n, r) {
-      t("modal", {
-        name: e,
-        title: n,
-        hasFrame: r,
-      });
+      t("modal", { name: e, title: n, hasFrame: r });
     }
     return [
       n,
       () => {
-        n("info", "about"),
-          pe("clickInfo", {
-            name: "clickInfo",
-          });
+        n("info", "about"), pe("clickInfo", { name: "clickInfo" });
       },
       () => {
-        n("donate", "support"),
-          pe("clickDonate", {
-            name: "clickDonate",
-          });
+        n("donate", "support"), pe("clickDonate", { name: "clickDonate" });
       },
       () => {
-        n("results", "stats"),
-          pe("clickStats", {
-            name: "clickStats",
-          });
+        n("results", "stats"), pe("clickStats", { name: "clickStats" });
       },
       () => {
-        n("help", "how to play"),
-          pe("clickHelp", {
-            name: "clickHelp",
-          });
+        n("help", "how to play"), pe("clickHelp", { name: "clickHelp" });
       },
     ];
   }
@@ -845,7 +756,7 @@ var app = (function () {
   }
   function be(e, t, n) {
     const r = e.slice();
-    return (r[5] = t[n]), (r[7] = n), r;
+    return (r[6] = t[n]), (r[8] = n), r;
   }
   function Se(e) {
     let t,
@@ -890,17 +801,19 @@ var app = (function () {
       u,
       c,
       d,
-      h = e[1].img && Ae(e),
-      f = e[1].artist && Le(e);
+      h,
+      f,
+      m = e[1].img && Ae(e),
+      v = e[1].artist && Le(e);
     return {
       c() {
         (t = w("div")),
           (n = w("a")),
           (r = w("div")),
-          h && h.c(),
+          m && m.c(),
           (s = x()),
           (i = w("div")),
-          f && f.c(),
+          v && v.c(),
           (o = x()),
           (a = w("div")),
           (a.innerHTML =
@@ -912,8 +825,8 @@ var app = (function () {
           M(i, "class", "flex-1 mx-3 text-white"),
           M(a, "class", "text-center flex justify-center"),
           M(r, "class", "p-2 flex items-center rounded-sm"),
-          Y(r, "bg-custom-positive", e[2].gotCorrect),
-          Y(r, "bg-custom-mg", !e[2].gotCorrect),
+          C(r, "bg-custom-positive", e[2].gotCorrect),
+          C(r, "bg-custom-mg", !e[2].gotCorrect),
           M(n, "href", (c = e[1].url)),
           M(
             n,
@@ -928,32 +841,33 @@ var app = (function () {
           M(n, "class", "no-underline"),
           M(t, "class", "p-3 pb-0 flex-col items-evenly");
       },
-      m(e, c) {
-        g(e, t, c),
+      m(c, d) {
+        g(c, t, d),
           p(t, n),
           p(n, r),
-          h && h.m(r, null),
+          m && m.m(r, null),
           p(r, s),
           p(r, i),
-          f && f.m(i, null),
+          v && v.m(i, null),
           p(r, o),
           p(r, a),
           p(r, l),
-          p(r, u);
+          p(r, u),
+          h || ((f = S(n, "click", e[4])), (h = !0));
       },
       p(e, t) {
         e[1].img
-          ? h
-            ? h.p(e, t)
-            : ((h = Ae(e)), h.c(), h.m(r, s))
-          : h && (h.d(1), (h = null)),
+          ? m
+            ? m.p(e, t)
+            : ((m = Ae(e)), m.c(), m.m(r, s))
+          : m && (m.d(1), (m = null)),
           e[1].artist
-            ? f
-              ? f.p(e, t)
-              : ((f = Le(e)), f.c(), f.m(i, null))
-            : f && (f.d(1), (f = null)),
-          4 & t && Y(r, "bg-custom-positive", e[2].gotCorrect),
-          4 & t && Y(r, "bg-custom-mg", !e[2].gotCorrect),
+            ? v
+              ? v.p(e, t)
+              : ((v = Le(e)), v.c(), v.m(i, null))
+            : v && (v.d(1), (v = null)),
+          4 & t && C(r, "bg-custom-positive", e[2].gotCorrect),
+          4 & t && C(r, "bg-custom-mg", !e[2].gotCorrect),
           2 & t && c !== (c = e[1].url) && M(n, "href", c),
           2 & t &&
             d !==
@@ -966,7 +880,7 @@ var app = (function () {
             M(n, "title", d);
       },
       d(e) {
-        e && y(t), h && h.d(), f && f.d();
+        e && y(t), m && m.d(), v && v.d(), (h = !1), f();
       },
     };
   }
@@ -988,16 +902,16 @@ var app = (function () {
   function De(e) {
     let t, n, r;
     function s(e, t) {
-      return e[0][e[7]].isCorrect || e[0][e[7]].isSkipped
-        ? e[0][e[7]].isSkipped
+      return e[0][e[8]].isCorrect || e[0][e[8]].isSkipped
+        ? e[0][e[8]].isSkipped
           ? Te
           : void 0
-        : Ye;
+        : Ce;
     }
     let i = s(e),
       o = i && i(e);
     function a(e, t) {
-      return e[0][e[7]].isSkipped ? Oe : Ce;
+      return e[0][e[8]].isSkipped ? Oe : Ye;
     }
     let l = a(e),
       u = l(e);
@@ -1057,7 +971,7 @@ var app = (function () {
       },
     };
   }
-  function Ye(e) {
+  function Ce(e) {
     let t, n, r;
     return {
       c() {
@@ -1091,10 +1005,10 @@ var app = (function () {
       },
     };
   }
-  function Ce(e) {
+  function Ye(e) {
     let t,
       n,
-      r = e[0][e[7]].answer + "";
+      r = e[0][e[8]].answer + "";
     return {
       c() {
         (t = w("div")), (n = _(r)), M(t, "class", "text-white text-sm");
@@ -1103,7 +1017,7 @@ var app = (function () {
         g(e, t, r), p(t, n);
       },
       p(e, t) {
-        1 & t && r !== (r = e[0][e[7]].answer + "") && $(n, r);
+        1 & t && r !== (r = e[0][e[8]].answer + "") && $(n, r);
       },
       d(e) {
         e && y(t);
@@ -1130,7 +1044,7 @@ var app = (function () {
   function Pe(e) {
     let t, n;
     function r(e, t) {
-      return e[7] < e[0].length ? De : $e;
+      return e[8] < e[0].length ? De : $e;
     }
     let s = r(e),
       i = s(e);
@@ -1144,7 +1058,7 @@ var app = (function () {
             "class",
             "p-2 mb-2 border border-custom-mg flex items-center last:mb-0"
           ),
-          Y(t, "border-custom-line", e[7] == e[0].length);
+          C(t, "border-custom-line", e[8] == e[0].length);
       },
       m(e, r) {
         g(e, t, r), i.m(t, null), p(t, n);
@@ -1153,7 +1067,7 @@ var app = (function () {
         s === (s = r(e)) && i
           ? i.p(e, o)
           : (i.d(1), (i = s(e)), i && (i.c(), i.m(t, n))),
-          1 & o && Y(t, "border-custom-line", e[7] == e[0].length);
+          1 & o && C(t, "border-custom-line", e[8] == e[0].length);
       },
       d(e) {
         e && y(t), i.d();
@@ -1248,43 +1162,53 @@ var app = (function () {
     return (
       (e.$$set = (e) => {
         "userGuesses" in e && n(0, (s = e.userGuesses)),
-          "maxAttempts" in e && n(4, (i = e.maxAttempts)),
+          "maxAttempts" in e && n(5, (i = e.maxAttempts)),
           "currentHeardle" in e && n(1, (o = e.currentHeardle)),
           "todaysGame" in e && n(2, (a = e.todaysGame));
       }),
       (e.$$.update = () => {
-        21 & e.$$.dirty &&
+        37 & e.$$.dirty &&
           n(3, (r = a.hasFinished && a.gotCorrect ? s.length : i));
       }),
-      [s, o, a, r, i]
+      [
+        s,
+        o,
+        a,
+        r,
+        () => {
+          pe("clickPlayerLink", { name: "clickPlayerLink" }),
+            pe("clickPlayerLink" + o.id, { name: "clickPlayerLink" });
+        },
+        i,
+      ]
     );
   }
-  class Ie extends se {
+  class We extends se {
     constructor(e) {
       super(),
         re(this, e, He, Ne, i, {
           userGuesses: 0,
-          maxAttempts: 4,
+          maxAttempts: 5,
           currentHeardle: 1,
           todaysGame: 2,
         });
     }
   }
-  function We(t) {
+  function Ie(t) {
     let n, r;
     return {
       c() {
         (n = w("div")),
           (r = w("i")),
           M(r, "class", "gg-loadbar-sound svelte-15swa4o"),
-          Y(r, "musicIsPlaying", t[0]),
+          C(r, "musicIsPlaying", t[0]),
           M(n, "class", "scale-150 transform relative");
       },
       m(e, t) {
         g(e, n, t), p(n, r);
       },
       p(e, [t]) {
-        1 & t && Y(r, "musicIsPlaying", e[0]);
+        1 & t && C(r, "musicIsPlaying", e[0]);
       },
       i: e,
       o: e,
@@ -1304,17 +1228,16 @@ var app = (function () {
   }
   class Fe extends se {
     constructor(e) {
-      super(),
-        re(this, e, Re, We, i, {
-          musicIsPlaying: 0,
-        });
+      super(), re(this, e, Re, Ie, i, { musicIsPlaying: 0 });
     }
   }
   function Ge(t) {
     let n;
     return {
       c() {
-        n = w("div");
+        (n = w("div")),
+          (n.innerHTML = '<span class="loader svelte-57p3aa"></span>'),
+          M(n, "class", "flex justify-center m-3");
       },
       m(e, t) {
         g(e, n, t);
@@ -1332,8 +1255,8 @@ var app = (function () {
       super(), re(this, e, null, Ge, i, {});
     }
   }
-  const { document: je } = X;
-  function Be(e, t, n) {
+  const { document: Be } = X;
+  function je(e, t, n) {
     const r = e.slice();
     return (r[33] = t[n]), (r[35] = n), r;
   }
@@ -1466,14 +1389,7 @@ var app = (function () {
     let t, n, r, s, i;
     return (
       (s = new ae({
-        props: {
-          $$slots: {
-            default: [qe],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { $$slots: { default: [qe] }, $$scope: { ctx: e } },
       })),
       s.$on("click", e[22]),
       {
@@ -1492,12 +1408,7 @@ var app = (function () {
         },
         p(e, t) {
           const n = {};
-          128 & t[1] &&
-            (n.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            s.$set(n);
+          128 & t[1] && (n.$$scope = { dirty: t, ctx: e }), s.$set(n);
         },
         i(e) {
           i || (Z(s.$$.fragment, e), (i = !0));
@@ -1611,35 +1522,28 @@ var app = (function () {
       b,
       S,
       D,
-      Y,
       C,
+      Y,
       O,
       P,
-      A = mt(e[11]) + "",
+      A = pt(e[11]) + "",
       L =
-        mt(
+        pt(
           e[15]
             ? e[4].isPrime
               ? e[8].slice(-1)[0]
               : e[2].maxAttempts * e[2].attemptInterval
             : e[3]
         ) + "",
-      N = !e[12] && 1 == e[0] && tt();
+      N = !e[12] && 1 == e[0] && tt(e);
     function H(e, t) {
-      return e[4].isPrime ? rt : nt;
+      return e[4].isPrime ? st : rt;
     }
-    let I = H(e),
-      W = I(e);
+    let W = H(e),
+      I = W(e);
     return (
       (D = new ae({
-        props: {
-          $$slots: {
-            default: [ht],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { $$slots: { default: [ft] }, $$scope: { ctx: e } },
       })),
       D.$on("click", function () {
         s(e[18] ? e[6] : e[5]) && (e[18] ? e[6] : e[5]).apply(this, arguments);
@@ -1654,7 +1558,7 @@ var app = (function () {
             (o = w("div")),
             (a = w("div")),
             (l = x()),
-            W.c(),
+            I.c(),
             (u = x()),
             (c = w("div")),
             (d = w("div")),
@@ -1666,8 +1570,8 @@ var app = (function () {
             (b = x()),
             (S = w("div")),
             Q(D.$$.fragment),
-            (Y = x()),
-            (C = w("div")),
+            (C = x()),
+            (Y = w("div")),
             (O = _(L)),
             M(a, "class", "h-full absolute bg-custom-positive"),
             T(a, "width", e[10] + "%"),
@@ -1692,7 +1596,7 @@ var app = (function () {
             p(i, o),
             p(o, a),
             p(i, l),
-            W.m(i, null),
+            I.m(i, null),
             g(e, u, s),
             g(e, c, s),
             p(c, d),
@@ -1704,33 +1608,31 @@ var app = (function () {
             p(f, b),
             p(f, S),
             ee(D, S, null),
-            p(f, Y),
             p(f, C),
-            p(C, O),
+            p(f, Y),
+            p(Y, O),
             (P = !0);
         },
         p(n, r) {
           (e = n)[12] || 1 != e[0]
             ? N && (N.d(1), (N = null))
-            : N || ((N = tt()), N.c(), N.m(t.parentNode, t)),
+            : N
+            ? N.p(e, r)
+            : ((N = tt(e)), N.c(), N.m(t.parentNode, t)),
             (!P || 1024 & r[0]) && T(a, "width", e[10] + "%"),
             (!P || 98304 & r[0]) &&
               T(o, "width", (e[15] ? e[16] : "100") + "%"),
-            I === (I = H(e)) && W
-              ? W.p(e, r)
-              : (W.d(1), (W = I(e)), W && (W.c(), W.m(i, null))),
-            (!P || 2048 & r[0]) && A !== (A = mt(e[11]) + "") && $(k, A);
+            W === (W = H(e)) && I
+              ? I.p(e, r)
+              : (I.d(1), (I = W(e)), I && (I.c(), I.m(i, null))),
+            (!P || 2048 & r[0]) && A !== (A = pt(e[11]) + "") && $(k, A);
           const s = {};
-          (262144 & r[0]) | (128 & r[1]) &&
-            (s.$$scope = {
-              dirty: r,
-              ctx: e,
-            }),
+          (262144 & r[0]) | (128 & r[1]) && (s.$$scope = { dirty: r, ctx: e }),
             D.$set(s),
             (!P || 33052 & r[0]) &&
               L !==
                 (L =
-                  mt(
+                  pt(
                     e[15]
                       ? e[4].isPrime
                         ? e[8].slice(-1)[0]
@@ -1746,7 +1648,7 @@ var app = (function () {
           q(D.$$.fragment, e), (P = !1);
         },
         d(e) {
-          N && N.d(e), e && y(t), e && y(n), W.d(), e && y(u), e && y(c), te(D);
+          N && N.d(e), e && y(t), e && y(n), I.d(), e && y(u), e && y(c), te(D);
         },
       }
     );
@@ -1762,14 +1664,27 @@ var app = (function () {
           (o = _(
             ", though, if you want to maintain your streak.\n                                We won't tell..."
           )),
-          M(r, "href", (i = e[1].url)),
+          M(
+            r,
+            "href",
+            (i =
+              35 == e[1].id
+                ? "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                : e[1].url)
+          ),
           M(t, "class", "text-xs text-custom-line pt-1");
       },
       m(e, i) {
         g(e, t, i), p(t, n), p(t, r), p(r, s), p(t, o);
       },
       p(e, t) {
-        2 & t[0] && i !== (i = e[1].url) && M(r, "href", i);
+        2 & t[0] &&
+          i !==
+            (i =
+              35 == e[1].id
+                ? "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                : e[1].url) &&
+          M(r, "href", i);
       },
       d(e) {
         e && y(t);
@@ -1777,17 +1692,66 @@ var app = (function () {
     };
   }
   function tt(e) {
-    let t;
+    let t,
+      n,
+      r,
+      s,
+      i,
+      o,
+      a = 34 == e[1].id && nt();
     return {
       c() {
         (t = w("div")),
-          (t.innerHTML =
-            '<p>Turn up the volume and tap to start the track!</p> \n\n                <svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg>'),
+          (n = w("p")),
+          (n.textContent = "Turn up the volume and tap to start the track!"),
+          (r = x()),
+          a && a.c(),
+          (s = x()),
+          (i = k("svg")),
+          (o = k("path")),
+          M(o, "d", "M6 9l6 6 6-6"),
+          M(i, "class", "mt-2"),
+          M(i, "xmlns", "http://www.w3.org/2000/svg"),
+          M(i, "width", "24"),
+          M(i, "height", "24"),
+          M(i, "viewBox", "0 0 24 24"),
+          M(i, "fill", "none"),
+          M(i, "stroke", "currentColor"),
+          M(i, "stroke-width", "2"),
+          M(i, "stroke-linecap", "round"),
+          M(i, "stroke-linejoin", "round"),
           M(
             t,
             "class",
             "text-center p-3 flex flex-col items-center text-sm text-custom-line"
           );
+      },
+      m(e, l) {
+        g(e, t, l),
+          p(t, n),
+          p(t, r),
+          a && a.m(t, null),
+          p(t, s),
+          p(t, i),
+          p(i, o);
+      },
+      p(e, n) {
+        34 == e[1].id
+          ? a || ((a = nt()), a.c(), a.m(t, s))
+          : a && (a.d(1), (a = null));
+      },
+      d(e) {
+        e && y(t), a && a.d();
+      },
+    };
+  }
+  function nt(e) {
+    let t;
+    return {
+      c() {
+        (t = w("p")),
+          (t.textContent = "Parental Advisory - Explicit Lyrics"),
+          M(t, "class", "text-custom-negative pt-2");
       },
       m(e, n) {
         g(e, t, n);
@@ -1797,10 +1761,10 @@ var app = (function () {
       },
     };
   }
-  function nt(e) {
+  function rt(e) {
     let t;
     function n(e, t) {
-      return e[15] ? st : it;
+      return e[15] ? it : ot;
     }
     let r = n(e),
       s = r(e);
@@ -1823,9 +1787,9 @@ var app = (function () {
       },
     };
   }
-  function rt(e) {
+  function st(e) {
     let t,
-      n = e[15] && lt(e);
+      n = e[15] && ut(e);
     return {
       c() {
         (t = w("div")), n && n.c(), M(t, "class", "w-full h-full absolute");
@@ -1837,7 +1801,7 @@ var app = (function () {
         e[15]
           ? n
             ? n.p(e, r)
-            : ((n = lt(e)), n.c(), n.m(t, null))
+            : ((n = ut(e)), n.c(), n.m(t, null))
           : n && (n.d(1), (n = null));
       },
       d(e) {
@@ -1845,11 +1809,11 @@ var app = (function () {
       },
     };
   }
-  function st(e) {
+  function it(e) {
     let t,
       n = Array(e[2].maxAttempts + 1),
       r = [];
-    for (let t = 0; t < n.length; t += 1) r[t] = ot(Be(e, n, t));
+    for (let t = 0; t < n.length; t += 1) r[t] = at(je(e, n, t));
     return {
       c() {
         for (let e = 0; e < r.length; e += 1) r[e].c();
@@ -1864,8 +1828,8 @@ var app = (function () {
           const s = n.length;
           let i;
           for (n = Array(e[2].maxAttempts + 1), i = s; i < n.length; i += 1)
-            Be(e, n, i),
-              r[i] || ((r[i] = ot()), r[i].c(), r[i].m(t.parentNode, t));
+            je(e, n, i),
+              r[i] || ((r[i] = at()), r[i].c(), r[i].m(t.parentNode, t));
           for (i = n.length; i < s; i += 1) r[i].d(1);
           r.length = n.length;
         }
@@ -1875,11 +1839,11 @@ var app = (function () {
       },
     };
   }
-  function it(e) {
+  function ot(e) {
     let t,
       n = Array(Math.floor(e[3] / e[2].attemptInterval)),
       r = [];
-    for (let t = 0; t < n.length; t += 1) r[t] = at(ze(e, n, t));
+    for (let t = 0; t < n.length; t += 1) r[t] = lt(ze(e, n, t));
     return {
       c() {
         for (let e = 0; e < r.length; e += 1) r[e].c();
@@ -1899,27 +1863,13 @@ var app = (function () {
             i += 1
           )
             ze(e, n, i),
-              r[i] || ((r[i] = at()), r[i].c(), r[i].m(t.parentNode, t));
+              r[i] || ((r[i] = lt()), r[i].c(), r[i].m(t.parentNode, t));
           for (i = n.length; i < s; i += 1) r[i].d(1);
           r.length = n.length;
         }
       },
       d(e) {
         v(r, e), e && y(t);
-      },
-    };
-  }
-  function ot(e) {
-    let t;
-    return {
-      c() {
-        (t = w("div")), M(t, "class", "bg-custom-bg w-px h-full");
-      },
-      m(e, n) {
-        g(e, t, n);
-      },
-      d(e) {
-        e && y(t);
       },
     };
   }
@@ -1938,13 +1888,27 @@ var app = (function () {
     };
   }
   function lt(e) {
+    let t;
+    return {
+      c() {
+        (t = w("div")), M(t, "class", "bg-custom-bg w-px h-full");
+      },
+      m(e, n) {
+        g(e, t, n);
+      },
+      d(e) {
+        e && y(t);
+      },
+    };
+  }
+  function ut(e) {
     let t,
       n,
       r,
       s,
       i = e[8],
       o = [];
-    for (let t = 0; t < i.length; t += 1) o[t] = ut(Ue(e, i, t));
+    for (let t = 0; t < i.length; t += 1) o[t] = ct(Ue(e, i, t));
     return {
       c() {
         (t = w("div")), (n = x());
@@ -1966,7 +1930,7 @@ var app = (function () {
             const s = Ue(e, i, n);
             o[n]
               ? o[n].p(s, t)
-              : ((o[n] = ut(s)), o[n].c(), o[n].m(r.parentNode, r));
+              : ((o[n] = ct(s)), o[n].c(), o[n].m(r.parentNode, r));
           }
           for (; n < o.length; n += 1) o[n].d(1);
           o.length = i.length;
@@ -1977,16 +1941,16 @@ var app = (function () {
       },
     };
   }
-  function ut(e) {
+  function ct(e) {
     let t;
     return {
       c() {
         (t = w("div")),
           M(t, "class", "w-px h-full absolute"),
           T(t, "left", (e[8][e[35]] / e[8].slice(-1)[0]) * 100 + "%"),
-          Y(t, "bg-custom-bg", e[35] < e[7] - 1),
-          Y(t, "bg-custom-mg", e[35] > e[7] - 1),
-          Y(t, "bg-custom-line", e[35] == e[7] - 1);
+          C(t, "bg-custom-bg", e[35] < e[7] - 1),
+          C(t, "bg-custom-mg", e[35] > e[7] - 1),
+          C(t, "bg-custom-line", e[35] == e[7] - 1);
       },
       m(e, n) {
         g(e, t, n);
@@ -1994,16 +1958,16 @@ var app = (function () {
       p(e, n) {
         256 & n[0] &&
           T(t, "left", (e[8][e[35]] / e[8].slice(-1)[0]) * 100 + "%"),
-          128 & n[0] && Y(t, "bg-custom-bg", e[35] < e[7] - 1),
-          128 & n[0] && Y(t, "bg-custom-mg", e[35] > e[7] - 1),
-          128 & n[0] && Y(t, "bg-custom-line", e[35] == e[7] - 1);
+          128 & n[0] && C(t, "bg-custom-bg", e[35] < e[7] - 1),
+          128 & n[0] && C(t, "bg-custom-mg", e[35] > e[7] - 1),
+          128 & n[0] && C(t, "bg-custom-line", e[35] == e[7] - 1);
       },
       d(e) {
         e && y(t);
       },
     };
   }
-  function ct(t) {
+  function dt(t) {
     let n;
     return {
       c() {
@@ -2023,14 +1987,10 @@ var app = (function () {
       },
     };
   }
-  function dt(e) {
+  function ht(e) {
     let t, n, r;
     return (
-      (n = new Fe({
-        props: {
-          musicIsPlaying: e[18],
-        },
-      })),
+      (n = new Fe({ props: { musicIsPlaying: e[18] } })),
       {
         c() {
           (t = w("div")), Q(n.$$.fragment), M(t, "class", "relative z-10");
@@ -2054,9 +2014,9 @@ var app = (function () {
       }
     );
   }
-  function ht(e) {
+  function ft(e) {
     let t, n, r, s;
-    const i = [dt, ct],
+    const i = [ht, dt],
       o = [];
     function a(e, t) {
       return e[18] ? 0 : 1;
@@ -2104,7 +2064,7 @@ var app = (function () {
       }
     );
   }
-  function ft(e) {
+  function mt(e) {
     let t, n, r, s, i, o, a, u, c, d, h;
     const f = [Je, Ve],
       m = [];
@@ -2127,7 +2087,7 @@ var app = (function () {
             M(a, "class", "hidden");
         },
         m(n, i) {
-          p(je.head, t),
+          p(Be.head, t),
             g(n, r, i),
             m[s].m(n, i),
             g(n, o, i),
@@ -2171,12 +2131,12 @@ var app = (function () {
       }
     );
   }
-  function mt(e) {
+  function pt(e) {
     var t = Math.floor(e / 6e4),
       n = ((e % 6e4) / 1e3).toFixed(0);
     return t + ":" + (n < 10 ? "0" : "") + n;
   }
-  function pt(e, t, n) {
+  function gt(e, t, n) {
     let r, s, i, o, a, l, u;
     const c = A();
     let { currentAttempt: d } = t,
@@ -2197,9 +2157,7 @@ var app = (function () {
       y.seekTo(0), y.pause();
     };
     function $(e) {
-      c("updatePlayerState", {
-        musicIsPlaying: e,
-      });
+      c("updatePlayerState", { musicIsPlaying: e });
     }
     let D;
     function T() {
@@ -2208,21 +2166,15 @@ var app = (function () {
         function () {
           y.getCurrentSound(function (e) {
             "BLOCK" === e.policy && n(9, (g = !0)),
-              c("updateSong", {
-                currentSong: e,
-              });
+              c("updateSong", { currentSong: e });
           }),
             y.bind(SC.Widget.Events.PAUSE, function () {
               $(!1);
             }),
             y.bind(SC.Widget.Events.PLAY, function () {
               b ||
-                (pe("startGame", {
-                  name: "startGame",
-                }),
-                pe("startGame#" + h.id, {
-                  name: "startGame",
-                }),
+                (pe("startGame", { name: "startGame" }),
+                pe("startGame#" + h.id, { name: "startGame" }),
                 (b = !0)),
                 $(!0),
                 n(12, (x = !0));
@@ -2325,14 +2277,14 @@ var app = (function () {
       ]
     );
   }
-  class gt extends se {
+  class yt extends se {
     constructor(e) {
       super(),
         re(
           this,
           e,
-          pt,
-          ft,
+          gt,
+          mt,
           i,
           {
             currentAttempt: 0,
@@ -2369,20 +2321,18 @@ var app = (function () {
     : "undefined" != typeof global
     ? global
     : "undefined" != typeof self && self;
-  function yt(e) {
-    var t = {
-      exports: {},
-    };
+  function vt(e) {
+    var t = { exports: {} };
     return e(t, t.exports), t.exports;
   }
-  function vt(e) {
+  function wt(e) {
     throw new Error(
       'Could not dynamically require "' +
         e +
         '". Please configure the dynamicRequireTargets option of @rollup/plugin-commonjs appropriately for this require call to behave properly.'
     );
   }
-  var wt = yt(function (e, t) {
+  var kt = vt(function (e, t) {
       var n;
       (n = function () {
         function e(e, t) {
@@ -2516,14 +2466,7 @@ var app = (function () {
           c = function (e, n) {
             return l(
               "mark",
-              t(
-                {
-                  innerHTML: e,
-                },
-                "string" == typeof n && {
-                  class: n,
-                }
-              )
+              t({ innerHTML: e }, "string" == typeof n && { class: n })
             ).outerHTML;
           },
           d = function (e, t) {
@@ -2595,10 +2538,7 @@ var app = (function () {
                           highlight: t.resultItem.highlight,
                         });
                 if (a) {
-                  var l = {
-                    match: a,
-                    value: o,
-                  };
+                  var l = { match: a, value: o };
                   n && (l.key = n), s.push(l);
                 }
               };
@@ -2617,13 +2557,8 @@ var app = (function () {
                           s: s,
                           n: function () {
                             return r >= e.length
-                              ? {
-                                  done: !0,
-                                }
-                              : {
-                                  done: !1,
-                                  value: e[r++],
-                                };
+                              ? { done: !0 }
+                              : { done: !1, value: e[r++] };
                           },
                           e: function (e) {
                             throw e;
@@ -2669,23 +2604,14 @@ var app = (function () {
             }),
               n.filter && (s = n.filter(s));
             var o = s.slice(0, t.resultsList.maxResults);
-            (t.feedback = {
-              query: e,
-              matches: s,
-              results: o,
-            }),
+            (t.feedback = { query: e, matches: s, results: o }),
               d("results", t);
           },
           p = "aria-expanded",
           g = "aria-activedescendant",
           y = "aria-selected",
           v = function (e, n) {
-            e.feedback.selection = t(
-              {
-                index: n,
-              },
-              e.feedback.results[n]
-            );
+            e.feedback.selection = t({ index: n }, e.feedback.results[n]);
           },
           w = function (e) {
             e.isOpen ||
@@ -2779,9 +2705,7 @@ var app = (function () {
                                         innerHTML: e.match,
                                         inside: u,
                                       },
-                                      s.class && {
-                                        class: s.class,
-                                      }
+                                      s.class && { class: s.class }
                                     )
                                   );
                                   s.element && s.element(r, e);
@@ -2822,13 +2746,8 @@ var app = (function () {
                 e.input,
                 t(
                   t(
-                    {
-                      "aria-controls": o.id,
-                      "aria-autocomplete": "both",
-                    },
-                    i && {
-                      placeholder: i,
-                    }
+                    { "aria-controls": o.id, "aria-autocomplete": "both" },
+                    i && { placeholder: i }
                   ),
                   !e.wrapper && t({}, a)
                 )
@@ -2836,13 +2755,7 @@ var app = (function () {
               e.wrapper &&
                 (e.wrapper = l(
                   "div",
-                  t(
-                    {
-                      around: e.input,
-                      class: e.name + "_wrapper",
-                    },
-                    a
-                  )
+                  t({ around: e.input, class: e.name + "_wrapper" }, a)
                 )),
               o &&
                 (e.list = l(
@@ -2854,9 +2767,7 @@ var app = (function () {
                       role: "listbox",
                       hidden: "hidden",
                     },
-                    o.class && {
-                      class: o.class,
-                    }
+                    o.class && { class: o.class }
                   )
                 )),
               (function (e) {
@@ -2876,12 +2787,8 @@ var app = (function () {
                         }, r));
                     }),
                   a = (e.events = t(
-                    {
-                      input: t({}, i && i.input),
-                    },
-                    e.resultsList && {
-                      list: i ? t({}, i.list) : {},
-                    }
+                    { input: t({}, i && i.input) },
+                    e.resultsList && { list: i ? t({}, i.list) : {} }
                   )),
                   l = {
                     input: {
@@ -3004,9 +2911,7 @@ var app = (function () {
               tag: "ul",
               maxResults: 5,
             }),
-            (this.resultItem = {
-              tag: "li",
-            }),
+            (this.resultItem = { tag: "li" }),
             (function (e) {
               var t = e.name,
                 r = e.options,
@@ -3028,8 +2933,8 @@ var app = (function () {
       }),
         (e.exports = n());
     }),
-    kt = _t(2);
-  function _t(e) {
+    _t = xt(2);
+  function xt(e) {
     if (
       "number" != typeof e ||
       Number.isNaN(e) ||
@@ -3047,14 +2952,14 @@ var app = (function () {
       return s;
     };
   }
-  function xt(e, t) {
+  function bt(e, t) {
     let n, r, s, i;
     Array.isArray(e)
       ? (s = e.map((e) => String(e).toLowerCase()))
-      : ((n = String(e).toLowerCase()), (s = 1 === n.length ? [n] : kt(n))),
+      : ((n = String(e).toLowerCase()), (s = 1 === n.length ? [n] : _t(n))),
       Array.isArray(t)
         ? (i = t.map((e) => String(e).toLowerCase()))
-        : ((r = String(t).toLowerCase()), (i = 1 === r.length ? [r] : kt(r)));
+        : ((r = String(t).toLowerCase()), (i = 1 === r.length ? [r] : _t(r)));
     let o,
       a,
       l,
@@ -3068,11 +2973,11 @@ var app = (function () {
         }
     return (2 * c) / (s.length + i.length);
   }
-  function bt(t) {
+  function St(t) {
     let n, r;
     return {
       c() {
-        (n = _("Skip ")), (r = w("span")), (r.textContent = "(+1.5s)");
+        (n = _("Skip ")), (r = w("span")), (r.textContent = "(+3s)");
       },
       m(e, t) {
         g(e, n, t), g(e, r, t);
@@ -3083,7 +2988,7 @@ var app = (function () {
       },
     };
   }
-  function St(e) {
+  function Mt(e) {
     let t, n, r, s, i;
     return {
       c() {
@@ -3093,23 +2998,23 @@ var app = (function () {
           (s = _(e[0])),
           (i = _("s)")),
           M(n, "class", "tracking-normal lowercase"),
-          Y(n, "hidden", e[0] >= e[1].maxAttempts);
+          C(n, "hidden", e[0] >= e[1].maxAttempts);
       },
       m(e, o) {
         g(e, t, o), g(e, n, o), p(n, r), p(n, s), p(n, i);
       },
       p(e, t) {
-        1 & t && $(s, e[0]), 3 & t && Y(n, "hidden", e[0] >= e[1].maxAttempts);
+        1 & t && $(s, e[0]), 3 & t && C(n, "hidden", e[0] >= e[1].maxAttempts);
       },
       d(e) {
         e && y(t), e && y(n);
       },
     };
   }
-  function Mt(e) {
+  function $t(e) {
     let t;
     function n(e, t) {
-      return e[2] ? St : bt;
+      return e[2] ? Mt : St;
     }
     let r = n(e),
       s = r(e);
@@ -3130,7 +3035,7 @@ var app = (function () {
       },
     };
   }
-  function $t(e) {
+  function Dt(e) {
     let t;
     return {
       c() {
@@ -3144,31 +3049,19 @@ var app = (function () {
       },
     };
   }
-  function Dt(e) {
-    let t, n, s, i, o, a, l, u, c, d, h, f, m, v, _, b, $, T, Y;
+  function Tt(e) {
+    let t, n, s, i, o, a, l, u, c, d, h, f, m, v, _, b, $, T, C;
     return (
       (v = new ae({
         props: {
           secondary: !0,
-          $$slots: {
-            default: [Mt],
-          },
-          $$scope: {
-            ctx: e,
-          },
+          $$slots: { default: [$t] },
+          $$scope: { ctx: e },
         },
       })),
       v.$on("click", e[10]),
       (b = new ae({
-        props: {
-          primary: !0,
-          $$slots: {
-            default: [$t],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { primary: !0, $$slots: { default: [Dt] }, $$scope: { ctx: e } },
       })),
       b.$on("click", e[5]),
       {
@@ -3245,24 +3138,14 @@ var app = (function () {
             p(m, _),
             ee(b, m, null),
             ($ = !0),
-            T || ((Y = [S(c, "input", e[8]), S(h, "click", e[9])]), (T = !0));
+            T || ((C = [S(c, "input", e[8]), S(h, "click", e[9])]), (T = !0));
         },
         p(e, [t]) {
           16 & t && D(c, e[4]);
           const n = {};
-          32775 & t &&
-            (n.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            v.$set(n);
+          32775 & t && (n.$$scope = { dirty: t, ctx: e }), v.$set(n);
           const r = {};
-          32768 & t &&
-            (r.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            b.$set(r);
+          32768 & t && (r.$$scope = { dirty: t, ctx: e }), b.$set(r);
         },
         i(e) {
           $ || (Z(v.$$.fragment, e), Z(b.$$.fragment, e), ($ = !0));
@@ -3271,12 +3154,12 @@ var app = (function () {
           q(v.$$.fragment, e), q(b.$$.fragment, e), ($ = !1);
         },
         d(e) {
-          e && y(t), te(v), te(b), (T = !1), r(Y);
+          e && y(t), te(v), te(b), (T = !1), r(C);
         },
       }
     );
   }
-  function Tt(e, t, n) {
+  function Ct(e, t, n) {
     let r,
       { allOptions: s } = t,
       { currentAttempt: i } = t,
@@ -3293,28 +3176,18 @@ var app = (function () {
       u = A();
     function c(e) {
       "skipped" == e
-        ? (u("guess", {
-            guess: r,
-            isSkipped: !0,
-          }),
-          n(4, (r = "")))
+        ? (u("guess", { guess: r, isSkipped: !0 }), n(4, (r = "")))
         : void 0 !== r && "" !== r.trim()
-        ? (u("guess", {
-            guess: r,
-            isSkipped: !1,
-          }),
-          n(4, (r = "")))
+        ? (u("guess", { guess: r, isSkipped: !1 }), n(4, (r = "")))
         : l.focus();
     }
     P(() => {
       !(function () {
-        const e = new wt({
+        const e = new kt({
           placeHolder: "Know it? Search for the artist / title",
           threshold: 1,
           wrapper: !1,
-          resultsList: {
-            maxResults: 10,
-          },
+          resultsList: { maxResults: 6 },
           diacritics: !0,
           noresults: !0,
           searchEngine: "loose",
@@ -3327,22 +3200,18 @@ var app = (function () {
                 .getElementById("autoComplete")
                 .value.toLowerCase();
               return (e = e.sort((e, n) => {
-                let r = xt(t, e.value.toLowerCase()),
-                  s = xt(t, n.value.toLowerCase());
+                let r = bt(t, e.value.toLowerCase()),
+                  s = bt(t, n.value.toLowerCase());
                 return r === s ? (e.value > n.value ? -1 : 1) : s > r ? 1 : -1;
               }));
             },
           },
-          resultItem: {
-            highlight: !0,
-          },
+          resultItem: { highlight: !0 },
           events: {
-            focus: {
-              focus: (e) => {},
-            },
+            focus: { focus: (e) => {} },
             input: {
               selection: (t) => {
-                let s = t.detail.selection.value;
+                const s = t.detail.selection.value;
                 (e.input.value = s), n(4, (r = s));
               },
             },
@@ -3352,8 +3221,6 @@ var app = (function () {
     });
     return (
       (e.$$set = (e) => {
-        s.pop();
-        // console.log('all', s)
         "allOptions" in e && n(6, (s = e.allOptions)),
           "currentAttempt" in e && n(0, (i = e.currentAttempt)),
           "config" in e && n(1, (o = e.config)),
@@ -3378,11 +3245,11 @@ var app = (function () {
       ]
     );
   }
-  _t(3);
+  xt(3);
   class Yt extends se {
     constructor(e) {
       super(),
-        re(this, e, Tt, Dt, i, {
+        re(this, e, Ct, Tt, i, {
           allOptions: 6,
           currentAttempt: 0,
           config: 1,
@@ -3398,7 +3265,7 @@ var app = (function () {
       return this.$$.ctx[7];
     }
   }
-  function Ct(e) {
+  function Ot(e) {
     let t, n, r, s, i, o, a, l, u, d, v, k;
     const b = e[6].default,
       D = c(b, e, e[5], null);
@@ -3461,7 +3328,7 @@ var app = (function () {
       },
     };
   }
-  function Ot(e) {
+  function Pt(e) {
     let t, n, r, s, i;
     const o = e[6].default,
       a = c(o, e, e[5], null);
@@ -3500,9 +3367,9 @@ var app = (function () {
       },
     };
   }
-  function Pt(e) {
+  function At(e) {
     let t, n, s, i, o, a, l, u, c;
-    const d = [Ot, Ct],
+    const d = [Pt, Ot],
       h = [];
     function f(e, t) {
       return 0 == e[1] ? 0 : 1;
@@ -3574,7 +3441,7 @@ var app = (function () {
       }
     );
   }
-  function At(e, t, n) {
+  function Lt(e, t, n) {
     let { $$slots: r = {}, $$scope: s } = t;
     const i = A(),
       o = () => i("close");
@@ -3623,22 +3490,18 @@ var app = (function () {
       ]
     );
   }
-  class Lt extends se {
+  class Nt extends se {
     constructor(e) {
-      super(),
-        re(this, e, At, Pt, i, {
-          title: 0,
-          hasFrame: 1,
-        });
+      super(), re(this, e, Lt, At, i, { title: 0, hasFrame: 1 });
     }
   }
-  function Nt(t) {
+  function Ht(t) {
     let n;
     return {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for ZAYN songs.</p> \n\n<p class="mb-3">Each ZAYN Heardle is randomly chosen from ZAYN\'s discography.</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/taylor-swift-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '<p class="mb-3">A respectful homage to <a href="https://www.nytimes.com/games/wordle/index.html" title="Wordle">Wordle</a>, with a musical twist.</p> \n\n<p class="mb-3">Each Heardle is semi-randomly plucked from a long list of popularly streamed artists. Much love, and all relevant copyright, to those featured.</p> \n\n<p class="mb-3">Heardle was made for a small group of friends, then somehow gained millions of players overnight. Please be kind 🖖🏽.</p> \n\n<p class="mb-3"><a href="https://twitter.com/Heardle_app" class="flex items-center no-underline "><svg class="mr-1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 4.37a9.6 9.6 0 0 1-2.83.8 5.04 5.04 0 0 0 2.17-2.8c-.95.58-2 1-3.13 1.22A4.86 4.86 0 0 0 16.61 2a4.99 4.99 0 0 0-4.79 6.2A13.87 13.87 0 0 1 1.67 2.92 5.12 5.12 0 0 0 3.2 9.67a4.82 4.82 0 0 1-2.23-.64v.07c0 2.44 1.7 4.48 3.95 4.95a4.84 4.84 0 0 1-2.22.08c.63 2.01 2.45 3.47 4.6 3.51A9.72 9.72 0 0 1 0 19.74 13.68 13.68 0 0 0 7.55 22c9.06 0 14-7.7 14-14.37v-.65c.96-.71 1.79-1.6 2.45-2.61z"></path></svg> @Heardle_app</a></p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://vercel.com/">Vercel</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>.</p>'),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3652,9 +3515,9 @@ var app = (function () {
       },
     };
   }
-  class Ht extends se {
+  class Wt extends se {
     constructor(e) {
-      super(), re(this, e, null, Nt, i, {});
+      super(), re(this, e, null, Ht, i, {});
     }
   }
   function It(t) {
@@ -3663,15 +3526,15 @@ var app = (function () {
       c() {
         (n = w("div")),
           (r = w("a")),
-           (r.innerHTML =
-             '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the original Heardle on Ko-fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
-           M(
-             r,
-             "class",
-             "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
-           ),
-           M(r, "href", "https://ko-fi.com/heardle"),
-           M(r, "title", "Support the original Heardle on Ko-fi"),
+          (r.innerHTML =
+            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support us on Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+          M(
+            r,
+            "class",
+            "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
+          ),
+          M(r, "href", "https://ko-fi.com/heardle"),
+          M(r, "title", "Support us on Ko-Fi"),
           M(
             n,
             "class",
@@ -3689,21 +3552,19 @@ var app = (function () {
       },
     };
   }
-  function Wt(e) {
+  function Rt(e) {
     return [
       () => {
-        pe("clickKofi", {
-          name: "clickKofi",
-        });
+        pe("clickKofi", { name: "clickKofi" });
       },
     ];
   }
-  class Rt extends se {
+  class Ft extends se {
     constructor(e) {
-      super(), re(this, e, Wt, It, i, {});
+      super(), re(this, e, Rt, It, i, {});
     }
   }
-  function Ft(t) {
+  function Gt(t) {
     let n, r;
     return (
       (n = new Ee({})),
@@ -3727,16 +3588,20 @@ var app = (function () {
       }
     );
   }
-  function Gt(t) {
+  function Et(t) {
     let n, r, s, i, o, a, l, u, c, d;
     return {
       c() {
         (n = w("div")),
           (r = w("div")),
+          (r.innerHTML =
+            '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n        <span class="px-1 text-custom-line text-sm">Much love to all our supporters:</span>'),
           (s = x()),
           (i = w("div")),
           (o = w("p")),
           (a = w("span")),
+          (a.innerHTML =
+            '<svg class="inline" xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>'),
           (l = x()),
           (u = _(t[0])),
           (c = x()),
@@ -3776,9 +3641,9 @@ var app = (function () {
       },
     };
   }
-  function Et(e) {
+  function Bt(e) {
     let t, n, r, s;
-    const i = [Gt, Ft],
+    const i = [Et, Gt],
       o = [];
     function a(e, t) {
       return e[0] ? 0 : 1;
@@ -3825,9 +3690,7 @@ var app = (function () {
     return (
       P(async function () {
         (async function () {
-          const e = await fetch(
-            "https://wjsn-heardle.glitch.me/supporters.json"
-          );
+          const e = await fetch("https://heardle-api.vercel.app/api");
           return await e.json();
         })().then((e) => {
           n(0, (r = e.supporters));
@@ -3836,26 +3699,25 @@ var app = (function () {
       [r]
     );
   }
-  class Bt extends se {
+  class zt extends se {
     constructor(e) {
-      super(), re(this, e, jt, Et, i, {});
+      super(), re(this, e, jt, Bt, i, {});
     }
   }
-  function zt(t) {
+  function Ut(t) {
     let n, r, s, i, o, a, l, u, c;
     return (
-      (a = new Rt({})),
-      (u = new Bt({})),
+      (a = new Ft({})),
+      (u = new zt({})),
       {
         c() {
           (n = w("p")),
-            (s = w("p")),
-            (n.innerHTML =
-              'If you like this game, please consider supporting the original Heardle creators on Ko-fi.'),
+            (n.textContent =
+              "Heardle went from a small game played amongst friends, to gaining millions of daily players overnight. Honestly, we're overwhelmed!"),
             (r = x()),
             (s = w("p")),
-            // (s.innerHTML =
-            //   '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle and would like to support the Heardle devs with server costs to keep the original game running, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
+            (s.textContent =
+              "If you've enjoyed playing, please consider supporting us – we'll do our best to keep improving Heardle for everyone."),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -3896,19 +3758,27 @@ var app = (function () {
       }
     );
   }
-  class Ut extends se {
+  class Vt extends se {
     constructor(e) {
-      super(), re(this, e, null, zt, i, {});
+      super(), re(this, e, null, Ut, i, {});
     }
   }
-  const Vt = {
-      attemptInterval: 1.5e3,
+  const Jt = {
+      attemptInterval: 3e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-04-07",
+      startDate: "2022-02-25",
     },
-    Jt = ["0", "1", "2", "3", "4", "5", "6"];
-  function Kt(t) {
+    Kt = [
+      "Unlucky!",
+      "A virtuoso performance!",
+      "An act of genius!",
+      "You're a star!",
+      "What a pro!",
+      "You're a winner!",
+      "Good result!",
+    ];
+  function Zt(t) {
     let n, r;
     return {
       c() {
@@ -3927,7 +3797,7 @@ var app = (function () {
       },
     };
   }
-  function Zt(e, t, n) {
+  function qt(e, t, n) {
     let r = "",
       s = new Date(),
       i =
@@ -3952,16 +3822,16 @@ var app = (function () {
     }
     return o(), setInterval(o, 1e3), [r];
   }
-  class qt extends se {
+  class Xt extends se {
     constructor(e) {
-      super(), re(this, e, Zt, Kt, i, {});
+      super(), re(this, e, qt, Zt, i, {});
     }
   }
-  function Xt(e, t, n) {
+  function Qt(e, t, n) {
     const r = e.slice();
     return (r[10] = t[n]), (r[12] = n), r;
   }
-  function Qt(e) {
+  function en(e) {
     let t,
       n,
       r,
@@ -3981,42 +3851,34 @@ var app = (function () {
       S,
       D,
       T,
-      Y,
       C,
+      Y,
       O,
       P,
-      A = Jt[e[3]] + "",
+      A = Kt[e[3]] + "",
       L = Array(e[1].maxAttempts),
       N = [];
-    for (let t = 0; t < L.length; t += 1) N[t] = on(Xt(e, L, t));
+    for (let t = 0; t < L.length; t += 1) N[t] = an(Qt(e, L, t));
     function H(e, t) {
-      return 0 == e[3] ? un : e[4] ? ln : an;
+      return 0 == e[3] ? cn : e[4] ? un : ln;
     }
-    let I = H(e),
-      W = I(e),
-      R = e[5] && cn();
+    let W = H(e),
+      I = W(e),
+      R = e[5] && dn();
     return (
       (d = new ae({
-        props: {
-          primary: !0,
-          $$slots: {
-            default: [dn],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { primary: !0, $$slots: { default: [hn] }, $$scope: { ctx: e } },
       })),
       d.$on("click", e[6]),
-      (S = new qt({})),
-      (O = new Rt({})),
+      (S = new Xt({})),
+      (O = new Ft({})),
       {
         c() {
           (t = w("div")), (n = w("p")), (r = _(A)), (s = x()), (i = w("div"));
           for (let e = 0; e < N.length; e += 1) N[e].c();
           (o = x()),
             (a = w("p")),
-            W.c(),
+            I.c(),
             (l = x()),
             R && R.c(),
             (u = x()),
@@ -4026,15 +3888,15 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next ZAYN song in:"),
+            (k.textContent = "Next Heardle:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
-            (Y = w("div")),
-            // (Y.innerHTML =
-            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">ZAYN Heardle?</span>'),
-            (C = x()),
+            (C = w("div")),
+            (C.innerHTML =
+              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Heardle?</span>'),
+            (Y = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
             M(i, "class", "flex justify-center my-2"),
@@ -4047,7 +3909,7 @@ var app = (function () {
               "class",
               "flex flex-col justify-center items-center mb-6 mx-3"
             ),
-            M(Y, "class", "flex justify-center items-center mb-3"),
+            M(C, "class", "flex justify-center items-center mb-3"),
             M(T, "class", "bg-custom-highlight py-3 pb-5 mx-3 rounded-t-md");
         },
         m(e, y) {
@@ -4055,7 +3917,7 @@ var app = (function () {
           for (let e = 0; e < N.length; e += 1) N[e].m(i, null);
           p(t, o),
             p(t, a),
-            W.m(a, null),
+            I.m(a, null),
             p(t, l),
             R && R.m(t, null),
             p(t, u),
@@ -4069,34 +3931,29 @@ var app = (function () {
             ee(S, m, null),
             p(f, D),
             p(f, T),
-            p(T, Y),
             p(T, C),
+            p(T, Y),
             ee(O, T, null),
             (P = !0);
         },
         p(e, n) {
-          if (((!P || 8 & n) && A !== (A = Jt[e[3]] + "") && $(r, A), 3 & n)) {
+          if (((!P || 8 & n) && A !== (A = Kt[e[3]] + "") && $(r, A), 3 & n)) {
             let t;
             for (L = Array(e[1].maxAttempts), t = 0; t < L.length; t += 1) {
-              const r = Xt(e, L, t);
-              N[t] ? N[t].p(r, n) : ((N[t] = on(r)), N[t].c(), N[t].m(i, null));
+              const r = Qt(e, L, t);
+              N[t] ? N[t].p(r, n) : ((N[t] = an(r)), N[t].c(), N[t].m(i, null));
             }
             for (; t < N.length; t += 1) N[t].d(1);
             N.length = L.length;
           }
-          I === (I = H(e)) && W
-            ? W.p(e, n)
-            : (W.d(1), (W = I(e)), W && (W.c(), W.m(a, null))),
+          W === (W = H(e)) && I
+            ? I.p(e, n)
+            : (I.d(1), (I = W(e)), I && (I.c(), I.m(a, null))),
             e[5]
-              ? R || ((R = cn()), R.c(), R.m(t, u))
+              ? R || ((R = dn()), R.c(), R.m(t, u))
               : R && (R.d(1), (R = null));
           const s = {};
-          8192 & n &&
-            (s.$$scope = {
-              dirty: n,
-              ctx: e,
-            }),
-            d.$set(s);
+          8192 & n && (s.$$scope = { dirty: n, ctx: e }), d.$set(s);
         },
         i(e) {
           P ||
@@ -4114,7 +3971,7 @@ var app = (function () {
         d(e) {
           e && y(t),
             v(N, e),
-            W.d(),
+            I.d(),
             R && R.d(),
             te(d),
             e && y(h),
@@ -4125,7 +3982,7 @@ var app = (function () {
       }
     );
   }
-  function en(t) {
+  function tn(t) {
     let n;
     return {
       c() {
@@ -4140,16 +3997,16 @@ var app = (function () {
       },
     };
   }
-  function tn(e) {
+  function nn(e) {
     let t;
     function n(e, t) {
       return e[0][e[12]].isSkipped
-        ? sn
+        ? on
         : e[0][e[12]].isCorrect || e[0][e[12]].isSkipped
         ? e[0][e[12]].isCorrect
-          ? nn
+          ? rn
           : void 0
-        : rn;
+        : sn;
     }
     let r = n(e),
       s = r && r(e);
@@ -4169,7 +4026,7 @@ var app = (function () {
       },
     };
   }
-  function nn(e) {
+  function rn(e) {
     let t;
     return {
       c() {
@@ -4183,7 +4040,7 @@ var app = (function () {
       },
     };
   }
-  function rn(e) {
+  function sn(e) {
     let t;
     return {
       c() {
@@ -4197,7 +4054,7 @@ var app = (function () {
       },
     };
   }
-  function sn(e) {
+  function on(e) {
     let t;
     return {
       c() {
@@ -4211,10 +4068,10 @@ var app = (function () {
       },
     };
   }
-  function on(e) {
+  function an(e) {
     let t;
     function n(e, t) {
-      return e[12] <= e[0].length - 1 ? tn : en;
+      return e[12] <= e[0].length - 1 ? nn : tn;
     }
     let r = n(e),
       s = r(e);
@@ -4235,14 +4092,14 @@ var app = (function () {
       },
     };
   }
-  function an(e) {
+  function ln(e) {
     let t,
       n,
       r,
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's ZAYN Heardle within the first ")),
+        (t = _("You got today's Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4259,7 +4116,7 @@ var app = (function () {
       },
     };
   }
-  function ln(e) {
+  function un(e) {
     let t,
       n,
       r,
@@ -4269,7 +4126,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's ZAYN Heardle within ")),
+        (t = _("You got today's Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4295,13 +4152,11 @@ var app = (function () {
       },
     };
   }
-  function un(t) {
+  function cn(t) {
     let n;
     return {
       c() {
-        n = _(
-          "You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎"
-        );
+        n = _("You didn't get today's Heardle. Better luck tomorrow!");
       },
       m(e, t) {
         g(e, n, t);
@@ -4312,7 +4167,7 @@ var app = (function () {
       },
     };
   }
-  function cn(e) {
+  function dn(e) {
     let t;
     return {
       c() {
@@ -4332,7 +4187,7 @@ var app = (function () {
       },
     };
   }
-  function dn(e) {
+  function hn(e) {
     let t, n, r, s, i, o, a;
     return {
       c() {
@@ -4379,10 +4234,10 @@ var app = (function () {
       },
     };
   }
-  function hn(e) {
+  function fn(e) {
     let t,
       n,
-      r = e[2] && Qt(e);
+      r = e[2] && en(e);
     return {
       c() {
         r && r.c(), (t = b());
@@ -4394,7 +4249,7 @@ var app = (function () {
         e[2]
           ? r
             ? (r.p(e, n), 4 & n && Z(r, 1))
-            : ((r = Qt(e)), r.c(), Z(r, 1), r.m(t.parentNode, t))
+            : ((r = en(e)), r.c(), Z(r, 1), r.m(t.parentNode, t))
           : r &&
             (J(),
             q(r, 1, 1, () => {
@@ -4413,8 +4268,7 @@ var app = (function () {
       },
     };
   }
-  function fn(e, t, n) {
-    // console.log("current", t);
+  function mn(e, t, n) {
     let { userGuesses: r } = t,
       { currentHeardle: s } = t,
       { config: i } = t,
@@ -4442,8 +4296,7 @@ var app = (function () {
         u,
         c,
         () => {
-          // console.log('answer', r.length)
-          let e = "ZAYN Heardle #" + (s.id + 1),
+          let e = "#Heardle #" + s.id,
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4460,15 +4313,7 @@ var app = (function () {
                 ? (t += "⬛️")
                 : (t += "🟥")
               : (t += "⬜️");
-          let o =
-            e +
-            "\n\n" +
-            t +
-            "\n\n" 
-            +
-            // "@pledis_17 #TaylorSwift" +
-            "https://taylor-swift-heardle.glitch.me/"
-          ;
+          let o = e + "\n\n" + t + "\n\nhttps://heardle.app";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -4479,9 +4324,7 @@ var app = (function () {
             return navigator &&
               navigator.clipboard &&
               navigator.clipboard.writeText
-              ? (pe("clickShareClipboard", {
-                  name: "clickShareClipboard",
-                }),
+              ? (pe("clickShareClipboard", { name: "clickShareClipboard" }),
                 n(5, (c = !0)),
                 setTimeout(() => {
                   n(5, (c = !1));
@@ -4491,13 +4334,9 @@ var app = (function () {
                   "There was a problem copying your result to the clipboard"
                 );
           navigator
-            .share({
-              text: o,
-            })
+            .share({ text: o })
             .then(() => {
-              pe("clickSharePanel", {
-                name: "clickSharePanel",
-              });
+              pe("clickSharePanel", { name: "clickSharePanel" });
             })
             .catch(console.error);
         },
@@ -4506,12 +4345,12 @@ var app = (function () {
       ]
     );
   }
-  class mn extends se {
+  class pn extends se {
     constructor(e) {
       super(),
-        re(this, e, fn, hn, i, {
+        re(this, e, mn, fn, i, {
           userGuesses: 0,
-          currentHeardle: 0,
+          currentHeardle: 7,
           config: 1,
           hasFinished: 2,
           gotCorrect: 8,
@@ -4520,7 +4359,7 @@ var app = (function () {
         });
     }
   }
-  function pn(e) {
+  function gn(e) {
     let t;
     return {
       c() {
@@ -4534,19 +4373,11 @@ var app = (function () {
       },
     };
   }
-  function gn(e) {
+  function yn(e) {
     let t, n, r, s, i, o, a, l, u, c;
     return (
       (u = new ae({
-        props: {
-          primary: !0,
-          $$slots: {
-            default: [pn],
-          },
-          $$scope: {
-            ctx: e,
-          },
-        },
+        props: { primary: !0, $$slots: { default: [gn] }, $$scope: { ctx: e } },
       })),
       u.$on("click", e[0]),
       {
@@ -4554,7 +4385,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct ZAYN song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct artist &amp; title in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -4585,12 +4416,7 @@ var app = (function () {
         },
         p(e, [t]) {
           const n = {};
-          4 & t &&
-            (n.$$scope = {
-              dirty: t,
-              ctx: e,
-            }),
-            u.$set(n);
+          4 & t && (n.$$scope = { dirty: t, ctx: e }), u.$set(n);
         },
         i(e) {
           c || (Z(u.$$.fragment, e), (c = !0));
@@ -4604,20 +4430,20 @@ var app = (function () {
       }
     );
   }
-  function yn(e) {
+  function vn(e) {
     const t = A();
     return [() => t("close")];
   }
-  class vn extends se {
+  class wn extends se {
     constructor(e) {
-      super(), re(this, e, yn, gn, i, {});
+      super(), re(this, e, vn, yn, i, {});
     }
   }
-  function wn(e, t, n) {
+  function kn(e, t, n) {
     const r = e.slice();
     return (r[15] = t[n]), (r[17] = n), r;
   }
-  function kn(t) {
+  function _n(t) {
     let n;
     return {
       c() {
@@ -4634,7 +4460,7 @@ var app = (function () {
       },
     };
   }
-  function _n(e) {
+  function xn(e) {
     let t,
       n,
       r,
@@ -4654,27 +4480,27 @@ var app = (function () {
       S,
       D,
       T,
-      Y,
       C,
+      Y,
       O,
       P,
       A,
       L,
       N,
       H,
-      I,
       W,
+      I,
       R,
       F,
       G,
       E,
-      j,
-      B = (e[6] > 0 ? ((e[8] / e[6]) * 100).toFixed(1) : 0) + "",
+      B,
+      j = (e[6] > 0 ? ((e[8] / e[6]) * 100).toFixed(1) : 0) + "",
       z = e[7].slice(-1)[0] + "",
       U = Math.max(...e[7]) + "",
       V = e[9],
       J = [];
-    for (let t = 0; t < V.length; t += 1) J[t] = Mn(wn(e, V, t));
+    for (let t = 0; t < V.length; t += 1) J[t] = $n(kn(e, V, t));
     return {
       c() {
         t = w("div");
@@ -4697,26 +4523,26 @@ var app = (function () {
           (k = x()),
           (b = w("div")),
           (S = w("div")),
-          (D = _(B)),
+          (D = _(j)),
           (T = _("%")),
-          (Y = x()),
-          (C = w("div")),
-          (C.textContent = "Win rate"),
+          (C = x()),
+          (Y = w("div")),
+          (Y.textContent = "Win rate"),
           (O = x()),
           (P = w("div")),
           (A = w("div")),
           (L = w("div")),
           (N = _(z)),
           (H = x()),
-          (I = w("div")),
-          (I.textContent = "Current Streak"),
-          (W = x()),
+          (W = w("div")),
+          (W.textContent = "Current Streak"),
+          (I = x()),
           (R = w("div")),
           (F = w("div")),
           (G = _(U)),
           (E = x()),
-          (j = w("div")),
-          (j.textContent = "Max Streak"),
+          (B = w("div")),
+          (B.textContent = "Max Streak"),
           M(t, "class", "flex justify-between py-3"),
           M(i, "class", "text-xl font-semibold"),
           M(l, "class", "text-custom-line text-sm "),
@@ -4725,14 +4551,14 @@ var app = (function () {
           M(m, "class", "text-custom-line text-sm "),
           M(c, "class", "flex-1"),
           M(S, "class", "text-xl font-semibold"),
-          M(C, "class", "text-custom-line text-sm"),
+          M(Y, "class", "text-custom-line text-sm"),
           M(b, "class", "flex-1"),
           M(r, "class", "flex justify-between text-center w-full py-3"),
           M(L, "class", "text-xl font-semibold"),
-          M(I, "class", "text-custom-line text-sm"),
+          M(W, "class", "text-custom-line text-sm"),
           M(A, "class", "flex-1"),
           M(F, "class", "text-xl font-semibold"),
-          M(j, "class", "text-custom-line text-sm"),
+          M(B, "class", "text-custom-line text-sm"),
           M(R, "class", "flex-1"),
           M(P, "class", "flex justify-between text-center w-full py-3 pt-0");
       },
@@ -4757,28 +4583,28 @@ var app = (function () {
           p(b, S),
           p(S, D),
           p(S, T),
-          p(b, Y),
           p(b, C),
+          p(b, Y),
           g(e, O, y),
           g(e, P, y),
           p(P, A),
           p(A, L),
           p(L, N),
           p(A, H),
-          p(A, I),
-          p(P, W),
+          p(A, W),
+          p(P, I),
           p(P, R),
           p(R, F),
           p(F, G),
           p(R, E),
-          p(R, j);
+          p(R, B);
       },
       p(e, n) {
         if (1567 & n) {
           let r;
           for (V = e[9], r = 0; r < V.length; r += 1) {
-            const s = wn(e, V, r);
-            J[r] ? J[r].p(s, n) : ((J[r] = Mn(s)), J[r].c(), J[r].m(t, null));
+            const s = kn(e, V, r);
+            J[r] ? J[r].p(s, n) : ((J[r] = $n(s)), J[r].c(), J[r].m(t, null));
           }
           for (; r < J.length; r += 1) J[r].d(1);
           J.length = V.length;
@@ -4786,9 +4612,9 @@ var app = (function () {
         64 & n && $(o, e[6]),
           256 & n && $(h, e[8]),
           320 & n &&
-            B !==
-              (B = (e[6] > 0 ? ((e[8] / e[6]) * 100).toFixed(1) : 0) + "") &&
-            $(D, B),
+            j !==
+              (j = (e[6] > 0 ? ((e[8] / e[6]) * 100).toFixed(1) : 0) + "") &&
+            $(D, j),
           128 & n && z !== (z = e[7].slice(-1)[0] + "") && $(N, z),
           128 & n && U !== (U = Math.max(...e[7]) + "") && $(G, U);
       },
@@ -4797,7 +4623,7 @@ var app = (function () {
       },
     };
   }
-  function xn(e) {
+  function bn(e) {
     let t,
       n,
       r,
@@ -4819,7 +4645,7 @@ var app = (function () {
       },
     };
   }
-  function bn(e) {
+  function Sn(e) {
     let t,
       n,
       r,
@@ -4833,31 +4659,31 @@ var app = (function () {
           (r = _("°")),
           (s = x()),
           (i = w("span")),
-          Y(t, "font-semibold", e[17] == e[1] - 1 && e[2]),
-          Y(t, "text-custom-positive", e[17] == e[1] - 1 && 0 != e[4] && e[2]),
-          Y(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]),
+          C(t, "font-semibold", e[17] == e[1] - 1 && e[2]),
+          C(t, "text-custom-positive", e[17] == e[1] - 1 && 0 != e[4] && e[2]),
+          C(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]),
           M(i, "class", "text-custom-positive");
       },
       m(e, o) {
         g(e, t, o), p(t, n), p(t, r), g(e, s, o), g(e, i, o);
       },
       p(e, n) {
-        6 & n && Y(t, "font-semibold", e[17] == e[1] - 1 && e[2]),
+        6 & n && C(t, "font-semibold", e[17] == e[1] - 1 && e[2]),
           22 & n &&
-            Y(
+            C(
               t,
               "text-custom-positive",
               e[17] == e[1] - 1 && 0 != e[4] && e[2]
             ),
           22 & n &&
-            Y(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]);
+            C(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]);
       },
       d(e) {
         e && y(t), e && y(s), e && y(i);
       },
     };
   }
-  function Sn(e) {
+  function Mn(e) {
     let t, n, r;
     return {
       c() {
@@ -4882,21 +4708,21 @@ var app = (function () {
           M(t, "stroke-width", "2"),
           M(t, "stroke-linecap", "round"),
           M(t, "stroke-linejoin", "round"),
-          Y(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]);
+          C(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]);
       },
       m(e, s) {
         g(e, t, s), p(t, n), p(t, r);
       },
       p(e, n) {
         22 & n &&
-          Y(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]);
+          C(t, "text-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]);
       },
       d(e) {
         e && y(t);
       },
     };
   }
-  function Mn(e) {
+  function $n(e) {
     let t,
       n,
       r,
@@ -4907,7 +4733,7 @@ var app = (function () {
       l,
       u = (e[15] > 0 ? e[15] : " ") + "";
     function c(e, t) {
-      return e[17] === e[9].length - 1 ? Sn : e[3] ? bn : xn;
+      return e[17] === e[9].length - 1 ? Mn : e[3] ? Sn : bn;
     }
     let d = c(e),
       h = d(e);
@@ -4923,8 +4749,8 @@ var app = (function () {
           h.c(),
           (l = x()),
           M(s, "class", "h-full absolute text-center w-full py-1 text-xs "),
-          Y(s, "bg-custom-positive", e[17] == e[1] - 1 && 0 != e[4] && e[2]),
-          Y(s, "bg-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]),
+          C(s, "bg-custom-positive", e[17] == e[1] - 1 && 0 != e[4] && e[2]),
+          C(s, "bg-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]),
           M(r, "class", "absolute bg-custom-mg w-6"),
           T(r, "height", (e[15] / e[10]) * 100 + "%"),
           M(n, "class", "h-32 relative w-9 flex justify-center items-end"),
@@ -4949,9 +4775,9 @@ var app = (function () {
       p(e, t) {
         512 & t && u !== (u = (e[15] > 0 ? e[15] : " ") + "") && $(i, u),
           22 & t &&
-            Y(s, "bg-custom-positive", e[17] == e[1] - 1 && 0 != e[4] && e[2]),
+            C(s, "bg-custom-positive", e[17] == e[1] - 1 && 0 != e[4] && e[2]),
           22 & t &&
-            Y(s, "bg-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]),
+            C(s, "bg-custom-negative", e[17] == e[1] && 0 == e[4] && e[2]),
           1536 & t && T(r, "height", (e[15] / e[10]) * 100 + "%"),
           d === (d = c(e)) && h
             ? h.p(e, t)
@@ -4962,10 +4788,10 @@ var app = (function () {
       },
     };
   }
-  function $n(t) {
+  function Dn(t) {
     let n;
     function r(e, t) {
-      return e[5] ? _n : kn;
+      return e[5] ? xn : _n;
     }
     let s = r(t),
       i = s(t);
@@ -4988,7 +4814,7 @@ var app = (function () {
       },
     };
   }
-  function Dn(e, t, n) {
+  function Tn(e, t, n) {
     let { userStats: r } = t,
       { config: s } = t,
       { todaysScore: i } = t,
@@ -5032,10 +4858,10 @@ var app = (function () {
       [s, i, o, f, m, l, u, c, h, p, g, r, a]
     );
   }
-  class Tn extends se {
+  class Cn extends se {
     constructor(e) {
       super(),
-        re(this, e, Dn, $n, i, {
+        re(this, e, Tn, Dn, i, {
           userStats: 11,
           config: 0,
           todaysScore: 1,
@@ -5046,7 +4872,7 @@ var app = (function () {
         });
     }
   }
-  var Yn = yt(function (e, t) {
+  var Yn = vt(function (e, t) {
     e.exports = (function () {
       var t, n;
       function r() {
@@ -5249,16 +5075,16 @@ var app = (function () {
         null != r.deprecationHandler && r.deprecationHandler(e, t),
           D[e] || (S(t), (D[e] = !0));
       }
-      function Y(e) {
+      function C(e) {
         return (
           ("undefined" != typeof Function && e instanceof Function) ||
           "[object Function]" === Object.prototype.toString.call(e)
         );
       }
-      function C(e) {
+      function Y(e) {
         var t, n;
         for (n in e)
-          a(e, n) && (Y((t = e[n])) ? (this[n] = t) : (this["_" + n] = t));
+          a(e, n) && (C((t = e[n])) ? (this[n] = t) : (this["_" + n] = t));
         (this._config = e),
           (this._dayOfMonthOrdinalParseLenient = new RegExp(
             (this._dayOfMonthOrdinalParse.source || this._ordinalParse.source) +
@@ -5302,7 +5128,7 @@ var app = (function () {
       };
       function L(e, t, n) {
         var r = this._calendar[e] || this._calendar.sameElse;
-        return Y(r) ? r.call(t, n) : r;
+        return C(r) ? r.call(t, n) : r;
       }
       function N(e, t, n) {
         var r = "" + Math.abs(e),
@@ -5315,8 +5141,8 @@ var app = (function () {
       }
       var H =
           /(\[[^\[]*\])|(\\)?([Hh]mm(ss)?|Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|W[o|W]?|Qo?|N{1,5}|YYYYYY|YYYYY|YYYY|YY|y{2,4}|yo?|gg(ggg?)?|GG(GGG?)?|e|E|a|A|hh?|HH?|kk?|mm?|ss?|S{1,9}|x|X|zz?|ZZ?|.)/g,
-        I = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g,
-        W = {},
+        W = /(\[[^\[]*\])|(\\)?(LTS|LT|LL?L?L?|l{1,4})/g,
+        I = {},
         R = {};
       function F(e, t, n, r) {
         var s = r;
@@ -5348,22 +5174,22 @@ var app = (function () {
         return function (t) {
           var s,
             i = "";
-          for (s = 0; s < n; s++) i += Y(r[s]) ? r[s].call(t, e) : r[s];
+          for (s = 0; s < n; s++) i += C(r[s]) ? r[s].call(t, e) : r[s];
           return i;
         };
       }
-      function j(e, t) {
+      function B(e, t) {
         return e.isValid()
-          ? ((t = B(t, e.localeData())), (W[t] = W[t] || E(t)), W[t](e))
+          ? ((t = j(t, e.localeData())), (I[t] = I[t] || E(t)), I[t](e))
           : e.localeData().invalidDate();
       }
-      function B(e, t) {
+      function j(e, t) {
         var n = 5;
         function r(e) {
           return t.longDateFormat(e) || e;
         }
-        for (I.lastIndex = 0; n >= 0 && I.test(e); )
-          (e = e.replace(I, r)), (I.lastIndex = 0), (n -= 1);
+        for (W.lastIndex = 0; n >= 0 && W.test(e); )
+          (e = e.replace(W, r)), (W.lastIndex = 0), (n -= 1);
         return e;
       }
       var z = {
@@ -5418,11 +5244,11 @@ var app = (function () {
       };
       function Q(e, t, n, r) {
         var s = this._relativeTime[n];
-        return Y(s) ? s(e, t, n, r) : s.replace(/%d/i, e);
+        return C(s) ? s(e, t, n, r) : s.replace(/%d/i, e);
       }
       function ee(e, t) {
         var n = this._relativeTime[e > 0 ? "future" : "past"];
-        return Y(n) ? n(t) : n.replace(/%s/i, t);
+        return C(n) ? n(t) : n.replace(/%s/i, t);
       }
       var te = {};
       function ne(e, t) {
@@ -5446,12 +5272,7 @@ var app = (function () {
       function ae(e) {
         var t,
           n = [];
-        for (t in e)
-          a(e, t) &&
-            n.push({
-              unit: t,
-              priority: ie[t],
-            });
+        for (t in e) a(e, t) && n.push({ unit: t, priority: ie[t] });
         return (
           n.sort(function (e, t) {
             return e.priority - t.priority;
@@ -5496,14 +5317,14 @@ var app = (function () {
             : e._d["set" + (e._isUTC ? "UTC" : "") + t](n));
       }
       function me(e) {
-        return Y(this[(e = re(e))]) ? this[e]() : this;
+        return C(this[(e = re(e))]) ? this[e]() : this;
       }
       function pe(e, t) {
         if ("object" == typeof e) {
           var n,
             r = ae((e = se(e)));
           for (n = 0; n < r.length; n++) this[r[n].unit](e[r[n].unit]);
-        } else if (Y(this[(e = re(e))])) return this[e](t);
+        } else if (C(this[(e = re(e))])) return this[e](t);
         return this;
       }
       var ge,
@@ -5519,14 +5340,14 @@ var app = (function () {
         $e = /\d{1,4}/,
         De = /[+-]?\d{1,6}/,
         Te = /\d+/,
-        Ye = /[+-]?\d+/,
-        Ce = /Z|[+-]\d\d:?\d\d/gi,
+        Ce = /[+-]?\d+/,
+        Ye = /Z|[+-]\d\d:?\d\d/gi,
         Oe = /Z|[+-]\d\d(?::?\d\d)?/gi,
         Pe = /[+-]?\d+(\.\d{1,3})?/,
         Ae =
           /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i;
       function Le(e, t, n) {
-        ge[e] = Y(t)
+        ge[e] = C(t)
           ? t
           : function (e, r) {
               return e && n ? n : t;
@@ -5536,7 +5357,7 @@ var app = (function () {
         return a(ge, e) ? ge[e](t._strict, t._locale) : new RegExp(He(e));
       }
       function He(e) {
-        return Ie(
+        return We(
           e
             .replace("\\", "")
             .replace(
@@ -5547,11 +5368,11 @@ var app = (function () {
             )
         );
       }
-      function Ie(e) {
+      function We(e) {
         return e.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
       }
       ge = {};
-      var We = {};
+      var Ie = {};
       function Re(e, t) {
         var n,
           r = t;
@@ -5565,7 +5386,7 @@ var app = (function () {
           n < e.length;
           n++
         )
-          We[e[n]] = r;
+          Ie[e[n]] = r;
       }
       function Fe(e, t) {
         Re(e, function (e, n, r, s) {
@@ -5573,11 +5394,11 @@ var app = (function () {
         });
       }
       function Ge(e, t, n) {
-        null != t && a(We, e) && We[e](t, n._a, n, e);
+        null != t && a(Ie, e) && Ie[e](t, n._a, n, e);
       }
       var Ee,
-        je = 0,
-        Be = 1,
+        Be = 0,
+        je = 1,
         ze = 2,
         Ue = 3,
         Ve = 4,
@@ -5622,11 +5443,11 @@ var app = (function () {
           return t.monthsRegex(e);
         }),
         Re(["M", "MM"], function (e, t) {
-          t[Be] = ce(e) - 1;
+          t[je] = ce(e) - 1;
         }),
         Re(["MMM", "MMMM"], function (e, t, n, r) {
           var s = n._locale.monthsParse(e, r, n._strict);
-          null != s ? (t[Be] = s) : (g(n).invalidMonth = e);
+          null != s ? (t[je] = s) : (g(n).invalidMonth = e);
         });
       var et =
           "January_February_March_April_May_June_July_August_September_October_November_December".split(
@@ -5786,8 +5607,8 @@ var app = (function () {
             i.push(this.months(n, "")),
             i.push(this.monthsShort(n, ""));
         for (r.sort(e), s.sort(e), i.sort(e), t = 0; t < 12; t++)
-          (r[t] = Ie(r[t])), (s[t] = Ie(s[t]));
-        for (t = 0; t < 24; t++) i[t] = Ie(i[t]);
+          (r[t] = We(r[t])), (s[t] = We(s[t]));
+        for (t = 0; t < 24; t++) i[t] = We(i[t]);
         (this._monthsRegex = new RegExp("^(" + i.join("|") + ")", "i")),
           (this._monthsShortRegex = this._monthsRegex),
           (this._monthsStrictRegex = new RegExp("^(" + s.join("|") + ")", "i")),
@@ -5811,20 +5632,20 @@ var app = (function () {
         F(0, ["YYYYYY", 6, !0], 0, "year"),
         ne("year", "y"),
         oe("year", 1),
-        Le("Y", Ye),
+        Le("Y", Ce),
         Le("YY", xe, ve),
         Le("YYYY", $e, ke),
         Le("YYYYY", De, _e),
         Le("YYYYYY", De, _e),
-        Re(["YYYYY", "YYYYYY"], je),
+        Re(["YYYYY", "YYYYYY"], Be),
         Re("YYYY", function (e, t) {
-          t[je] = 2 === e.length ? r.parseTwoDigitYear(e) : ce(e);
+          t[Be] = 2 === e.length ? r.parseTwoDigitYear(e) : ce(e);
         }),
         Re("YY", function (e, t) {
-          t[je] = r.parseTwoDigitYear(e);
+          t[Be] = r.parseTwoDigitYear(e);
         }),
         Re("Y", function (e, t) {
-          t[je] = parseInt(e, 10);
+          t[Be] = parseInt(e, 10);
         }),
         (r.parseTwoDigitYear = function (e) {
           return ce(e) + (ce(e) > 68 ? 1900 : 2e3);
@@ -5833,7 +5654,7 @@ var app = (function () {
       function yt() {
         return le(this.year());
       }
-      function wt(e, t, n, r, s, i, o) {
+      function vt(e, t, n, r, s, i, o) {
         var a;
         return (
           e < 100 && e >= 0
@@ -5868,10 +5689,7 @@ var app = (function () {
             : a > pt(e)
             ? ((i = e + 1), (o = a - pt(e)))
             : ((i = e), (o = a)),
-          {
-            year: i,
-            dayOfYear: o,
-          }
+          { year: i, dayOfYear: o }
         );
       }
       function bt(e, t, n) {
@@ -5885,10 +5703,7 @@ var app = (function () {
             : o > St(e.year(), t, n)
             ? ((r = o - St(e.year(), t, n)), (s = e.year() + 1))
             : ((s = e.year()), (r = o)),
-          {
-            week: r,
-            year: s,
-          }
+          { week: r, year: s }
         );
       }
       function St(e, t, n) {
@@ -5912,21 +5727,18 @@ var app = (function () {
         Fe(["w", "ww", "W", "WW"], function (e, t, n, r) {
           t[r.substr(0, 1)] = ce(e);
         });
-      var $t = {
-        dow: 0,
-        doy: 6,
-      };
+      var $t = { dow: 0, doy: 6 };
       function Dt() {
         return this._week.dow;
       }
       function Tt() {
         return this._week.doy;
       }
-      function Yt(e) {
+      function Ct(e) {
         var t = this.localeData().week(this);
         return null == e ? t : this.add(7 * (e - t), "d");
       }
-      function Ct(e) {
+      function Yt(e) {
         var t = bt(this, 1, 4).week;
         return null == e ? t : this.add(7 * (e - t), "d");
       }
@@ -5991,8 +5803,8 @@ var app = (function () {
         ),
         Nt = "Sun_Mon_Tue_Wed_Thu_Fri_Sat".split("_"),
         Ht = "Su_Mo_Tu_We_Th_Fr_Sa".split("_"),
-        It = Ae,
         Wt = Ae,
+        It = Ae,
         Rt = Ae;
       function Ft(e, t) {
         var n = i(this._weekdays)
@@ -6018,7 +5830,7 @@ var app = (function () {
           ? this._weekdaysMin[e.day()]
           : this._weekdaysMin;
       }
-      function jt(e, t, n) {
+      function Bt(e, t, n) {
         var r,
           s,
           i,
@@ -6075,9 +5887,9 @@ var app = (function () {
           ? s
           : null;
       }
-      function Bt(e, t, n) {
+      function jt(e, t, n) {
         var r, s, i;
-        if (this._weekdaysParseExact) return jt.call(this, e, t, n);
+        if (this._weekdaysParseExact) return Bt.call(this, e, t, n);
         for (
           this._weekdaysParse ||
             ((this._weekdaysParse = []),
@@ -6145,7 +5957,7 @@ var app = (function () {
         return this._weekdaysParseExact
           ? (a(this, "_weekdaysRegex") || qt.call(this),
             e ? this._weekdaysStrictRegex : this._weekdaysRegex)
-          : (a(this, "_weekdaysRegex") || (this._weekdaysRegex = It),
+          : (a(this, "_weekdaysRegex") || (this._weekdaysRegex = Wt),
             this._weekdaysStrictRegex && e
               ? this._weekdaysStrictRegex
               : this._weekdaysRegex);
@@ -6154,7 +5966,7 @@ var app = (function () {
         return this._weekdaysParseExact
           ? (a(this, "_weekdaysRegex") || qt.call(this),
             e ? this._weekdaysShortStrictRegex : this._weekdaysShortRegex)
-          : (a(this, "_weekdaysShortRegex") || (this._weekdaysShortRegex = Wt),
+          : (a(this, "_weekdaysShortRegex") || (this._weekdaysShortRegex = It),
             this._weekdaysShortStrictRegex && e
               ? this._weekdaysShortStrictRegex
               : this._weekdaysShortRegex);
@@ -6183,9 +5995,9 @@ var app = (function () {
           u = [];
         for (t = 0; t < 7; t++)
           (n = m([2e3, 1]).day(t)),
-            (r = Ie(this.weekdaysMin(n, ""))),
-            (s = Ie(this.weekdaysShort(n, ""))),
-            (i = Ie(this.weekdays(n, ""))),
+            (r = We(this.weekdaysMin(n, ""))),
+            (s = We(this.weekdaysShort(n, ""))),
+            (i = We(this.weekdays(n, ""))),
             o.push(r),
             a.push(s),
             l.push(i),
@@ -6352,7 +6164,7 @@ var app = (function () {
         var n = null;
         if (void 0 === un[t] && e && e.exports)
           try {
-            (n = an._abbr), vt("./locale/" + t), pn(n);
+            (n = an._abbr), wt("./locale/" + t), pn(n);
           } catch (e) {
             un[t] = null;
           }
@@ -6388,10 +6200,7 @@ var app = (function () {
               if (null == (n = mn(t.parentLocale)))
                 return (
                   cn[t.parentLocale] || (cn[t.parentLocale] = []),
-                  cn[t.parentLocale].push({
-                    name: e,
-                    config: t,
-                  }),
+                  cn[t.parentLocale].push({ name: e, config: t }),
                   null
                 );
               r = n._config;
@@ -6448,9 +6257,9 @@ var app = (function () {
           n &&
             -2 === g(e).overflow &&
             ((t =
-              n[Be] < 0 || n[Be] > 11
-                ? Be
-                : n[ze] < 1 || n[ze] > Qe(n[je], n[Be])
+              n[je] < 0 || n[je] > 11
+                ? je
+                : n[ze] < 1 || n[ze] > Qe(n[Be], n[je])
                 ? ze
                 : n[Ue] < 0 ||
                   n[Ue] > 24 ||
@@ -6463,7 +6272,7 @@ var app = (function () {
                 : n[Ke] < 0 || n[Ke] > 999
                 ? Ke
                 : -1),
-            g(e)._overflowDayOfYear && (t < je || t > ze) && (t = ze),
+            g(e)._overflowDayOfYear && (t < Be || t > ze) && (t = ze),
             g(e)._overflowWeeks && -1 === t && (t = Ze),
             g(e)._overflowWeekday && -1 === t && (t = qe),
             (g(e).overflow = t)),
@@ -6516,7 +6325,7 @@ var app = (function () {
           PDT: -420,
           PST: -480,
         };
-      function Yn(e) {
+      function Cn(e) {
         var t,
           n,
           r,
@@ -6548,7 +6357,7 @@ var app = (function () {
           (e._f = s + (i || "") + (o || "")), Gn(e);
         } else e._isValid = !1;
       }
-      function Cn(e, t, n, r, s, i) {
+      function Yn(e, t, n, r, s, i) {
         var o = [
           On(e),
           tt.indexOf(t),
@@ -6587,7 +6396,7 @@ var app = (function () {
         var t,
           n = Dn.exec(Pn(e._i));
         if (n) {
-          if (((t = Cn(n[4], n[3], n[2], n[5], n[6], n[7])), !An(n[1], t, e)))
+          if (((t = Yn(n[4], n[3], n[2], n[5], n[6], n[7])), !An(n[1], t, e)))
             return;
           (e._a = t),
             (e._tzm = Ln(n[8], n[9], n[10])),
@@ -6599,7 +6408,7 @@ var app = (function () {
       function Hn(e) {
         var t = $n.exec(e._i);
         null === t
-          ? (Yn(e),
+          ? (Cn(e),
             !1 === e._isValid &&
               (delete e._isValid,
               Nn(e),
@@ -6608,10 +6417,10 @@ var app = (function () {
                 e._strict ? (e._isValid = !1) : r.createFromInputFallback(e))))
           : (e._d = new Date(+t[1]));
       }
-      function In(e, t, n) {
+      function Wn(e, t, n) {
         return null != e ? e : null != t ? t : n;
       }
-      function Wn(e) {
+      function In(e) {
         var t = new Date(r.now());
         return e._useUTC
           ? [t.getUTCFullYear(), t.getUTCMonth(), t.getUTCDate()]
@@ -6626,14 +6435,14 @@ var app = (function () {
           o = [];
         if (!e._d) {
           for (
-            r = Wn(e),
-              e._w && null == e._a[ze] && null == e._a[Be] && Fn(e),
+            r = In(e),
+              e._w && null == e._a[ze] && null == e._a[je] && Fn(e),
               null != e._dayOfYear &&
-                ((i = In(e._a[je], r[je])),
+                ((i = Wn(e._a[Be], r[Be])),
                 (e._dayOfYear > pt(i) || 0 === e._dayOfYear) &&
                   (g(e)._overflowDayOfYear = !0),
                 (n = kt(i, 0, e._dayOfYear)),
-                (e._a[Be] = n.getUTCMonth()),
+                (e._a[je] = n.getUTCMonth()),
                 (e._a[ze] = n.getUTCDate())),
               t = 0;
             t < 3 && null == e._a[t];
@@ -6647,7 +6456,7 @@ var app = (function () {
             0 === e._a[Je] &&
             0 === e._a[Ke] &&
             ((e._nextDay = !0), (e._a[Ue] = 0)),
-            (e._d = (e._useUTC ? kt : wt).apply(null, o)),
+            (e._d = (e._useUTC ? kt : vt).apply(null, o)),
             (s = e._useUTC ? e._d.getUTCDay() : e._d.getDay()),
             null != e._tzm && e._d.setUTCMinutes(e._d.getUTCMinutes() - e._tzm),
             e._nextDay && (e._a[Ue] = 24),
@@ -6662,14 +6471,14 @@ var app = (function () {
         null != (t = e._w).GG || null != t.W || null != t.E
           ? ((i = 1),
             (o = 4),
-            (n = In(t.GG, e._a[je], bt(Kn(), 1, 4).year)),
-            (r = In(t.W, 1)),
-            ((s = In(t.E, 1)) < 1 || s > 7) && (l = !0))
+            (n = Wn(t.GG, e._a[Be], bt(Kn(), 1, 4).year)),
+            (r = Wn(t.W, 1)),
+            ((s = Wn(t.E, 1)) < 1 || s > 7) && (l = !0))
           : ((i = e._locale._week.dow),
             (o = e._locale._week.doy),
             (u = bt(Kn(), i, o)),
-            (n = In(t.gg, e._a[je], u.year)),
-            (r = In(t.w, u.week)),
+            (n = Wn(t.gg, e._a[Be], u.year)),
+            (r = Wn(t.w, u.week)),
             null != t.d
               ? ((s = t.d) < 0 || s > 6) && (l = !0)
               : null != t.e
@@ -6680,7 +6489,7 @@ var app = (function () {
             : null != l
             ? (g(e)._overflowWeekday = !0)
             : ((a = xt(n, r, s, i, o)),
-              (e._a[je] = a.year),
+              (e._a[Be] = a.year),
               (e._dayOfYear = a.dayOfYear));
       }
       function Gn(e) {
@@ -6697,7 +6506,7 @@ var app = (function () {
               u = l.length,
               c = 0;
             for (
-              s = B(e._f, e._locale).match(H) || [], t = 0;
+              s = j(e._f, e._locale).match(H) || [], t = 0;
               t < s.length;
               t++
             )
@@ -6721,11 +6530,11 @@ var app = (function () {
               (g(e).meridiem = e._meridiem),
               (e._a[Ue] = En(e._locale, e._a[Ue], e._meridiem)),
               null !== (a = g(e).era) &&
-                (e._a[je] = e._locale.erasConvertYear(a, e._a[je])),
+                (e._a[Be] = e._locale.erasConvertYear(a, e._a[Be])),
               Rn(e),
               kn(e);
           } else Nn(e);
-        else Yn(e);
+        else Cn(e);
       }
       function En(e, t, n) {
         var r;
@@ -6739,7 +6548,7 @@ var app = (function () {
             t)
           : t;
       }
-      function jn(e) {
+      function Bn(e) {
         var t,
           n,
           r,
@@ -6765,7 +6574,7 @@ var app = (function () {
               : (null == r || i < r || o) && ((r = i), (n = t), o && (a = !0));
         f(e, n || t);
       }
-      function Bn(e) {
+      function jn(e) {
         if (!e._d) {
           var t = se(e._i),
             n = void 0 === t.day ? t.date : t.day;
@@ -6788,13 +6597,11 @@ var app = (function () {
         return (
           (e._locale = e._locale || vn(e._l)),
           null === t || (void 0 === n && "" === t)
-            ? v({
-                nullInput: !0,
-              })
+            ? v({ nullInput: !0 })
             : ("string" == typeof t && (e._i = t = e._locale.preparse(t)),
               b(t)
                 ? new x(kn(t))
-                : (d(t) ? (e._d = t) : i(n) ? jn(e) : n ? Gn(e) : Vn(e),
+                : (d(t) ? (e._d = t) : i(n) ? Bn(e) : n ? Gn(e) : Vn(e),
                   y(e) || (e._d = null),
                   e))
         );
@@ -6813,7 +6620,7 @@ var app = (function () {
             })),
             Rn(e))
           : o(t)
-          ? Bn(e)
+          ? jn(e)
           : c(t)
           ? (e._d = new Date(t))
           : r.createFromInputFallback(e);
@@ -7038,7 +6845,7 @@ var app = (function () {
       function wr() {
         if (null != this._tzm) this.utcOffset(this._tzm, !1, !0);
         else if ("string" == typeof this._i) {
-          var e = hr(Ce, this._i);
+          var e = hr(Ye, this._i);
           null != e ? this.utcOffset(e) : this.utcOffset(0, !0);
         }
         return this;
@@ -7090,11 +6897,7 @@ var app = (function () {
           o = null;
         return (
           ar(e)
-            ? (i = {
-                ms: e._milliseconds,
-                d: e._days,
-                M: e._months,
-              })
+            ? (i = { ms: e._milliseconds, d: e._days, M: e._months })
             : c(e) || !isNaN(+e)
             ? ((i = {}), t ? (i[t] = +e) : (i.milliseconds = +e))
             : (o = $r.exec(e))
@@ -7110,13 +6913,13 @@ var app = (function () {
             : (o = Dr.exec(e))
             ? ((n = "-" === o[1] ? -1 : 1),
               (i = {
-                y: Yr(o[2], n),
-                M: Yr(o[3], n),
-                w: Yr(o[4], n),
-                d: Yr(o[5], n),
-                h: Yr(o[6], n),
-                m: Yr(o[7], n),
-                s: Yr(o[8], n),
+                y: Cr(o[2], n),
+                M: Cr(o[3], n),
+                w: Cr(o[4], n),
+                d: Cr(o[5], n),
+                h: Cr(o[6], n),
+                m: Cr(o[7], n),
+                s: Cr(o[8], n),
               }))
             : null == i
             ? (i = {})
@@ -7131,11 +6934,11 @@ var app = (function () {
           r
         );
       }
-      function Yr(e, t) {
+      function Cr(e, t) {
         var n = e && parseFloat(e.replace(",", "."));
         return (isNaN(n) ? 0 : n) * t;
       }
-      function Cr(e, t) {
+      function Yr(e, t) {
         var n = {};
         return (
           (n.months = t.month() - e.month() + 12 * (t.year() - e.year())),
@@ -7149,14 +6952,11 @@ var app = (function () {
         return e.isValid() && t.isValid()
           ? ((t = fr(t, e)),
             e.isBefore(t)
-              ? (n = Cr(e, t))
-              : (((n = Cr(t, e)).milliseconds = -n.milliseconds),
+              ? (n = Yr(e, t))
+              : (((n = Yr(t, e)).milliseconds = -n.milliseconds),
                 (n.months = -n.months)),
             n)
-          : {
-              milliseconds: 0,
-              months: 0,
-            };
+          : { milliseconds: 0, months: 0 };
       }
       function Pr(e, t) {
         return function (n, r) {
@@ -7197,10 +6997,10 @@ var app = (function () {
       function Hr(e) {
         return "string" == typeof e || e instanceof String;
       }
-      function Ir(e) {
-        return b(e) || d(e) || Hr(e) || c(e) || Rr(e) || Wr(e) || null == e;
-      }
       function Wr(e) {
+        return b(e) || d(e) || Hr(e) || c(e) || Rr(e) || Ir(e) || null == e;
+      }
+      function Ir(e) {
         var t,
           n,
           r = o(e) && !l(e),
@@ -7282,20 +7082,20 @@ var app = (function () {
       function Er(e, t) {
         1 === arguments.length &&
           (arguments[0]
-            ? Ir(arguments[0])
+            ? Wr(arguments[0])
               ? ((e = arguments[0]), (t = void 0))
               : Fr(arguments[0]) && ((t = arguments[0]), (e = void 0))
             : ((e = void 0), (t = void 0)));
         var n = e || Kn(),
           s = fr(n, this).startOf("day"),
           i = r.calendarFormat(this, s) || "sameElse",
-          o = t && (Y(t[i]) ? t[i].call(this, n) : t[i]);
+          o = t && (C(t[i]) ? t[i].call(this, n) : t[i]);
         return this.format(o || this.localeData().calendar(i, this, Kn(n)));
       }
-      function jr() {
+      function Br() {
         return new x(this);
       }
-      function Br(e, t) {
+      function jr(e, t) {
         var n = b(e) ? e : Kn(e);
         return (
           !(!this.isValid() || !n.isValid()) &&
@@ -7399,19 +7199,19 @@ var app = (function () {
         var t = !0 !== e,
           n = t ? this.clone().utc() : this;
         return n.year() < 0 || n.year() > 9999
-          ? j(
+          ? B(
               n,
               t
                 ? "YYYYYY-MM-DD[T]HH:mm:ss.SSS[Z]"
                 : "YYYYYY-MM-DD[T]HH:mm:ss.SSSZ"
             )
-          : Y(Date.prototype.toISOString)
+          : C(Date.prototype.toISOString)
           ? t
             ? this.toDate().toISOString()
             : new Date(this.valueOf() + 60 * this.utcOffset() * 1e3)
                 .toISOString()
-                .replace("Z", j(n, "Z"))
-          : j(
+                .replace("Z", B(n, "Z"))
+          : B(
               n,
               t ? "YYYY-MM-DD[T]HH:mm:ss.SSS[Z]" : "YYYY-MM-DD[T]HH:mm:ss.SSSZ"
             );
@@ -7437,17 +7237,12 @@ var app = (function () {
       }
       function ts(e) {
         e || (e = this.isUtc() ? r.defaultFormatUtc : r.defaultFormat);
-        var t = j(this, e);
+        var t = B(this, e);
         return this.localeData().postformat(t);
       }
       function ns(e, t) {
         return this.isValid() && ((b(e) && e.isValid()) || Kn(e).isValid())
-          ? Tr({
-              to: this,
-              from: e,
-            })
-              .locale(this.locale())
-              .humanize(!t)
+          ? Tr({ to: this, from: e }).locale(this.locale()).humanize(!t)
           : this.localeData().invalidDate();
       }
       function rs(e) {
@@ -7455,12 +7250,7 @@ var app = (function () {
       }
       function ss(e, t) {
         return this.isValid() && ((b(e) && e.isValid()) || Kn(e).isValid())
-          ? Tr({
-              from: this,
-              to: e,
-            })
-              .locale(this.locale())
-              .humanize(!t)
+          ? Tr({ from: this, to: e }).locale(this.locale()).humanize(!t)
           : this.localeData().invalidDate();
       }
       function is(e) {
@@ -7658,7 +7448,7 @@ var app = (function () {
           }
         return o;
       }
-      function Ys(e, t, n) {
+      function Cs(e, t, n) {
         var r,
           s,
           i,
@@ -7686,7 +7476,7 @@ var app = (function () {
             }
           else if ([i, o, a].indexOf(e) >= 0) return l[r];
       }
-      function Cs(e, t) {
+      function Ys(e, t) {
         var n = e.since <= e.until ? 1 : -1;
         return void 0 === t
           ? r(e.since).year()
@@ -7765,13 +7555,13 @@ var app = (function () {
           e ? this._erasAbbrRegex : this._erasRegex
         );
       }
-      function Is(e) {
+      function Ws(e) {
         return (
           a(this, "_erasNarrowRegex") || Es.call(this),
           e ? this._erasNarrowRegex : this._erasRegex
         );
       }
-      function Ws(e, t) {
+      function Is(e, t) {
         return t.erasAbbrRegex(e);
       }
       function Rs(e, t) {
@@ -7792,21 +7582,21 @@ var app = (function () {
           i = [],
           o = this.eras();
         for (e = 0, t = o.length; e < t; ++e)
-          r.push(Ie(o[e].name)),
-            n.push(Ie(o[e].abbr)),
-            s.push(Ie(o[e].narrow)),
-            i.push(Ie(o[e].name)),
-            i.push(Ie(o[e].abbr)),
-            i.push(Ie(o[e].narrow));
+          r.push(We(o[e].name)),
+            n.push(We(o[e].abbr)),
+            s.push(We(o[e].narrow)),
+            i.push(We(o[e].name)),
+            i.push(We(o[e].abbr)),
+            i.push(We(o[e].narrow));
         (this._erasRegex = new RegExp("^(" + i.join("|") + ")", "i")),
           (this._erasNameRegex = new RegExp("^(" + r.join("|") + ")", "i")),
           (this._erasAbbrRegex = new RegExp("^(" + n.join("|") + ")", "i")),
           (this._erasNarrowRegex = new RegExp("^(" + s.join("|") + ")", "i"));
       }
-      function js(e, t) {
+      function Bs(e, t) {
         F(0, [e, e.length], 0, t);
       }
-      function Bs(e) {
+      function js(e) {
         return Zs.call(
           this,
           e,
@@ -7863,9 +7653,9 @@ var app = (function () {
         F("y", ["yy", 2], 0, "eraYear"),
         F("y", ["yyy", 3], 0, "eraYear"),
         F("y", ["yyyy", 4], 0, "eraYear"),
-        Le("N", Ws),
-        Le("NN", Ws),
-        Le("NNN", Ws),
+        Le("N", Is),
+        Le("NN", Is),
+        Le("NNN", Is),
         Le("NNNN", Rs),
         Le("NNNNN", Fs),
         Re(["N", "NN", "NNN", "NNNN", "NNNNN"], function (e, t, n, r) {
@@ -7877,14 +7667,14 @@ var app = (function () {
         Le("yyy", Te),
         Le("yyyy", Te),
         Le("yo", Gs),
-        Re(["y", "yy", "yyy", "yyyy"], je),
+        Re(["y", "yy", "yyy", "yyyy"], Be),
         Re(["yo"], function (e, t, n, r) {
           var s;
           n._locale._eraYearOrdinalRegex &&
             (s = e.match(n._locale._eraYearOrdinalRegex)),
             n._locale.eraYearOrdinalParse
-              ? (t[je] = n._locale.eraYearOrdinalParse(e, s))
-              : (t[je] = parseInt(e, 10));
+              ? (t[Be] = n._locale.eraYearOrdinalParse(e, s))
+              : (t[Be] = parseInt(e, 10));
         }),
         F(0, ["gg", 2], 0, function () {
           return this.weekYear() % 100;
@@ -7892,16 +7682,16 @@ var app = (function () {
         F(0, ["GG", 2], 0, function () {
           return this.isoWeekYear() % 100;
         }),
-        js("gggg", "weekYear"),
-        js("ggggg", "weekYear"),
-        js("GGGG", "isoWeekYear"),
-        js("GGGGG", "isoWeekYear"),
+        Bs("gggg", "weekYear"),
+        Bs("ggggg", "weekYear"),
+        Bs("GGGG", "isoWeekYear"),
+        Bs("GGGGG", "isoWeekYear"),
         ne("weekYear", "gg"),
         ne("isoWeekYear", "GG"),
         oe("weekYear", 1),
         oe("isoWeekYear", 1),
-        Le("G", Ye),
-        Le("g", Ye),
+        Le("G", Ce),
+        Le("g", Ce),
         Le("GG", xe, ve),
         Le("gg", xe, ve),
         Le("GGGG", $e, ke),
@@ -7919,7 +7709,7 @@ var app = (function () {
         oe("quarter", 7),
         Le("Q", ye),
         Re("Q", function (e, t) {
-          t[Be] = 3 * (ce(e) - 1);
+          t[je] = 3 * (ce(e) - 1);
         }),
         F("D", ["DD", 2], "Do", "date"),
         ne("date", "D"),
@@ -8028,7 +7818,7 @@ var app = (function () {
       }
       (li.add = Lr),
         (li.calendar = Er),
-        (li.clone = jr),
+        (li.clone = Br),
         (li.diff = Zr),
         (li.endOf = ys),
         (li.format = ts),
@@ -8038,7 +7828,7 @@ var app = (function () {
         (li.toNow = is),
         (li.get = me),
         (li.invalidAt = $s),
-        (li.isAfter = Br),
+        (li.isAfter = jr),
         (li.isBefore = zr),
         (li.isBetween = Ur),
         (li.isSame = Vr),
@@ -8075,13 +7865,13 @@ var app = (function () {
         (li.eraYear = Ls),
         (li.year = gt),
         (li.isLeapYear = yt),
-        (li.weekYear = Bs),
+        (li.weekYear = js),
         (li.isoWeekYear = zs),
         (li.quarter = li.quarters = Xs),
         (li.month = ct),
         (li.daysInMonth = dt),
-        (li.week = li.weeks = Yt),
-        (li.isoWeek = li.isoWeeks = Ct),
+        (li.week = li.weeks = Ct),
+        (li.isoWeek = li.isoWeeks = Yt),
         (li.weeksInYear = Js),
         (li.weeksInWeekYear = Ks),
         (li.isoWeeksInYear = Us),
@@ -8170,13 +7960,13 @@ var app = (function () {
         (hi.postformat = di),
         (hi.relativeTime = Q),
         (hi.pastFuture = ee),
-        (hi.set = C),
+        (hi.set = Y),
         (hi.eras = Ts),
-        (hi.erasParse = Ys),
-        (hi.erasConvertYear = Cs),
+        (hi.erasParse = Cs),
+        (hi.erasConvertYear = Ys),
         (hi.erasAbbrRegex = Hs),
         (hi.erasNameRegex = Ns),
-        (hi.erasNarrowRegex = Is),
+        (hi.erasNarrowRegex = Ws),
         (hi.months = it),
         (hi.monthsShort = ot),
         (hi.monthsParse = lt),
@@ -8188,7 +7978,7 @@ var app = (function () {
         (hi.weekdays = Ft),
         (hi.weekdaysMin = Et),
         (hi.weekdaysShort = Gt),
-        (hi.weekdaysParse = Bt),
+        (hi.weekdaysParse = jt),
         (hi.weekdaysRegex = Jt),
         (hi.weekdaysShortRegex = Kt),
         (hi.weekdaysMinRegex = Zt),
@@ -8285,7 +8075,7 @@ var app = (function () {
         return (
           (i >= 0 && o >= 0 && a >= 0) ||
             (i <= 0 && o <= 0 && a <= 0) ||
-            ((i += 864e5 * $i(Yi(a) + o)), (o = 0), (a = 0)),
+            ((i += 864e5 * $i(Ci(a) + o)), (o = 0), (a = 0)),
           (l.milliseconds = i % 1e3),
           (e = ue(i / 1e3)),
           (l.seconds = e % 60),
@@ -8295,7 +8085,7 @@ var app = (function () {
           (l.hours = n % 24),
           (o += ue(n / 24)),
           (a += s = ue(Ti(o))),
-          (o -= $i(Yi(s))),
+          (o -= $i(Ci(s))),
           (r = ue(a / 12)),
           (a %= 12),
           (l.days = o),
@@ -8307,10 +8097,10 @@ var app = (function () {
       function Ti(e) {
         return (4800 * e) / 146097;
       }
-      function Yi(e) {
+      function Ci(e) {
         return (146097 * e) / 4800;
       }
-      function Ci(e) {
+      function Yi(e) {
         if (!this.isValid()) return NaN;
         var t,
           n,
@@ -8327,7 +8117,7 @@ var app = (function () {
               return n / 12;
           }
         else
-          switch (((t = this._days + Math.round(Yi(this._months))), e)) {
+          switch (((t = this._days + Math.round(Ci(this._months))), e)) {
             case "week":
               return t / 7 + r / 6048e5;
             case "day":
@@ -8361,42 +8151,34 @@ var app = (function () {
         Li = Pi("s"),
         Ni = Pi("m"),
         Hi = Pi("h"),
-        Ii = Pi("d"),
-        Wi = Pi("w"),
+        Wi = Pi("d"),
+        Ii = Pi("w"),
         Ri = Pi("M"),
         Fi = Pi("Q"),
         Gi = Pi("y");
       function Ei() {
         return Tr(this);
       }
-      function ji(e) {
+      function Bi(e) {
         return (e = re(e)), this.isValid() ? this[e + "s"]() : NaN;
       }
-      function Bi(e) {
+      function ji(e) {
         return function () {
           return this.isValid() ? this._data[e] : NaN;
         };
       }
-      var zi = Bi("milliseconds"),
-        Ui = Bi("seconds"),
-        Vi = Bi("minutes"),
-        Ji = Bi("hours"),
-        Ki = Bi("days"),
-        Zi = Bi("months"),
-        qi = Bi("years");
+      var zi = ji("milliseconds"),
+        Ui = ji("seconds"),
+        Vi = ji("minutes"),
+        Ji = ji("hours"),
+        Ki = ji("days"),
+        Zi = ji("months"),
+        qi = ji("years");
       function Xi() {
         return ue(this.days() / 7);
       }
       var Qi = Math.round,
-        eo = {
-          ss: 44,
-          s: 45,
-          m: 45,
-          h: 22,
-          d: 26,
-          w: null,
-          M: 11,
-        };
+        eo = { ss: 44, s: 45, m: 45, h: 22, d: 26, w: null, M: 11 };
       function to(e, t, n, r, s) {
         return s.relativeTime(t || 1, !!n, e, r);
       }
@@ -8504,20 +8286,20 @@ var app = (function () {
         (uo.abs = xi),
         (uo.add = Si),
         (uo.subtract = Mi),
-        (uo.as = Ci),
+        (uo.as = Yi),
         (uo.asMilliseconds = Ai),
         (uo.asSeconds = Li),
         (uo.asMinutes = Ni),
         (uo.asHours = Hi),
-        (uo.asDays = Ii),
-        (uo.asWeeks = Wi),
+        (uo.asDays = Wi),
+        (uo.asWeeks = Ii),
         (uo.asMonths = Ri),
         (uo.asQuarters = Fi),
         (uo.asYears = Gi),
         (uo.valueOf = Oi),
         (uo._bubble = Di),
         (uo.clone = Ei),
-        (uo.get = ji),
+        (uo.get = Bi),
         (uo.milliseconds = zi),
         (uo.seconds = Ui),
         (uo.minutes = Vi),
@@ -8539,7 +8321,7 @@ var app = (function () {
         (uo.lang = as),
         F("X", 0, 0, "unix"),
         F("x", 0, 0, "valueOf"),
-        Le("x", Ye),
+        Le("x", Ce),
         Le("X", Pe),
         Re("X", function (e, t, n) {
           n._d = new Date(1e3 * parseFloat(e));
@@ -8592,381 +8374,617 @@ var app = (function () {
       );
     })();
   });
-const Cn = ue([
-    "Talk To Me",
-    "Too Much (feat. Timbaland)",
-    "Calamity",
-    "BLUE",
-    "Rainberry",
-    "Common",
-    "PILLOWTALK REMIX (feat. Lil Wayne)",
-    "wRoNg (feat. Kehlani)",
-    "BRIGHT",
-    "To Begin Again",
-    "Satisfaction",
-    "wHo",
-    "I Don't Mind",
-    "dRuNk",
-    "Tightrope",
-    "Insomnia",
-    "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-    "SHE DON'T LOVE ME",
-    "fOoL fOr YoU",
-    "PILLOWTALK",
-    "You Wish You Knew",
-    "Freedun",
-    "Flames",
-    "If I Got You",
-    "iT's YoU",
-    "INTERMISSION: fLoWer",
-    "No Candle No Light (feat. Nicki Minaj)",
-    "Unfuckwitable",
-    "Cruel (feat. ZAYN)",
-    "Back To Sleep REMIX (feat. Usher & ZAYN)",
-    "There You Are",
-    "Fingers",
-    "TiO",
-    "Fresh Air",
-    "Windowsill (feat. Devlin)",
-    "Scripted",
-    "Flight Of The Stars",
-    "Sour Diesel",
-    "Good Guy",
-    "sHe",
-    "Tonight",
-    "Good Years",
-    "Rumors (feat. ZAYN)",
-    "Back To Life",
-    "Sweat",
-    "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
-    "BeFoUr",
-    "Vibez",
-    "Better",
-    "Icarus Interlude",
-    "Still Got Time (feat. PARTYNEXTDOOR)",
-    "BoRdErSz",
-    "LIKE I WOULD",
-    "Connexion",
-    "Natural",
-    "Trampoline (with ZAYN)",
-    "When Love's Around (feat. Syd)",
-    "Outside",
-    "rEaR vIeW",
-    "Let Me",
-    "Entertainer",
-    "Dusk Till Dawn (feat. Sia) - Radio Edit",
-    "River Road",
-    "Stand Still",
-    "lUcOzAdE",
-    "A Whole New World (End Title) - From Aladdin",
-    "All That",
-    "Entertainer",
-    "Imprint",
-    "tRuTh",
-  ]),
-  On = {
-    subscribe: ue(
-      [
-        {
-          url: "https://soundcloud.com/zaynofficial/talk-to-me",
-          answer: "Talk To Me - ZAYN",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/too-much-feat-timbaland",
-          answer: "Too Much (feat. Timbaland)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/calamity",
-          answer: "Calamity",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/blue",
-          answer: "BLUE",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/rainberry",
-          answer: "Rainberry",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/common",
-          answer: "Common",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/pillowtalk-remix-1",
-          answer: "PILLOWTALK REMIX (feat. Lil Wayne)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/wrong-1",
-          answer: "wRoNg (feat. Kehlani)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/bright-1",
-          answer: "BRIGHT",
-        },
-        {
-          url: "https://soundcloud.com/ingridmusic/to-begin-again",
-          answer: "To Begin Again",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/new-romantics",
-          answer: "Satisfaction",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/new-years-day",
-          answer: "wHo",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/this-is-why-we-cant-have-nice",
-          answer: "I Don't Mind",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-story-of-us-us-version",
-          answer: "dRuNk",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/me-feat-brendon-urie-of-panic",
-          answer: "Tightrope",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/speak-now",
-          answer: "Insomnia",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/its-nice-to-have-a-friend",
-          answer: "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-archer",
-          answer: "SHE DON'T LOVE ME",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/babe-taylors-version-from-the",
-          answer: "fOoL fOr YoU",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/fearless-taylors-version",
-          answer: "PILLOWTALK",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/long-live-1",
-          answer: "You Wish You Knew",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/i-did-something-bad",
-          answer: "Freedun",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/a-place-in-this-world",
-          answer: "Flames",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/girl-at-home-taylors-version",
-          answer: "If I Got You",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/dress",
-          answer: "iT's YoU",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/dorothea",
-          answer: "INTERMISSION: fLoWer",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/closure",
-          answer: "No Candle No Light (feat. Nicki Minaj)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/you-belong-with-me-taylors",
-          answer: "Unfuckwitable",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/august",
-          answer: "Cruel (feat. ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/chris_brown/fuck-you-back-to-sleep-remix-ft-usher-zayn",
-          answer: "Back To Sleep REMIX (feat. Usher & ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/change-taylors-version",
-          answer: "There You Are",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/soon-youll-get-better-feat",
-          answer: "Fingers",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/starlight-taylors-version",
-          answer: "TiO",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/mine-us-version",
-          answer: "Fresh Air",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/all-too-well-10-minute-version",
-          answer: "Windowsill (feat. Devlin)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-best-day-taylors-version",
-          answer: "Scripted",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/stay-stay-stay-taylors-version",
-          answer: "Flight Of The Stars",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/i-think-he-knows",
-          answer: "Sour Diesel",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/daylight",
-          answer: "Good Guy",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/i-know-places",
-          answer: "sHe",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/love-story-taylors-version",
-          answer: "Tonight",
-        },
-        {
-          url: "https://soundcloud.com/joywave/golden-state-2",
-          answer: "Good Years",
-        },
-        {
-          url: "https://soundcloud.com/joywave/content",
-          answer: "Rumors (feat. ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/10-traveling-at-the-speed-of",
-          answer: "Back To Life",
-        },
-        {
-          url: "https://soundcloud.com/joywave/going-to-a-place",
-          answer: "Sweat",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/white-horse-taylors-version",
-          answer:
-            "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-          answer: "BeFoUr",
-        },
-        {
-          url: "https://soundcloud.com/joywave/blank-slate",
-          answer: "Vibez",
-        },
-        {
-          url: "https://soundcloud.com/joywave/03-titan",
-          answer: "Better",
-        },
-        {
-          url: "https://soundcloud.com/joywave/london",
-          answer: "Icarus Interlude",
-        },
-        {
-          url: "https://soundcloud.com/joywave/who-owns-who",
-          answer: "Still Got Time (feat. PARTYNEXTDOOR)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/dying-well",
-          answer: "BoRdErSz",
-        },
-        {
-          url: "https://soundcloud.com/joywave/carry-me",
-          answer: "LIKE I WOULD",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-way-i-loved-you-taylors",
-          answer: "Connexion",
-        },
-        {
-          url: "https://soundcloud.com/joywave/destruction",
-          answer: "Natural",
-        },
-        {
-          url: "https://soundcloud.com/joywave/smokestacks",
-          answer: "Trampoline (with ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/little-lies-youre-told",
-          answer: "When Love's Around (feat. Syd)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/cold-open",
-          answer: "Outside",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-man",
-          answer: "rEaR vIeW",
-        },
-        {
-          url: "https://soundcloud.com/joywave/theme-from-88888",
-          answer: "Let Me",
-        },
-        {
-          url: "https://soundcloud.com/joywave/doubt",
-          answer: "Entertainer",
-        },
-        {
-          url: "https://soundcloud.com/joywave/feels-like-a-lie",
-          answer: "Dusk Till Dawn (feat. Sia) - Radio Edit",
-        },
-        {
-          url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-          answer: "River Road",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
-          answer: "Stand Still",
-        },
-        {
-          url: "https://soundcloud.com/joywave/06-virus-exe",
-          answer: "lUcOzAdE",
-        },
-        {
-          url: "https://soundcloud.com/joywave/08-hang-with-me",
-          answer: "A Whole New World (End Title) - From Aladdin",
-        },
-        {
-          url: "https://soundcloud.com/joywave/f-e-a-r",
-          answer: "All That",
-        },
-        {
-          url: "https://soundcloud.com/joywave/like-a-kennedy",
-          answer: "Entertainer",
-        },
-        {
-          url: "https://soundcloud.com/joywave/the-inversion",
-          answer: "Imprint",
-        },
-        {
-          url: "https://soundcloud.com/joywave/numbers-station",
-          answer: "tRuTh",
-        },
-      ],
-      Pn
-    ).subscribe,
-  };
-var Pn;
-  const { document: An, window: Ln } = X;
-  function Nn(e) {
+  const On = ue([
+      "Lil Uzi Vert - XO Tour Llif3",
+      "Wham! - Last Christmas",
+      "Wham! - Wake Me Up Before You Go-Go",
+      "Wham! - Club Tropicana",
+      "DJ Khaled - Wild Thoughts (feat. Rihanna & Bryson Tiller)",
+      "Dua Lipa - Levitating",
+      "Dua Lipa - New Rules",
+      "Lil Nas X - Old Town Road",
+      "Lil Nas X - Panini",
+      "Lil Nas X - Rodeo",
+      "Lil Nas X - Industry Baby",
+      "Marshmello - FRIENDS",
+      "Marshmello - Alone",
+      "Marshmello - Shockwave",
+      "Toto - Africa",
+      "Lil Jon - Get Low (feat. Ying Yang Twins)",
+      "Cardi B - Bodak Yellow (feat. Kodak Black)",
+      "Ed Sheeran - Shape of You",
+      "The Kid LAROI. - Without You",
+      "The Kid LAROI. - Still Chose You",
+      "Eurythmics - Sweet Dreams (Are Made of This)",
+      "Eurythmics - There Must Be An Angel",
+      "Eurythmics - Walking On Broken Glass",
+      "The Chainsmokers - High",
+      "The Chainsmokers feat. Halsey - Closer",
+      "Katy Perry - Dark Horse (feat. Juicy J)",
+      "Katy Perry - Roar",
+      "Katy Perry - I Kissed A Girl",
+      "Katy Perry - This Is How We Do",
+      "Michael Jackson - Rock with You",
+      "Michael Jackson - Billie Jean",
+      "Michael Jackson - Bad",
+      "Michael Jackson - Wanna Be Startin' Somethin'",
+      "Michael Jackson - Beat It",
+      "Michael Jackson - P.Y.T",
+      "Rita Ora - Your Song",
+      "Rita Ora - Let You Love Me",
+      "Rita Ora - I Will Never Let You Down",
+      "Rita Ora - Anywhere",
+      "Wiz Khalifa - See You Again (feat. Charlie Puth)",
+      "Wiz Khalifa - Black And Yellow",
+      "Wiz Khalifa - Still Wiz",
+      "Wiz Khalifa - Can't Stay Sober",
+      "Adele - Someone Like You",
+      "Adele - Easy On Me",
+      "Adele - Chasing Pavements",
+      "Madonna - Like a Prayer",
+      "Madonna - Material Girl",
+      "Madonna - Holiday",
+      "Madonna - Vogue",
+      "Carly Rae Jepsen - Call Me Maybe",
+      "Adele - Rolling in the Deep",
+      "Otis Redding - Try A Little Tenderness",
+      "Otis Redding - I've Been Loving You Too Long",
+      "Otis Redding - These Arms of Mine",
+      "Lauv - I Like Me Better",
+      "Daft Punk - One More Time",
+      "Daft Punk - Around The World",
+      "Daft Punk - Da Funk",
+      "Daft Punk - Technologic",
+      "Lynyrd Skynyrd - Sweet Home Alabama",
+      "Sia - Cheap Thrills",
+      "twentyonepilots - Stressed Out",
+      "Mariah Carey - All I Want for Christmas Is You",
+      "Future - Life Is Good (feat. Drake)",
+      "Khalid - Location",
+      "Roddy Ricch - The Box",
+      "Jay-Z - Hard Knock Life (Ghetto Anthem)",
+      "Jay-Z - Empire State Of Mind",
+      "Jay-Z - Izzo (Hova)",
+      "Jay-Z - 99 Problems",
+      "Jay-Z - Dirt Off Your Shoulder",
+      "Lewis Capaldi - Someone You Loved",
+      "Lewis Capaldi - Before You Go",
+      "Lewis Capaldi - Hold Me While You Wait",
+      "Tracy Chapman - Fast Car",
+      "XXXTENTACION - SAD!",
+      "Oasis - Stand by Me",
+      "Oasis - Don't Look Back In Anger",
+      "Oasis - Champagne Supernova",
+      "Prince - Kiss",
+      "Prince - 1999",
+      "Prince - When Doves Cry",
+      "Prince - Purple Rain",
+      "Al Green - How Can You Mend A Broken Heart?",
+      "Al Green - Tired of Being Alone",
+      "Al Green - Love and Happiness",
+      "Al Green - Take Me To the River",
+      "Al Green - I'm Still in Love With You",
+      "David Bowie - Heroes",
+      "David Bowie - Life on Mars",
+      "David Bowie - Space Oddity",
+      "David Bowie - Let's Dance",
+      "Aretha Franklin - Respect",
+      "Aretha Franklin - A Natural Woman",
+      "Aretha Franklin - I Say A Little Prayer",
+      "Migos - Bad and Boujee (Feat. Lil Uzi Vert)",
+      "Migos - Versace",
+      "Migos - Walk It Talk It",
+      "Migos - MotorSport (feat. Nicki Minaj and Cardi B)",
+      "Ed Sheeran & Justin Bieber - I Don't Care",
+      "Ed Sheeran - Thinking Out Loud",
+      "Ed Sheeran - Bad Habits",
+      "Ed Sheeran - Castle on the Hill",
+      "Bruno Mars - 24K Magic",
+      "Duran Duran - Hungry Like The Wolf",
+      "Duran Duran - Girls on Film",
+      "Duran Duran - A View To a Kill",
+      "Duran Duran - Rio",
+      "Coldplay - Yellow",
+      "Coldplay - Fix You",
+      "Coldplay - Clocks",
+      "Eagles - Hotel California",
+      "Eagles - Lyin' Eyes",
+      "Eagles - Heartache Tonight",
+      "Eagles - New Kid In Town",
+      "Calvin Harris - Slide (feat. Frank Ocean & Migos)",
+      "Hozier - Take Me To Church",
+      "Sean Paul - Temperature",
+      "Sean Paul - Gimme the Light",
+      "Sean Paul - Get Busy",
+      "Sean Paul - I'm Still In Love With You",
+      "Cardi B - WAP feat. Megan Thee Stallion",
+      "Goo Goo Dolls - Iris",
+      "XXXTENTACION - Jocelyn Flores",
+      "Linkin Park - In the End",
+      "Linkin Park - Crawling",
+      "Linkin Park - Burn It Down",
+      "ZAYN - PILLOWTALK",
+      "ZAYN - Better",
+      "ZAYN - Vibez",
+      "ZAYN - Dusk till Dawn (feat. Sia)",
+      "Jason Mraz - I'm Yours",
+      "Doja Cat - Kiss Me More (feat. SZA)",
+      "Doja Cat - Woman",
+      "Doja Cat - Say So (feat. Nicki Minaj)",
+      "Leona Lewis - Bleeding Love",
+      "Leona Lewis - A Moment Like This",
+      "Leona Lewis - Better In Time",
+      "Leona Lewis - Run",
+      "XXXTENTACION - Moonlight",
+      "Mark Ronson - Uptown Funk (feat. Bruno Mars)",
+      "Mark Ronson - Nothing Breaks Like a Heart (feat. Miley Cyrus)",
+      "Mark Ronson - Find U Again (feat. Camila Cabello)",
+      "Megan Thee Stallion - Savage",
+      "Megan Thee Stallion - Thot Shit",
+      "Megan Thee Stallion - Girls In the Hood",
+      "Megan Thee Stallion - Hot Girl Summer (feat. Nicki Minaj & Ty Dolla Sign)",
+      "Jason Derulo - Want to Want Me",
+      "Jason Derulo - Ridin' Solo",
+      "Jason Derulo - Talk Dirty (feat. 2 Chainz)",
+      "Jason Derulo - Wiggle (feat. Snoop Dogg)",
+      "OneRepublic - Counting Stars",
+      "OneRepublic - Apologize",
+      "OneRepublic - Rescue Me",
+      "OneRepublic - Lose Somebody (feat. Kygo)",
+      "24kGoldn - Mood (feat. iann dior)",
+      "Fetty Wap - Trap Queen",
+      "Adele - Hello",
+      "The Fray - How to Save a Life",
+      "Train - Drops of Jupiter (Tell Me)",
+      "Train - Drive By",
+      "Train - Hey, Soul Sister",
+      "The Script - Breakeven",
+      "The Script - Superheroes",
+      "The Script - For The First Time",
+      "Calvin Harris - Summer",
+      "Calvin Harris - This Is What You Came For (feat. Rihanna)",
+      "Calvin Harris - Feels (feat. Pharrell Williams, Katy Perry and Big Sean)",
+      "Calvin Harris - One kiss (feat. Dua Lipa)",
+      "Marshmello - Silence (feat. Khalid)",
+      "Alan Walker - Faded",
+      "Lil Nas X - MONTERO (Call Me By Your Name)",
+      "Bruno Mars - That's What I Like",
+      "Bruno Mars - Treasure",
+      "Franz Ferdinand - Take Me Out",
+      "Arctic Monkeys - Do I Wanna Know?",
+      "Arctic Monkeys - I Bet You Look Good on the Dancefloor",
+      "Arctic Monkeys - Why'd You Only Call Me When You're High?",
+      "Arctic Monkeys - When the Sun Goes Down",
+      "Daryl Hall and John Oates - Maneater",
+      "Daryl Hall and John Oates - Out of Touch",
+      "Daryl Hall and John Oates - Rich Girl",
+      "Daryl Hall and John Oates - Can't Go for That (No Can Do)",
+      "French Montana - Unforgettable (feat. Swae Lee)",
+      "The Chainsmokers - Don't Let Me Down (feat. Daya)",
+      "George Ezra - Shotgun",
+      "Tones and I - Dance Monkey",
+      "Miley Cyrus - Wrecking Ball",
+      "Miley Cyrus - Malibu",
+      "Miley Cyrus - Midnight Sky",
+      "Miley Cyrus - We Can't Stop",
+      "Ace Of Base - The Sign",
+      "Ace Of Base - Beautiful Life",
+      "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie)",
+      "Ed Sheeran - Perfect",
+      "Kings of Leon - Sex on Fire",
+      "Kings of Leon - Wait for Me",
+      "Kings of Leon - Closer",
+      "Kings of Leon - Pyro",
+      "Kings of Leon - Revelry",
+      "James Blunt - You're Beautiful",
+      "Vance Joy - Riptide",
+      "Vance Joy - Mess Is Mine",
+      "Vance Joy - Georgia",
+      "Missy Elliott - One Minute Man (feat. Ludacris)",
+      "Missy Elliott - Lose Control (feat. Ciara & Fatman Scoop)",
+      "Missy Elliott - Work It",
+      "Missy Elliott - The Rain (Supa Dupa Fly)",
+      "Joy Division - Love Will Tear Us Apart",
+      "Joy Division - Disorder",
+      "Joy Division - Transmission",
+      "Joy Division - Atmosphere",
+      "Notorious B.I.G. - Juicy",
+      "Notorious B.I.G. - One More Chance (Remix)",
+      "Notorious B.I.G. - Hypnotize",
+      "Neil Young - Heart Of Gold",
+      "Neil Young - Harvest Moon",
+      "Neil Young - Down By The River",
+      "Pet Shop Boys - West End Girls",
+      "Pet Shop Boys - Go West",
+      "Pet Shop Boys - It's A Sin",
+      "Travis Scott - SICKO MODE",
+      "Kate Bush - Wuthering Heights",
+      "Kate Bush - This Woman's Work",
+      "Kate Bush - Babooshka",
+      "Kate Bush - Cloudbusting",
+      "Seal - Crazy",
+      "Seal - Kiss From A Rose",
+      "Foo Fighters - Everlong",
+      "Foo Fighters - My Hero",
+      "Foo Fighters - The Pretender",
+      "Foo Fighters - Best of You",
+      "Red Hot Chili Peppers - Zephyr Song",
+      "Red Hot Chili Peppers - By The Way",
+      "Red Hot Chili Peppers - Under The Bridge",
+      "Red Hot Chili Peppers - Don't Stop",
+      "Alanis Morissette - Hand In My Pocket",
+      "Alanis Morissette - Ironic",
+      "Alanis Morissette - Thank U",
+      "Alanis Morissette - Head over Feet",
+      "Phil Collins - Another Day In Paradise",
+      "Phil Collins - In The Air Tonight",
+      "Phil Collins - You Can't Hurry Love",
+      "Phil Collins - Easy Lover",
+      "Phil Collins - One More Night",
+      "Joni Mitchell - River",
+      "Joni Mitchell - A Case of You",
+      "Joni Mitchell - Big Yellow Taxi",
+      "The Doors - Light My Fire",
+      "The Doors - End Of The Night",
+      "The Doors - Riders of the Storm",
+      "The Doors - Roadhouse Blues",
+      "Pink Floyd - Another Brick in the Wall (Part II)",
+      "Pink Floyd - Money",
+      "Pink Floyd - Comfortably Numb",
+      "Pink Floyd - One of My Turns",
+      "Charlie Puth - Attention",
+      "Childish Gambino - This is America",
+      "Childish Gambino - Summertime Magic",
+      "Childish Gambino - 3005",
+      "Childish Gambino - Feels Like Summer",
+      "Dua Lipa - Don't Start Now",
+      "T.I. - Live Your Life (feat. Rihanna)",
+      "T.I. - Whatever You Like",
+      "T.I. - What You Know",
+      "T.I. - Dead and Gone, (feat. Justin Timberlake)",
+      "Outkast - Hey Ya!",
+      "Tina Turner - The Best",
+      "Tina Turner - What's Love Got to Do With It",
+      "Tina Turner - Proud Mary",
+      "Tina Turner - We Don't Need Another Hero (Thunderdome)",
+      "Spandau Ballet - True",
+      "Spandau Ballet - Gold",
+      "Rod Stewart - Maggie May",
+      "Rod Stewart - Do Ya Think I'm Sexy?",
+      "Rod Stewart - First Cut is the Deepest",
+      "Curtis Mayfield - Move on Up",
+      "Curtis Mayfield - Superfly",
+      "Curtis Mayfield - Pusherman",
+      "Bad Day - Daniel Powter",
+      "Simply Red - Stars",
+      "Simply Red - If You Don't Know Me By Now",
+      "Simply Red - Fairground",
+      "Simply Red - Holding Back the Years",
+      "Kylie Minogue - Can't Get You Out of My Head",
+      "Kylie Minogue - The Loco-motion",
+      "Kylie Minogue - Spinning Around",
+      "Kylie Minogue - I Should Be So Lucky",
+      "Eric Clapton - Tears In Heaven",
+      "Eric Clapton - Wonderful Tonight",
+      "Eric Clapton - Cocaine",
+      "Eric Clapton - Change The World",
+      "Foreigner - I Want to Know What Love Is",
+      "Mark Cohn - Walking in Memphis",
+      "A-ha - Take on Me",
+      "Tom Petty - Wildflowers",
+      "Christina Perri - A Thousand Years",
+      "Roxette - It Must Have Been Love",
+      "Whitney Houston - How Will I Know?",
+      "Whitney Houston - I'm Every Woman",
+      "Whitney Houston - I Will Always Love You",
+      "Whitney Houston - I Have Nothing",
+      "Lizzo - Rumors (feat. Cardi B)",
+      "Lizzo - Good As Hell",
+      "Lizzo - Juice",
+      "Blur - Coffee and TV",
+      "Blur - Beetlebum",
+      "Blur - Parklife",
+      "Outkast - Elevators (Me & You)",
+      "Outkast - The Whole World (feat. Killer Mike)",
+      "Outkast - Roses",
+      "Outkast - The Way You Move (feat. Sleepy Brown)",
+      "Gorillaz - Clint Eastwood",
+      "Gorillaz - Dirty Harry",
+      "Gorillaz - Dare",
+      "Gorillaz - El Mañana",
+      "Blink 182 - All The Small Things",
+      "The Killers - Somebody Told Me",
+      "Avril Lavigne - Sk8ter Boi",
+      "Franz Ferdinand - Take Me Out",
+      "The Fratellis - Chelsea Dagger",
+      "Green Day - American Idiot",
+      "DJ Jazzy Jeff & The Fresh Prince - The Fresh Prince of Bel-Air",
+      "DJ Jazzy Jeff & The Fresh Prince -  Boom! Shake the Room",
+      "DJ Jazzy Jeff & The Fresh Prince -  Parents Just Don't Understand",
+      "Destiny's Child - Say My Name",
+      "Destiny's Child - Bills, Bills, Bills",
+      "Destiny's Child - Bootylicious",
+      "Destiny's Child - Survivor",
+      "Wizkid - Mood (feat. Buju)",
+      "Wizkid - Ginger (feat. Burna Boy)",
+      "Wizkid - No Stress",
+      "Dolly Parton - 9 to 5",
+      "Dolly Parton - Islands In the Stream",
+      "The Zutons - Valerie",
+      "Silk Sonic - Smokin Out The Window",
+      "Silk Sonic - Love's Train",
+      "Silk Sonic - Skate",
+      "Spice Girls - Spice up your life",
+      "Spice Girls - Say You'll Be There",
+      "Spice Girls - 2 Become 1",
+      "Spice Girls - Stop",
+      "Led Zeppelin - Stairway To Heaven",
+      "Led Zeppelin - Whole Lotta Love",
+      "Led Zeppelin - Black Dog",
+      "Led Zeppelin - Kashmir",
+      "Enya - Boadicea",
+      "Enya - Only Time",
+      "Enya - Orinoco Flow",
+      "Enya - Caribbean Blue",
+      "Enya - May It Be",
+      "Fugees - Fugee-La",
+      "Fugees - The Score",
+      "Fugees - Zealots",
+      "Abba - Waterloo",
+      "Abba - Super Trouper",
+      "Abba - Take A Chance On Me",
+      "Abba - Mamma Mia",
+      "Luther Vandross - Give Me The Reason",
+      "Luther Vandross - So Amazing",
+      "Luther Vandross - A House Is Not A Home",
+      "John Legend - Used To Love U",
+      "John Legend - All of Me",
+      "John Legend - Green Light (feat. André 3000)",
+      "John Legend - So High",
+      "Koffee - W (feat. Gunna)",
+      "Koffee - Lockdown",
+      "Koffee - Rapture",
+      "Pink - Raise Your Glass",
+      "Pink - What About Us",
+      "Pink - So What",
+      "Fatboy Slim - Right Here, Right Now",
+      "Fatboy Slim - Weapon Of Choice (feat. Bootsy Collins)",
+      "Fatboy Slim - Rockafeller Skank",
+      "Erik - Got To Be Real",
+      "Cheryl Lynn - Encore",
+      "Cheryl Lynn - Shake it Up Tonight",
+      "Camila Cabello - Havana (feat. Young Thug)",
+      "Camila Cabello - Bam Bam (feat. Ed Sheeran)",
+      "Camila Cabello - Don't Go Yet",
+    ]),
+    Pn = {
+      subscribe: ue(
+        [
+          {
+            url: "https://soundcloud.com/thexxofficial/intro",
+            answer: "The xx - Intro",
+          },
+          {
+            url: "https://soundcloud.com/dualipa/levitating",
+            answer: "Dua Lipa - Levitating",
+          },
+          {
+            url: "https://soundcloud.com/adelemusic/set-fire-to-the-rain-1",
+            answer: "Adele - Set Fire to the Rain",
+          },
+          {
+            url: "https://soundcloud.com/coldplay/the-scientist",
+            answer: "Coldplay - The Scientist",
+          },
+          {
+            url: "https://soundcloud.com/bennyblanco/eastside",
+            answer: "Benny Blanco - Eastside (feat. Halsey and Khalid)",
+          },
+          {
+            url: "https://soundcloud.com/nirvana/smells-like-teen-spirit-1",
+            answer: "Nirvana - Smells Like Teen Spirit",
+          },
+          {
+            url: "https://soundcloud.com/amalaofficial/streets",
+            answer: "Doja cat - Streets",
+          },
+          {
+            url: "https://soundcloud.com/beyonce/halo",
+            answer: "Beyoncé - Halo",
+          },
+          {
+            url: "https://soundcloud.com/fleetwoodmacofficial/dreams",
+            answer: "Fleetwood Mac - Dreams",
+          },
+          {
+            url: "https://soundcloud.com/kanyewest/black-skinhead",
+            answer: "Kanye West - Black Skinhead",
+          },
+          {
+            url: "https://soundcloud.com/arianagrande/7-rings",
+            answer: "Ariana Grande - 7 rings",
+          },
+          {
+            url: "https://soundcloud.com/kingsofleon/use-somebody",
+            answer: "Kings of Leon - Use Somebody",
+          },
+          {
+            url: "https://soundcloud.com/outkast-music/ms-jackson",
+            answer: "Outkast - Ms. Jackson",
+          },
+          {
+            url: "https://soundcloud.com/secret-service-862007284/thats-what-i-want",
+            answer: "Lil Nas X - That's What I Want",
+          },
+          {
+            url: "https://soundcloud.com/rihanna/rude-boy",
+            answer: "Rihanna - Rude Boy",
+          },
+          {
+            url: "https://soundcloud.com/whitneyhouston/i-wanna-dance-with-somebody-1",
+            answer:
+              "Whitney Houston - I Wanna Dance With Somebody (Who Loves Me)",
+          },
+          {
+            url: "https://soundcloud.com/wheatus-official/teenage-dirtbag-1",
+            answer: "Wheatus - Teenage Dirtbag",
+          },
+          {
+            url: "https://soundcloud.com/lizzomusic/truth-hurts",
+            answer: "Lizzo - Truth Hurts",
+          },
+          {
+            url: "https://soundcloud.com/blurofficial/song-2",
+            answer: "Blur - Song 2",
+          },
+          {
+            url: "https://soundcloud.com/childish-gambino/redbone",
+            answer: "Childish Gambino - Redbone",
+          },
+          {
+            url: "https://soundcloud.com/madonna/like-a-virgin-album-version",
+            answer: "Madonna - Like a Virgin",
+          },
+          {
+            url: "https://soundcloud.com/daftpunkofficialmusic/harder-better-faster",
+            answer: "Daft Punk - Harder, Better, Faster, Stronger",
+          },
+          {
+            url: "https://soundcloud.com/al-green-official/lets-stay-together-5",
+            answer: "Al Green - Let's Stay Together",
+          },
+          {
+            url: "https://soundcloud.com/atlanticrecords/locked-out-of-heaven",
+            answer: "Bruno Mars - Locked Out of Heaven",
+          },
+          {
+            url: "https://soundcloud.com/wizkid-official/track-11",
+            answer: "Wizkid - Essence (feat. Tems)",
+          },
+          {
+            url: "https://soundcloud.com/destinys-child-official/independent-women-pt-i-3",
+            answer: "Destiny's Child - Independent Women, Pt. 1",
+          },
+          {
+            url: "https://soundcloud.com/thekidlaroi/stay",
+            answer: "The Kid LAROI. - Stay (feat. Justin Bieber)",
+          },
+          {
+            url: "https://soundcloud.com/linkin_park/numb",
+            answer: "Linkin Park - Numb",
+          },
+          {
+            url: "https://soundcloud.com/markronson/valerie-version-revisited",
+            answer: "Mark Ronson - Valerie (feat. Amy Winehouse)",
+          },
+          {
+            url: "https://soundcloud.com/dj-jazzy-jeff-the-fresh-prince/summertime-single-edit-1",
+            answer: "DJ Jazzy Jeff & The Fresh Prince - Summertime",
+          },
+          {
+            url: "https://soundcloud.com/dollyparton/jolene-11",
+            answer: "Dolly Parton - Jolene",
+          },
+          {
+            url: "https://soundcloud.com/foofighters/learn-to-fly",
+            answer: "Foo Fighters - Learn To Fly",
+          },
+          {
+            url: "https://soundcloud.com/missyelliott/get-ur-freak-on",
+            answer: "Missy Elliott - Get Your Freak On",
+          },
+          {
+            url: "https://soundcloud.com/aceofbaseofficial/all-that-she-wants",
+            answer: "Ace of Base - All That She Wants",
+          },
+          {
+            url: "https://soundcloud.com/iamcardib/up-1",
+            answer: "Cardi B - Up",
+          },
+          {
+            url: "https://soundcloud.com/rick-astley-official/never-gonna-give-you-up-7",
+            answer: "Rick Astley - Never Gonna Give You Up",
+          },
+          {
+            url: "https://soundcloud.com/miauk/paper-planes",
+            answer: "M.I.A. - Paper Planes",
+          },
+          {
+            url: "https://soundcloud.com/daryl-hall-john-oates/you-make-my-dreams-remastered",
+            answer:
+              "Daryl Hall and John Oates - You Make My Dreams (Come True)",
+          },
+          {
+            url: "https://soundcloud.com/brunomars/bruno-mars-anderson-paak-silk",
+            answer: "Silk Sonic - Leave The Door Open",
+          },
+          {
+            url: "https://soundcloud.com/spice-girls-official/wannabe-radio-edit",
+            answer: "Spice Girls - Wannabe",
+          },
+          {
+            url: "https://soundcloud.com/ledzeppelin/immigrant-song-1",
+            answer: "Led Zeppelin - Immigrant Song",
+          },
+          {
+            url: "https://soundcloud.com/fugees/ready-or-not-1",
+            answer: "Fugees - Ready Or Not",
+          },
+          {
+            url: "https://soundcloud.com/abba-official/dancing-queen-1",
+            answer: "Abba - Dancing Queen",
+          },
+          {
+            url: "https://soundcloud.com/luthervandrossmusic/never-too-much-2",
+            answer: "Luther Vandross - Never Too Much",
+          },
+          {
+            url: "https://soundcloud.com/johnlegend/ordinary-people-1",
+            answer: "John Legend - Ordinary People",
+          },
+          {
+            url: "https://soundcloud.com/red-hot-chili-peppers-official/californication",
+            answer: "Red Hot Chili Peppers - Californication",
+          },
+          {
+            url: "https://soundcloud.com/originalkoffee/toast",
+            answer: "Koffee - Toast",
+          },
+          {
+            url: "https://soundcloud.com/official-p-nk/get-the-party-started",
+            answer: "Pink - Get The Party Started",
+          },
+          {
+            url: "https://soundcloud.com/camilacabello/my-oh-my-feat-dababy",
+            answer: "Camila Cabello - My Oh My (feat. DaBaby)",
+          },
+          {
+            url: "https://soundcloud.com/oasisofficial/wonderwall-2",
+            answer: "Oasis - Wonderwall",
+          },
+          {
+            url: "https://soundcloud.com/cheryl-lynn-official/got-to-be-real-single-version",
+            answer: "Cheryl Lynn - Got To Be Real",
+          },
+          {
+            url: "https://soundcloud.com/fatboyslim/09-praise-you",
+            answer: "Fatboy Slim - Praise You",
+          },
+        ],
+        An
+      ).subscribe,
+    };
+  var An;
+  const { document: Ln, window: Nn } = X;
+  function Hn(e) {
     let t, n;
     return (
-      (t = new Lt({
+      (t = new Nt({
         props: {
           hasFrame: e[10].hasFrame,
           title: e[10].title,
-          $$slots: {
-            default: [Fn],
-          },
-          $$scope: {
-            ctx: e,
-          },
+          $$slots: { default: [Gn] },
+          $$scope: { ctx: e },
         },
       })),
       t.$on("close", e[20]),
@@ -8981,11 +8999,7 @@ var Pn;
           const r = {};
           1024 & n[0] && (r.hasFrame = e[10].hasFrame),
             1024 & n[0] && (r.title = e[10].title),
-            (1392 & n[0]) | (8 & n[1]) &&
-              (r.$$scope = {
-                dirty: n,
-                ctx: e,
-              }),
+            (1392 & n[0]) | (8 & n[1]) && (r.$$scope = { dirty: n, ctx: e }),
             t.$set(r);
         },
         i(e) {
@@ -9000,10 +9014,10 @@ var Pn;
       }
     );
   }
-  function Hn(t) {
+  function Wn(t) {
     let n, r;
     return (
-      (n = new vn({})),
+      (n = new wn({})),
       n.$on("close", t[19]),
       {
         c() {
@@ -9028,10 +9042,10 @@ var Pn;
   function In(e) {
     let t, n;
     return (
-      (t = new Tn({
+      (t = new Cn({
         props: {
           userStats: e[4],
-          config: Vt,
+          config: Jt,
           isPrime: e[8].isPrime,
           daysSince: e[11],
           todaysScore: e[6].length,
@@ -9067,34 +9081,10 @@ var Pn;
       }
     );
   }
-  function Wn(t) {
-    let n, r;
-    return (
-      (n = new Ut({})),
-      {
-        c() {
-          Q(n.$$.fragment);
-        },
-        m(e, t) {
-          ee(n, e, t), (r = !0);
-        },
-        p: e,
-        i(e) {
-          r || (Z(n.$$.fragment, e), (r = !0));
-        },
-        o(e) {
-          q(n.$$.fragment, e), (r = !1);
-        },
-        d(e) {
-          te(n, e);
-        },
-      }
-    );
-  }
   function Rn(t) {
     let n, r;
     return (
-      (n = new Ht({})),
+      (n = new Vt({})),
       {
         c() {
           Q(n.$$.fragment);
@@ -9115,9 +9105,33 @@ var Pn;
       }
     );
   }
-  function Fn(e) {
+  function Fn(t) {
+    let n, r;
+    return (
+      (n = new Wt({})),
+      {
+        c() {
+          Q(n.$$.fragment);
+        },
+        m(e, t) {
+          ee(n, e, t), (r = !0);
+        },
+        p: e,
+        i(e) {
+          r || (Z(n.$$.fragment, e), (r = !0));
+        },
+        o(e) {
+          q(n.$$.fragment, e), (r = !1);
+        },
+        d(e) {
+          te(n, e);
+        },
+      }
+    );
+  }
+  function Gn(e) {
     let t, n, r, s;
-    const i = [Rn, Wn, In, Hn],
+    const i = [Fn, Rn, In, Wn],
       o = [];
     function a(e, t) {
       return "info" == e[10].name
@@ -9169,22 +9183,20 @@ var Pn;
       }
     );
   }
-  function Gn(e) {
+  function En(e) {
     let t, n, r;
     function s(t) {
       e[23](t);
     }
     let i = {
       isPrime: e[8].isPrime,
-      config: Vt,
+      config: Jt,
       allOptions: e[9],
       currentAttempt: e[6].length + 1,
     };
     return (
       void 0 !== e[7] && (i.guessInput = e[7]),
-      (t = new Yt({
-        props: i,
-      })),
+      (t = new Yt({ props: i })),
       e[22](t),
       H.push(() =>
         (function (e, t, n) {
@@ -9211,7 +9223,7 @@ var Pn;
               ((n = !0),
               (s.guessInput = e[7]),
               (i = () => (n = !1)),
-              W.push(i)),
+              I.push(i)),
             t.$set(s);
         },
         i(e) {
@@ -9226,28 +9238,23 @@ var Pn;
       }
     );
   }
-  function En(e) {
-    let t, n, s, i, o, a, l, u, c, d, h, f, m, v, k, _, b, $, D, Y, C, O, P, A;
-    G(e[18]),
-      (l = new me({
-        props: {
-          properties: ["G-3QSG4MYSLD"],
-        },
-      }));
-    let L = e[10].isActive && Nn(e);
+  function Bn(e) {
+    let t, n, s, i, o, a, l, u, c, d, h, f, m, v, k, _, b, $, D, C, Y, O, P, A;
+    G(e[18]), (l = new me({ props: { properties: ["G-3QSG4MYSLD"] } }));
+    let L = e[10].isActive && Hn(e);
     (f = new xe({})),
       f.$on("modal", e[16]),
-      (_ = new Ie({
+      (_ = new We({
         props: {
           userGuesses: e[6],
-          maxAttempts: Vt.maxAttempts,
+          maxAttempts: Jt.maxAttempts,
           currentHeardle: e[2],
           todaysGame: e[5],
         },
       })),
-      ($ = new mn({
+      ($ = new pn({
         props: {
-          config: Vt,
+          config: Jt,
           userGuesses: e[6],
           currentHeardle: e[2],
           hasFinished: e[5].hasFinished,
@@ -9257,19 +9264,17 @@ var Pn;
         },
       }));
     let N = {
-      config: Vt,
+      config: Jt,
       gameState: e[8],
       currentHeardle: e[2],
       trackDuration: e[2].duration,
       currentAttempt: e[6].length + 1,
     };
-    (Y = new gt({
-      props: N,
-    })),
-      e[21](Y),
-      Y.$on("updateSong", e[13]),
-      Y.$on("updatePlayerState", e[14]);
-    let H = !e[5].hasFinished && e[8].gameIsActive && Gn(e);
+    (C = new yt({ props: N })),
+      e[21](C),
+      C.$on("updateSong", e[13]),
+      C.$on("updatePlayerState", e[14]);
+    let H = !e[5].hasFinished && e[8].gameIsActive && En(e);
     return {
       c() {
         (t = w("meta")),
@@ -9292,15 +9297,15 @@ var Pn;
           (b = x()),
           Q($.$$.fragment),
           (D = x()),
-          Q(Y.$$.fragment),
-          (C = x()),
+          Q(C.$$.fragment),
+          (Y = x()),
           H && H.c(),
-          (An.title = "ZAYN Heardle"),
+          (Ln.title = "Heardle - That daily musical intros game"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the ZAYN song from the intro in as few tries as possible"
+            "Guess the song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
@@ -9330,11 +9335,11 @@ var Pn;
           T(c, "height", e[3] + "px");
       },
       m(r, y) {
-        p(An.head, t),
-          p(An.head, n),
-          p(An.head, s),
-          p(An.head, i),
-          p(An.head, o),
+        p(Ln.head, t),
+          p(Ln.head, n),
+          p(Ln.head, s),
+          p(Ln.head, i),
+          p(Ln.head, o),
           g(r, a, y),
           ee(l, r, y),
           g(r, u, y),
@@ -9350,18 +9355,18 @@ var Pn;
           p(k, b),
           ee($, k, null),
           p(c, D),
-          ee(Y, c, null),
-          p(c, C),
+          ee(C, c, null),
+          p(c, Y),
           H && H.m(c, null),
           (O = !0),
           P ||
-            ((A = [S(Ln, "resize", e[17]), S(Ln, "resize", e[18])]), (P = !0));
+            ((A = [S(Nn, "resize", e[17]), S(Nn, "resize", e[18])]), (P = !0));
       },
       p(e, t) {
         e[10].isActive
           ? L
             ? (L.p(e, t), 1024 & t[0] && Z(L, 1))
-            : ((L = Nn(e)), L.c(), Z(L, 1), L.m(c, d))
+            : ((L = Hn(e)), L.c(), Z(L, 1), L.m(c, d))
           : L &&
             (J(),
             q(L, 1, 1, () => {
@@ -9386,11 +9391,11 @@ var Pn;
           4 & t[0] && (s.currentHeardle = e[2]),
           4 & t[0] && (s.trackDuration = e[2].duration),
           64 & t[0] && (s.currentAttempt = e[6].length + 1),
-          Y.$set(s),
+          C.$set(s),
           !e[5].hasFinished && e[8].gameIsActive
             ? H
               ? (H.p(e, t), 288 & t[0] && Z(H, 1))
-              : ((H = Gn(e)), H.c(), Z(H, 1), H.m(c, null))
+              : ((H = En(e)), H.c(), Z(H, 1), H.m(c, null))
             : H &&
               (J(),
               q(H, 1, 1, () => {
@@ -9406,7 +9411,7 @@ var Pn;
           Z(f.$$.fragment, e),
           Z(_.$$.fragment, e),
           Z($.$$.fragment, e),
-          Z(Y.$$.fragment, e),
+          Z(C.$$.fragment, e),
           Z(H),
           (O = !0));
       },
@@ -9416,7 +9421,7 @@ var Pn;
           q(f.$$.fragment, e),
           q(_.$$.fragment, e),
           q($.$$.fragment, e),
-          q(Y.$$.fragment, e),
+          q(C.$$.fragment, e),
           q(H),
           (O = !1);
       },
@@ -9435,7 +9440,7 @@ var Pn;
           te(_),
           te($),
           e[21](null),
-          te(Y),
+          te(C),
           H && H.d(),
           (P = !1),
           r(A);
@@ -9444,8 +9449,8 @@ var Pn;
   }
   function jn(e, t, n) {
     let r, s, i, o;
-    u(e, Cn, (e) => n(26, (r = e))), u(e, On, (e) => n(27, (s = e)));
-    let a = x(Vt.startDate),
+    u(e, On, (e) => n(26, (r = e))), u(e, Pn, (e) => n(27, (s = e)));
+    let a = x(Jt.startDate),
       l = {
         url: s[a].url,
         correctAnswer: s[a].answer,
@@ -9454,7 +9459,6 @@ var Pn;
         hasFinished: !1,
         hasStarted: !1,
       };
-    // console.log("a", l);
     var c, d;
     void 0 !== document.hidden
       ? ((c = "hidden"), (d = "visibilitychange"))
@@ -9467,7 +9471,7 @@ var Pn;
         document.addEventListener(
           d,
           function () {
-            document[c] || a === x(Vt.startDate) || location.reload(!0);
+            document[c] || a === x(Jt.startDate) || location.reload(!0);
           },
           !1
         );
@@ -9497,12 +9501,7 @@ var Pn;
         playerIsReady: !1,
         isPrime: a >= 7,
       };
-    let k = {
-      isActive: !1,
-      hasFrame: !0,
-      title: "",
-      name: "",
-    };
+    let k = { isActive: !1, hasFrame: !0, title: "", name: "" };
     function _(e, t, r) {
       n(10, (k.isActive = !0), k),
         n(10, (k.name = e), k),
@@ -9531,29 +9530,21 @@ var Pn;
       p,
       function (e) {
         let t = e.detail.currentSong;
-        // console.log("current song", l);
-        n(2, (l.artist = l.correctAnswer.split(" - ")[1]), l),
-          n(2, (l.title = l.correctAnswer.split(" - ")[0]), l),
+        n(2, (l.artist = l.correctAnswer.split(" - ")[0]), l),
+          n(2, (l.title = l.correctAnswer.split(" - ")[1]), l),
           n(2, (l.img = t.artwork_url), l),
           n(2, (l.duration = t.duration), l),
           n(2, (l.genre = t.genre), l),
           n(2, (l.date = t.release_date), l),
           (function (e, t, n) {
             e.set(n);
-          })(Cn, (r = [...r, l.correctAnswer]), r),
+          })(On, (r = [...r, l.correctAnswer]), r),
           n(9, (y = r)),
           n(8, (w.playerIsReady = !0), w),
           f.hasFinished || n(8, (w.gameIsActive = !0), w);
       },
       function (e) {
-        l.hasStarted ||
-          (pe("startGame#" + l.id, {
-            name: "startGame",
-          }),
-          pe("startGame", {
-            name: "startGame",
-          }),
-          n(2, (l.hasStarted = !0), l)),
+        l.hasStarted || n(2, (l.hasStarted = !0), l),
           n(8, (w.musicIsPlaying = e.detail.musicIsPlaying), w);
       },
       function (e) {
@@ -9564,26 +9555,14 @@ var Pn;
         r ||
           t != l.correctAnswer ||
           ((s = !0),
-          pe("correctGuess", {
-            name: "correctGuess",
-          }),
-          pe("correctGuess#" + l.id, {
-            name: "correctGuess",
-          })),
+          pe("correctGuess", { name: "correctGuess" }),
+          pe("correctGuess#" + l.id, { name: "correctGuess" })),
           r
-            ? (pe("skippedGuess", {
-                name: "skippedGuess",
-              }),
-              pe("skippedGuess#" + l.id, {
-                name: "skippedGuess",
-              }))
+            ? (pe("skippedGuess", { name: "skippedGuess" }),
+              pe("skippedGuess#" + l.id, { name: "skippedGuess" }))
             : s ||
-              (pe("incorrectGuess", {
-                name: "incorrectGuess",
-              }),
-              pe("incorrectGuess#" + l.id, {
-                name: "incorrectGuess",
-              })),
+              (pe("incorrectGuess", { name: "incorrectGuess" }),
+              pe("incorrectGuess#" + l.id, { name: "incorrectGuess" })),
           n(
             6,
             (v = v.concat({
@@ -9594,7 +9573,7 @@ var Pn;
           ),
           n(5, (f.guessList = v), f),
           localStorage.setItem("userStats", JSON.stringify(h)),
-          (v.length != Vt.maxAttempts && 1 != s) ||
+          (v.length != Jt.maxAttempts && 1 != s) ||
             ((o = s),
             n(8, (w.gameIsActive = !1), w),
             n(5, (f.hasFinished = !0), f),
@@ -9603,37 +9582,21 @@ var Pn;
             localStorage.setItem("userStats", JSON.stringify(h)),
             i.resetAndPlay(),
             o
-              ? (pe("wonGame", {
-                  name: "won",
-                }),
-                pe("wonGame#" + l.id, {
-                  name: "won",
-                }))
-              : (pe("lostGame", {
-                  name: "lost",
-                }),
-                pe("lostGame#" + l.id, {
-                  name: "lost",
-                })),
-            pe("endGame" + l.id + "in" + v.length, {
-              name: "#" + v.length,
-            }),
-            pe("endGame", {
-              name: "endGame",
-            }),
-            pe("endGame#" + l.id, {
-              name: "endGame",
-            }),
-            pe("gameStats#" + l.id, {
-              name: v,
-            }));
+              ? (pe("wonGame", { name: "won" }),
+                pe("wonGame#" + l.id, { name: "won" }))
+              : (pe("lostGame", { name: "lost" }),
+                pe("lostGame#" + l.id, { name: "lost" })),
+            pe("endGame" + l.id + "in" + v.length, { name: "#" + v.length }),
+            pe("endGame", { name: "endGame" }),
+            pe("endGame#" + l.id, { name: "endGame" }),
+            pe("gameStats#" + l.id, { name: v }));
       },
       function (e) {
         _(e.detail.name, e.detail.title, e.detail.hasFrame);
       },
       () => {},
       function () {
-        n(3, (m = Ln.innerHeight));
+        n(3, (m = Nn.innerHeight));
       },
       () => n(10, (k.isActive = !1), k),
       () => n(10, (k.isActive = !1), k),
@@ -9654,10 +9617,7 @@ var Pn;
   }
   return new (class extends se {
     constructor(e) {
-      super(), re(this, e, jn, En, i, {}, null, [-1, -1]);
+      super(), re(this, e, jn, Bn, i, {}, null, [-1, -1]);
     }
-  })({
-    target: document.body,
-    props: {},
-  });
+  })({ target: document.body, props: {} });
 })();
