@@ -3638,7 +3638,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for ZAYN songs.</p> \n\n<p class="mb-3">Code remixed from <a href="https://taylor-swift-heardle.glitch.me/">Taylor Swift Heardle</a>.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for ZAYN songs. Made by <a href="https://www.instagram.com/emilyomgee/" title="@emilyomgee on IG">@emilyomgee</a>.</p> \n\n<p class="mb-3">Code remixed from <a href="https://taylor-swift-heardle.glitch.me/" title="Taylor Swift Heardle">Taylor Swift Heardle</a>.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -4553,7 +4553,7 @@ var app = (function () {
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></div> \n        <div><p>Skipped or incorrect attempts unlock more of the\n                intro</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg></div> \n        <div><p>Skipped or incorrect attempts unlock more of the\n                intro.</p></div>'),
             (i = x()),
             (o = w("div")),
             (o.innerHTML =
@@ -8653,7 +8653,6 @@ var app = (function () {
       "ZAYN - River Road",
       "ZAYN - Stand Still",
       "ZAYN - lUcOzAdE",
-      "ZAYN - A Whole New World (End Title) - From Aladdin",
       "ZAYN - All That",
       "ZAYN - Entertainer",
       "ZAYN - Imprint",
@@ -8880,67 +8879,63 @@ var app = (function () {
             answer: "ZAYN - Connexion",
           },
           {
-            url: "https://soundcloud.com/joywave/destruction",
+            url: "https://soundcloud.com/zaynofficial/natural",
             answer: "ZAYN - Natural",
           },
           {
-            url: "https://soundcloud.com/joywave/smokestacks",
+            url: "https://soundcloud.com/shaedband/trampoline-with-zayn",
             answer: "SHAED - Trampoline (with ZAYN)",
           },
           {
-            url: "https://soundcloud.com/joywave/little-lies-youre-told",
+            url: "https://soundcloud.com/zaynofficial/when-loves-around-feat-syd",
             answer: "ZAYN - When Love's Around (feat. Syd)",
           },
           {
-            url: "https://soundcloud.com/joywave/cold-open",
+            url: "https://soundcloud.com/zaynofficial/outside",
             answer: "ZAYN - Outside",
           },
           {
-            url: "https://soundcloud.com/taylorswiftofficial/the-man",
+            url: "https://soundcloud.com/zaynofficial/rear-view",
             answer: "ZAYN - rEaR vIeW",
           },
           {
-            url: "https://soundcloud.com/joywave/theme-from-88888",
+            url: "https://soundcloud.com/zaynofficial/let-me",
             answer: "ZAYN - Let Me",
           },
           {
-            url: "https://soundcloud.com/joywave/doubt",
+            url: "https://soundcloud.com/zaynofficial/entertainer",
             answer: "ZAYN - Entertainer",
           },
           {
-            url: "https://soundcloud.com/joywave/feels-like-a-lie",
+            url: "https://soundcloud.com/zaynofficial/dusk-till-dawn-radio-edit-feat",
             answer: "ZAYN - Dusk Till Dawn (feat. Sia) - Radio Edit",
           },
           {
-            url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
+            url: "https://soundcloud.com/zaynofficial/river-road",
             answer: "ZAYN - River Road",
           },
           {
-            url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
+            url: "https://soundcloud.com/zaynofficial/stand-still",
             answer: "ZAYN - Stand Still",
           },
           {
-            url: "https://soundcloud.com/joywave/06-virus-exe",
+            url: "https://soundcloud.com/zaynofficial/lucozade-1",
             answer: "ZAYN - lUcOzAdE",
           },
           {
-            url: "https://soundcloud.com/joywave/08-hang-with-me",
-            answer: "ZAYN - A Whole New World (End Title) - From Aladdin",
-          },
-          {
-            url: "https://soundcloud.com/joywave/f-e-a-r",
+            url: "https://soundcloud.com/zaynofficial/all-that",
             answer: "ZAYN - All That",
           },
           {
-            url: "https://soundcloud.com/joywave/like-a-kennedy",
+            url: "https://soundcloud.com/zaynofficial/entertainer",
             answer: "ZAYN - Entertainer",
           },
           {
-            url: "https://soundcloud.com/joywave/the-inversion",
+            url: "https://soundcloud.com/zaynofficial/imprint",
             answer: "ZAYN - Imprint",
           },
           {
-            url: "https://soundcloud.com/joywave/numbers-station",
+            url: "https://soundcloud.com/zaynofficial/truth",
             answer: "ZAYN - tRuTh",
           },
         ],
