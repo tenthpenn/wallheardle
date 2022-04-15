@@ -712,7 +712,7 @@ var app = (function () {
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "Taylor Swift Heardle"),
+            (u.textContent = "ZAYN Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -3638,7 +3638,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for Taylor Swift songs.</p> \n\n<p class="mb-3">Each Taylor Swift Heardle is randomly chosen from Taylor Swift\'s discography.</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/taylor-swift-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for ZAYN songs.</p> \n\n<p class="mb-3">Each ZAYN Heardle is randomly chosen from ZAYN\'s discography.</p> \n\n\n\n <p class="mb-3">Want to make your own Heardle? Check out the <a href="https://glitch.com/edit/#!/taylor-swift-heardle?path=README.md">README</a>  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>. <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -3851,7 +3851,7 @@ var app = (function () {
           (n = w("p")),
             (s = w("p")),
             (n.innerHTML =
-              'Have questions/run into bugs? DM me @beachboysstan on twitter! <br><br> In order to abide by copyright laws, this game is powered by Soundcloud. If the song isn\'t available in your country on Soundcloud, you can check out <a href=\"https://www.techyonic.co/swiftle\" title=\"Heardle\">Swiftle</a>, a similar Taylor Swift Heardle game!'),
+              'Have questions/run into bugs? DM me @beachboysstan on twitter! <br><br> In order to abide by copyright laws, this game is powered by Soundcloud. If the song isn\'t available in your country on Soundcloud, you can check out <a href=\"https://www.techyonic.co/swiftle\" title=\"Heardle\">Swiftle</a>, a similar ZAYN Heardle game!'),
             (r = x()),
             (s = w("p")),
             // (s.innerHTML =
@@ -3905,7 +3905,7 @@ var app = (function () {
       attemptInterval: 1.5e3,
       attemptIntervalAlt: [1e3, 2e3, 4e3, 7e3, 11e3, 16e3],
       maxAttempts: 6,
-      startDate: "2022-04-06",
+      startDate: "2022-04-10",
     },
     Jt = ["0", "1", "2", "3", "4", "5", "6"];
   function Kt(t) {
@@ -4026,14 +4026,14 @@ var app = (function () {
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next Taylor Swift song in:"),
+            (k.textContent = "Next ZAYN song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
             // (Y.innerHTML =
-            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">Taylor Swift Heardle?</span>'),
+            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">ZAYN Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4242,7 +4242,7 @@ var app = (function () {
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's Taylor Swift Heardle within the first ")),
+        (t = _("You got today's ZAYN Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4269,7 +4269,7 @@ var app = (function () {
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's Taylor Swift Heardle within ")),
+        (t = _("You got today's ZAYN Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4300,7 +4300,7 @@ var app = (function () {
     return {
       c() {
         n = _(
-          "You didn't get today's Taylor Swift Heardle. Better luck tomorrow! 💎"
+          "You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎"
         );
       },
       m(e, t) {
@@ -4443,7 +4443,7 @@ var app = (function () {
         c,
         () => {
           // console.log('answer', r.length)
-          let e = "Taylor Swift Heardle #" + (s.id + 1),
+          let e = "ZAYN Heardle #" + (s.id + 1),
             t = "";
           a
             ? r.length < i.maxAttempts / 3
@@ -4554,7 +4554,7 @@ var app = (function () {
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct Taylor Swift song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct ZAYN song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8676,23 +8676,23 @@ const Cn = ue([
           answer: "Too Much (feat. Timbaland)",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/i-knew-you-were-trouble-3",
+          url: "https://soundcloud.com/zaynofficial/calamity",
           answer: "Calamity",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/the-moment-i-knew-taylors",
+          url: "https://soundcloud.com/zaynofficial/blue",
           answer: "BLUE",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/style",
+          url: "https://soundcloud.com/zaynofficial/rainberry",
           answer: "Rainberry",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/innocent",
+          url: "https://soundcloud.com/zaynofficial/common",
           answer: "Common",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/gold-rush",
+          url: "https://soundcloud.com/zaynofficial/pillowtalk-remix-1",
           answer: "PILLOWTALK REMIX (feat. Lil Wayne)",
         },
         {
@@ -8700,11 +8700,11 @@ const Cn = ue([
           answer: "wRoNg (feat. Kehlani)",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/death-by-a-thousand-cuts",
+          url: "https://soundcloud.com/zaynofficial/bright-1",
           answer: "BRIGHT",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/happiness",
+          url: "https://soundcloud.com/ingridmusic/to-begin-again",
           answer: "To Begin Again",
         },
         {
@@ -8784,7 +8784,7 @@ const Cn = ue([
           answer: "Cruel (feat. ZAYN)",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/mr-perfectly-fine-taylors",
+          url: "https://soundcloud.com/chris_brown/fuck-you-back-to-sleep-remix-ft-usher-zayn",
           answer: "Back To Sleep REMIX (feat. Usher & ZAYN)",
         },
         {
@@ -9295,12 +9295,12 @@ var Pn;
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "Taylor Swift Heardle"),
+          (An.title = "ZAYN Heardle"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the Taylor Swift song from the intro in as few tries as possible"
+            "Guess the ZAYN song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
