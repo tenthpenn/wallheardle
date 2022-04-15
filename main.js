@@ -3638,7 +3638,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for ZAYN songs. Made by <a href="https://www.instagram.com/emilyomgee/" title="@emilyomgee on IG">@emilyomgee</a>.</p> \n\n<p class="mb-3">Code remixed from <a href="https://taylor-swift-heardle.glitch.me/" title="Taylor Swift Heardle">Taylor Swift Heardle</a>.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for ZAYN songs. Made by <a href="https://www.instagram.com/emilyomgee/" title="@emilyomgee on IG">@emilyomgee</a>.</p> \n\n<p class="mb-3">See the source code <a href="https://glitch.com/edit/#!/zayn-heardle">here</a>. Code remixed from <a href="https://taylor-swift-heardle.glitch.me/" title="Taylor Swift Heardle">Taylor Swift Heardle</a>.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -4299,7 +4299,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _("You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎");
+        n = _("You didn't get today's ZAYN Heardle. Better luck tomorrow!");
       },
       m(e, t) {
         g(e, n, t);
@@ -4463,7 +4463,7 @@ var app = (function () {
             "\n\n" +
             t +
             "\n\n" +
-            "https://irradiated-lean-buckthorn.glitch.me/";
+            "https://zayn-heardle.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
