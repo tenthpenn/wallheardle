@@ -5,7 +5,7 @@ body {
     height: 100%;
 }
 body {
-    color: #DCC8A8;
+    color: #e3dad5;
     margin: 0;
     padding: 8px;
     box-sizing: border-box;
@@ -48,9 +48,9 @@ button {
 button:disabled {
     color: #999999;
 }
-button:not(:disabled):active {
-    background-color: #dddddd;
-}
 button:focus {
     border-color: #666666;
+}
+button:not(:disabled):active {
+    background-color: #dddddd;
 }
