@@ -3638,7 +3638,7 @@ var app = (function () {
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for ZAYN songs. Made by <a href="https://www.instagram.com/emilyomgee/" title="@emilyomgee on IG">@emilyomgee</a>.</p> \n\n<p class="mb-3">See the source code <a href="https://glitch.com/edit/#!/zayn-heardle">here</a>. Code remixed from <a href="https://taylor-swift-heardle.glitch.me/" title="Taylor Swift Heardle">Taylor Swift Heardle</a>.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. '),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for ZAYN songs. Made by <a href="https://www.instagram.com/emilyomgee/" title="@emilyomgee on IG">@emilyomgee</a>.</p> \n\n<p class="mb-3">Each song is randomly chosen from his discography, including features. See the source code <a href="https://glitch.com/edit/#!/zayn-heardle">here</a>.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
