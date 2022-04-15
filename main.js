@@ -8727,111 +8727,111 @@ const Cn = ue([
           answer: "ZAYN - Tightrope",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/speak-now",
+          url: "https://soundcloud.com/zaynofficial/insomnia",
           answer: "ZAYN - Insomnia",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/its-nice-to-have-a-friend",
+          url: "https://soundcloud.com/fiftyshadesdarker/taylor-swift-i-dont-wanna-live",
           answer: "ZAYN - I Don’t Wanna Live Forever (Fifty Shades Darker)",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/the-archer",
+          url: "https://soundcloud.com/zaynofficial/she-dont-love-me",
           answer: "ZAYN - SHE DON'T LOVE ME",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/babe-taylors-version-from-the",
+          url: "https://soundcloud.com/zaynofficial/fool-for-you",
           answer: "ZAYN - fOoL fOr YoU",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/fearless-taylors-version",
+          url: "https://soundcloud.com/zaynofficial/pillowtalk",
           answer: "ZAYN - PILLOWTALK",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/long-live-1",
+          url: "https://soundcloud.com/zaynofficial/you-wish-you-knew",
           answer: "ZAYN - You Wish You Knew",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/i-did-something-bad",
+          url: "https://soundcloud.com/miauk/freedun-1",
           answer: "M.I.A. - Freedun",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/a-place-in-this-world",
+          url: "https://soundcloud.com/r3hab/flames-feat-jungleboi",
           answer: "R3HAB - Flames",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/girl-at-home-taylors-version",
+          url: "https://soundcloud.com/zaynofficial/if-i-got-you",
           answer: "ZAYN - If I Got You",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/dress",
+          url: "https://soundcloud.com/zaynofficial/its-you-1",
           answer: "ZAYN - iT's YoU",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/dorothea",
+          url: "https://soundcloud.com/zaynofficial/intermission-flower",
           answer: "ZAYN - INTERMISSION: fLoWer",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/closure",
+          url: "https://soundcloud.com/zaynofficial/no-candle-no-light-feat-nicki",
           answer: "ZAYN - No Candle No Light (feat. Nicki Minaj)",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/you-belong-with-me-taylors",
+          url: "https://soundcloud.com/zaynofficial/unfuckwitable",
           answer: "ZAYN - Unfuckwitable",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/august",
-          answer: "ZAYN - Cruel (feat. ZAYN)",
+          url: "https://soundcloud.com/snakehips-1/cruel-1",
+          answer: "Snakehips - Cruel (feat. ZAYN)",
         },
         {
           url: "https://soundcloud.com/chris_brown/fuck-you-back-to-sleep-remix-ft-usher-zayn",
           answer: "Chris Brown - Back To Sleep REMIX (feat. Usher & ZAYN)",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/change-taylors-version",
+          url: "https://soundcloud.com/zaynofficial/there-you-are",
           answer: "ZAYN - There You Are",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/soon-youll-get-better-feat",
+          url: "https://soundcloud.com/zaynofficial/fingers",
           answer: "ZAYN - Fingers",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/starlight-taylors-version",
+          url: "https://soundcloud.com/zaynofficial/tio",
           answer: "ZAYN - TiO",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/mine-us-version",
+          url: "https://soundcloud.com/zaynofficial/fresh-air",
           answer: "ZAYN - Fresh Air",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/all-too-well-10-minute-version",
+          url: "https://soundcloud.com/zaynofficial/windowsill-feat-devlin",
           answer: "ZAYN - Windowsill (feat. Devlin)",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/the-best-day-taylors-version",
+          url: "https://soundcloud.com/zaynofficial/scripted",
           answer: "ZAYN - Scripted",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/stay-stay-stay-taylors-version",
+          url: "https://soundcloud.com/zaynofficial/flight-of-the-stars",
           answer: "ZAYN - Flight Of The Stars",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/i-think-he-knows",
+          url: "https://soundcloud.com/zaynofficial/sour-diesel",
           answer: "ZAYN - Sour Diesel",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/daylight",
+          url: "https://soundcloud.com/zaynofficial/good-guy",
           answer: "ZAYN - Good Guy",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/i-know-places",
+          url: "https://soundcloud.com/zaynofficial/she",
           answer: "ZAYN - sHe",
         },
         {
-          url: "https://soundcloud.com/taylorswiftofficial/love-story-taylors-version",
+          url: "https://soundcloud.com/zaynofficial/tonight",
           answer: "ZAYN - Tonight",
         },
         {
-          url: "https://soundcloud.com/joywave/golden-state-2",
+          url: "https://soundcloud.com/zaynofficial/good-years",
           answer: "ZAYN - Good Years",
         },
         {
