@@ -3663,15 +3663,15 @@ var app = (function () {
       c() {
         (n = w("div")),
           (r = w("a")),
-           (r.innerHTML =
-             '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the original Heardle on Ko-fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
-           M(
-             r,
-             "class",
-             "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
-           ),
-           M(r, "href", "https://ko-fi.com/heardle"),
-           M(r, "title", "Support the original Heardle on Ko-fi"),
+          (r.innerHTML =
+            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the original Heardle on Ko-fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+          M(
+            r,
+            "class",
+            "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
+          ),
+          M(r, "href", "https://ko-fi.com/heardle"),
+          M(r, "title", "Support the original Heardle on Ko-fi"),
           M(
             n,
             "class",
@@ -3851,7 +3851,7 @@ var app = (function () {
           (n = w("p")),
             (s = w("p")),
             (n.innerHTML =
-              'If you like this game, please consider supporting the original Heardle creators on Ko-fi.'),
+              "If you like this game, please consider supporting the original Heardle creators on Ko-fi."),
             (r = x()),
             (s = w("p")),
             // (s.innerHTML =
@@ -4299,9 +4299,7 @@ var app = (function () {
     let n;
     return {
       c() {
-        n = _(
-          "You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎"
-        );
+        n = _("You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎");
       },
       m(e, t) {
         g(e, n, t);
@@ -4464,10 +4462,8 @@ var app = (function () {
             e +
             "\n\n" +
             t +
-            "\n\n"
-            +
-            "https://irradiated-lean-buckthorn.glitch.me/"
-          ;
+            "\n\n" +
+            "https://irradiated-lean-buckthorn.glitch.me/";
           if (
             !navigator.share ||
             !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
@@ -8591,367 +8587,367 @@ var app = (function () {
       );
     })();
   });
-const Cn = ue([
-    "Talk To Me",
-    "Too Much (feat. Timbaland)",
-    "Calamity",
-    "BLUE",
-    "Rainberry",
-    "Common",
-    "PILLOWTALK REMIX (feat. Lil Wayne)",
-    "wRoNg (feat. Kehlani)",
-    "BRIGHT",
-    "To Begin Again",
-    "Satisfaction",
-    "wHo",
-    "I Don't Mind",
-    "dRuNk",
-    "Tightrope",
-    "Insomnia",
-    "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-    "SHE DON'T LOVE ME",
-    "fOoL fOr YoU",
-    "PILLOWTALK",
-    "You Wish You Knew",
-    "Freedun",
-    "Flames",
-    "If I Got You",
-    "iT's YoU",
-    "INTERMISSION: fLoWer",
-    "No Candle No Light (feat. Nicki Minaj)",
-    "Unfuckwitable",
-    "Cruel (feat. ZAYN)",
-    "Back To Sleep REMIX (feat. Usher & ZAYN)",
-    "There You Are",
-    "Fingers",
-    "TiO",
-    "Fresh Air",
-    "Windowsill (feat. Devlin)",
-    "Scripted",
-    "Flight Of The Stars",
-    "Sour Diesel",
-    "Good Guy",
-    "sHe",
-    "Tonight",
-    "Good Years",
-    "Rumors (feat. ZAYN)",
-    "Back To Life",
-    "Sweat",
-    "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
-    "BeFoUr",
-    "Vibez",
-    "Better",
-    "Icarus Interlude",
-    "Still Got Time (feat. PARTYNEXTDOOR)",
-    "BoRdErSz",
-    "LIKE I WOULD",
-    "Connexion",
-    "Natural",
-    "Trampoline (with ZAYN)",
-    "When Love's Around (feat. Syd)",
-    "Outside",
-    "rEaR vIeW",
-    "Let Me",
-    "Entertainer",
-    "Dusk Till Dawn (feat. Sia) - Radio Edit",
-    "River Road",
-    "Stand Still",
-    "lUcOzAdE",
-    "A Whole New World (End Title) - From Aladdin",
-    "All That",
-    "Entertainer",
-    "Imprint",
-    "tRuTh",
-  ]),
-  On = {
-    subscribe: ue(
-      [
-        {
-          url: "https://soundcloud.com/zaynofficial/talk-to-me",
-          answer: "ZAYN - Talk To Me - ZAYN",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/too-much-feat-timbaland",
-          answer: "ZAYN - Too Much (feat. Timbaland)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/calamity",
-          answer: "ZAYN - Calamity",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/blue",
-          answer: "ZAYN - BLUE",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/rainberry",
-          answer: "ZAYN - Rainberry",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/common",
-          answer: "ZAYN - Common",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/pillowtalk-remix-1",
-          answer: "ZAYN - PILLOWTALK REMIX (feat. Lil Wayne)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/wrong-1",
-          answer: "ZAYN - wRoNg (feat. Kehlani)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/bright-1",
-          answer: "ZAYN - BRIGHT",
-        },
-        {
-          url: "https://soundcloud.com/ingridmusic/to-begin-again",
-          answer: "Ingrid Michaelson - To Begin Again",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/satisfaction",
-          answer: "ZAYN - Satisfaction",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/who",
-          answer: "ZAYN - wHo",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/i-dont-mind",
-          answer: "ZAYN - I Don't Mind",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/drunk",
-          answer: "ZAYN - dRuNk",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/tightrope",
-          answer: "ZAYN - Tightrope",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/insomnia",
-          answer: "ZAYN - Insomnia",
-        },
-        {
-          url: "https://soundcloud.com/fiftyshadesdarker/taylor-swift-i-dont-wanna-live",
-          answer: "ZAYN - I Don’t Wanna Live Forever (Fifty Shades Darker)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/she-dont-love-me",
-          answer: "ZAYN - SHE DON'T LOVE ME",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/fool-for-you",
-          answer: "ZAYN - fOoL fOr YoU",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/pillowtalk",
-          answer: "ZAYN - PILLOWTALK",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/you-wish-you-knew",
-          answer: "ZAYN - You Wish You Knew",
-        },
-        {
-          url: "https://soundcloud.com/miauk/freedun-1",
-          answer: "M.I.A. - Freedun",
-        },
-        {
-          url: "https://soundcloud.com/r3hab/flames-feat-jungleboi",
-          answer: "R3HAB - Flames",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/if-i-got-you",
-          answer: "ZAYN - If I Got You",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/its-you-1",
-          answer: "ZAYN - iT's YoU",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/intermission-flower",
-          answer: "ZAYN - INTERMISSION: fLoWer",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/no-candle-no-light-feat-nicki",
-          answer: "ZAYN - No Candle No Light (feat. Nicki Minaj)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/unfuckwitable",
-          answer: "ZAYN - Unfuckwitable",
-        },
-        {
-          url: "https://soundcloud.com/snakehips-1/cruel-1",
-          answer: "Snakehips - Cruel (feat. ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/chris_brown/fuck-you-back-to-sleep-remix-ft-usher-zayn",
-          answer: "Chris Brown - Back To Sleep REMIX (feat. Usher & ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/there-you-are",
-          answer: "ZAYN - There You Are",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/fingers",
-          answer: "ZAYN - Fingers",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/tio",
-          answer: "ZAYN - TiO",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/fresh-air",
-          answer: "ZAYN - Fresh Air",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/windowsill-feat-devlin",
-          answer: "ZAYN - Windowsill (feat. Devlin)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/scripted",
-          answer: "ZAYN - Scripted",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/flight-of-the-stars",
-          answer: "ZAYN - Flight Of The Stars",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/sour-diesel",
-          answer: "ZAYN - Sour Diesel",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/good-guy",
-          answer: "ZAYN - Good Guy",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/she",
-          answer: "ZAYN - sHe",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/tonight",
-          answer: "ZAYN - Tonight",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/good-years",
-          answer: "ZAYN - Good Years",
-        },
-        {
-          url: "https://soundcloud.com/joywave/content",
-          answer: "Sabrina Claudio - Rumors (feat. ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/10-traveling-at-the-speed-of",
-          answer: "ZAYN - Back To Life",
-        },
-        {
-          url: "https://soundcloud.com/joywave/going-to-a-place",
-          answer: "ZAYN - Sweat",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/white-horse-taylors-version",
-          answer:
-            "ZAYN - You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-          answer: "ZAYN - BeFoUr",
-        },
-        {
-          url: "https://soundcloud.com/joywave/blank-slate",
-          answer: "ZAYN - Vibez",
-        },
-        {
-          url: "https://soundcloud.com/joywave/03-titan",
-          answer: "ZAYN - Better",
-        },
-        {
-          url: "https://soundcloud.com/joywave/london",
-          answer: "ZAYN - Icarus Interlude",
-        },
-        {
-          url: "https://soundcloud.com/joywave/who-owns-who",
-          answer: "ZAYN - Still Got Time (feat. PARTYNEXTDOOR)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/dying-well",
-          answer: "ZAYN - BoRdErSz",
-        },
-        {
-          url: "https://soundcloud.com/joywave/carry-me",
-          answer: "ZAYN - LIKE I WOULD",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-way-i-loved-you-taylors",
-          answer: "ZAYN - Connexion",
-        },
-        {
-          url: "https://soundcloud.com/joywave/destruction",
-          answer: "ZAYN - Natural",
-        },
-        {
-          url: "https://soundcloud.com/joywave/smokestacks",
-          answer: "SHAED - Trampoline (with ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/little-lies-youre-told",
-          answer: "ZAYN - When Love's Around (feat. Syd)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/cold-open",
-          answer: "ZAYN - Outside",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-man",
-          answer: "ZAYN - rEaR vIeW",
-        },
-        {
-          url: "https://soundcloud.com/joywave/theme-from-88888",
-          answer: "ZAYN - Let Me",
-        },
-        {
-          url: "https://soundcloud.com/joywave/doubt",
-          answer: "ZAYN - Entertainer",
-        },
-        {
-          url: "https://soundcloud.com/joywave/feels-like-a-lie",
-          answer: "ZAYN - Dusk Till Dawn (feat. Sia) - Radio Edit",
-        },
-        {
-          url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-          answer: "ZAYN - River Road",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
-          answer: "ZAYN - Stand Still",
-        },
-        {
-          url: "https://soundcloud.com/joywave/06-virus-exe",
-          answer: "ZAYN - lUcOzAdE",
-        },
-        {
-          url: "https://soundcloud.com/joywave/08-hang-with-me",
-          answer: "ZAYN - A Whole New World (End Title) - From Aladdin",
-        },
-        {
-          url: "https://soundcloud.com/joywave/f-e-a-r",
-          answer: "ZAYN - All That",
-        },
-        {
-          url: "https://soundcloud.com/joywave/like-a-kennedy",
-          answer: "ZAYN - Entertainer",
-        },
-        {
-          url: "https://soundcloud.com/joywave/the-inversion",
-          answer: "ZAYN - Imprint",
-        },
-        {
-          url: "https://soundcloud.com/joywave/numbers-station",
-          answer: "ZAYN - tRuTh",
-        },
-      ],
-      Pn
-    ).subscribe,
-  };
-var Pn;
+  const Cn = ue([
+      "ZAYN - Talk To Me",
+      "ZAYN - Too Much (feat. Timbaland)",
+      "ZAYN - Calamity",
+      "ZAYN - BLUE",
+      "ZAYN - Rainberry",
+      "ZAYN - Common",
+      "ZAYN - PILLOWTALK REMIX (feat. Lil Wayne)",
+      "ZAYN - wRoNg (feat. Kehlani)",
+      "ZAYN - BRIGHT",
+      "Ingrid Michaelson - To Begin Again",
+      "ZAYN - Satisfaction",
+      "ZAYN - wHo",
+      "ZAYN - I Don't Mind",
+      "ZAYN - dRuNk",
+      "ZAYN - Tightrope",
+      "ZAYN - Insomnia",
+      "ZAYN - I Don’t Wanna Live Forever (Fifty Shades Darker)",
+      "ZAYN - SHE DON'T LOVE ME",
+      "ZAYN - fOoL fOr YoU",
+      "ZAYN - PILLOWTALK",
+      "ZAYN - You Wish You Knew",
+      "M.I.A. - Freedun",
+      "R3HAB - Flames",
+      "ZAYN - If I Got You",
+      "ZAYN - iT's YoU",
+      "ZAYN - INTERMISSION: fLoWer",
+      "ZAYN - No Candle No Light (feat. Nicki Minaj)",
+      "ZAYN - Unfuckwitable",
+      "Snakehips - Cruel (feat. ZAYN)",
+      "Chris Brown - Back To Sleep REMIX (feat. Usher & ZAYN)",
+      "ZAYN - There You Are",
+      "ZAYN - Fingers",
+      "ZAYN - TiO",
+      "ZAYN - Fresh Air",
+      "ZAYN - Windowsill (feat. Devlin)",
+      "ZAYN - Scripted",
+      "ZAYN - Flight Of The Stars",
+      "ZAYN - Sour Diesel",
+      "ZAYN - Good Guy",
+      "ZAYN - sHe",
+      "ZAYN - Tonight",
+      "ZAYN - Good Years",
+      "Sabrina Claudio - Rumors (feat. ZAYN)",
+      "ZAYN - Back To Life",
+      "ZAYN - Sweat",
+      "ZAYN - You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
+      "ZAYN - BeFoUr",
+      "ZAYN - Vibez",
+      "ZAYN - Better",
+      "ZAYN - Icarus Interlude",
+      "ZAYN - Still Got Time (feat. PARTYNEXTDOOR)",
+      "ZAYN - BoRdErSz",
+      "ZAYN - LIKE I WOULD",
+      "ZAYN - Connexion",
+      "ZAYN - Natural",
+      "SHAED - Trampoline (with ZAYN)",
+      "ZAYN - When Love's Around (feat. Syd)",
+      "ZAYN - Outside",
+      "ZAYN - rEaR vIeW",
+      "ZAYN - Let Me",
+      "ZAYN - Entertainer",
+      "ZAYN - Dusk Till Dawn (feat. Sia) - Radio Edit",
+      "ZAYN - River Road",
+      "ZAYN - Stand Still",
+      "ZAYN - lUcOzAdE",
+      "ZAYN - A Whole New World (End Title) - From Aladdin",
+      "ZAYN - All That",
+      "ZAYN - Entertainer",
+      "ZAYN - Imprint",
+      "ZAYN - tRuTh",
+    ]),
+    On = {
+      subscribe: ue(
+        [
+          {
+            url: "https://soundcloud.com/zaynofficial/talk-to-me",
+            answer: "ZAYN - Talk To Me - ZAYN",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/too-much-feat-timbaland",
+            answer: "ZAYN - Too Much (feat. Timbaland)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/calamity",
+            answer: "ZAYN - Calamity",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/blue",
+            answer: "ZAYN - BLUE",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/rainberry",
+            answer: "ZAYN - Rainberry",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/common",
+            answer: "ZAYN - Common",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/pillowtalk-remix-1",
+            answer: "ZAYN - PILLOWTALK REMIX (feat. Lil Wayne)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/wrong-1",
+            answer: "ZAYN - wRoNg (feat. Kehlani)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/bright-1",
+            answer: "ZAYN - BRIGHT",
+          },
+          {
+            url: "https://soundcloud.com/ingridmusic/to-begin-again",
+            answer: "Ingrid Michaelson - To Begin Again",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/satisfaction",
+            answer: "ZAYN - Satisfaction",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/who",
+            answer: "ZAYN - wHo",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/i-dont-mind",
+            answer: "ZAYN - I Don't Mind",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/drunk",
+            answer: "ZAYN - dRuNk",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/tightrope",
+            answer: "ZAYN - Tightrope",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/insomnia",
+            answer: "ZAYN - Insomnia",
+          },
+          {
+            url: "https://soundcloud.com/fiftyshadesdarker/taylor-swift-i-dont-wanna-live",
+            answer: "ZAYN - I Don’t Wanna Live Forever (Fifty Shades Darker)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/she-dont-love-me",
+            answer: "ZAYN - SHE DON'T LOVE ME",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/fool-for-you",
+            answer: "ZAYN - fOoL fOr YoU",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/pillowtalk",
+            answer: "ZAYN - PILLOWTALK",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/you-wish-you-knew",
+            answer: "ZAYN - You Wish You Knew",
+          },
+          {
+            url: "https://soundcloud.com/miauk/freedun-1",
+            answer: "M.I.A. - Freedun",
+          },
+          {
+            url: "https://soundcloud.com/r3hab/flames-feat-jungleboi",
+            answer: "R3HAB - Flames",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/if-i-got-you",
+            answer: "ZAYN - If I Got You",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/its-you-1",
+            answer: "ZAYN - iT's YoU",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/intermission-flower",
+            answer: "ZAYN - INTERMISSION: fLoWer",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/no-candle-no-light-feat-nicki",
+            answer: "ZAYN - No Candle No Light (feat. Nicki Minaj)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/unfuckwitable",
+            answer: "ZAYN - Unfuckwitable",
+          },
+          {
+            url: "https://soundcloud.com/snakehips-1/cruel-1",
+            answer: "Snakehips - Cruel (feat. ZAYN)",
+          },
+          {
+            url: "https://soundcloud.com/chris_brown/fuck-you-back-to-sleep-remix-ft-usher-zayn",
+            answer: "Chris Brown - Back To Sleep REMIX (feat. Usher & ZAYN)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/there-you-are",
+            answer: "ZAYN - There You Are",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/fingers",
+            answer: "ZAYN - Fingers",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/tio",
+            answer: "ZAYN - TiO",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/fresh-air",
+            answer: "ZAYN - Fresh Air",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/windowsill-feat-devlin",
+            answer: "ZAYN - Windowsill (feat. Devlin)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/scripted",
+            answer: "ZAYN - Scripted",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/flight-of-the-stars",
+            answer: "ZAYN - Flight Of The Stars",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/sour-diesel",
+            answer: "ZAYN - Sour Diesel",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/good-guy",
+            answer: "ZAYN - Good Guy",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/she",
+            answer: "ZAYN - sHe",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/tonight",
+            answer: "ZAYN - Tonight",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/good-years",
+            answer: "ZAYN - Good Years",
+          },
+          {
+            url: "https://soundcloud.com/sabrina-claudio/rumors-ft-zayn",
+            answer: "Sabrina Claudio - Rumors (feat. ZAYN)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/back-to-life",
+            answer: "ZAYN - Back To Life",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/sweat",
+            answer: "ZAYN - Sweat",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/you-cant-hide-you-cant-hide",
+            answer:
+              "ZAYN - You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/befour",
+            answer: "ZAYN - BeFoUr",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/vibez",
+            answer: "ZAYN - Vibez",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/better",
+            answer: "ZAYN - Better",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/icarus-interlude",
+            answer: "ZAYN - Icarus Interlude",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/still-got-time",
+            answer: "ZAYN - Still Got Time (feat. PARTYNEXTDOOR)",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/bordersz",
+            answer: "ZAYN - BoRdErSz",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/like-i-would",
+            answer: "ZAYN - LIKE I WOULD",
+          },
+          {
+            url: "https://soundcloud.com/zaynofficial/connexion",
+            answer: "ZAYN - Connexion",
+          },
+          {
+            url: "https://soundcloud.com/joywave/destruction",
+            answer: "ZAYN - Natural",
+          },
+          {
+            url: "https://soundcloud.com/joywave/smokestacks",
+            answer: "SHAED - Trampoline (with ZAYN)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/little-lies-youre-told",
+            answer: "ZAYN - When Love's Around (feat. Syd)",
+          },
+          {
+            url: "https://soundcloud.com/joywave/cold-open",
+            answer: "ZAYN - Outside",
+          },
+          {
+            url: "https://soundcloud.com/taylorswiftofficial/the-man",
+            answer: "ZAYN - rEaR vIeW",
+          },
+          {
+            url: "https://soundcloud.com/joywave/theme-from-88888",
+            answer: "ZAYN - Let Me",
+          },
+          {
+            url: "https://soundcloud.com/joywave/doubt",
+            answer: "ZAYN - Entertainer",
+          },
+          {
+            url: "https://soundcloud.com/joywave/feels-like-a-lie",
+            answer: "ZAYN - Dusk Till Dawn (feat. Sia) - Radio Edit",
+          },
+          {
+            url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
+            answer: "ZAYN - River Road",
+          },
+          {
+            url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
+            answer: "ZAYN - Stand Still",
+          },
+          {
+            url: "https://soundcloud.com/joywave/06-virus-exe",
+            answer: "ZAYN - lUcOzAdE",
+          },
+          {
+            url: "https://soundcloud.com/joywave/08-hang-with-me",
+            answer: "ZAYN - A Whole New World (End Title) - From Aladdin",
+          },
+          {
+            url: "https://soundcloud.com/joywave/f-e-a-r",
+            answer: "ZAYN - All That",
+          },
+          {
+            url: "https://soundcloud.com/joywave/like-a-kennedy",
+            answer: "ZAYN - Entertainer",
+          },
+          {
+            url: "https://soundcloud.com/joywave/the-inversion",
+            answer: "ZAYN - Imprint",
+          },
+          {
+            url: "https://soundcloud.com/joywave/numbers-station",
+            answer: "ZAYN - tRuTh",
+          },
+        ],
+        Pn
+      ).subscribe,
+    };
+  var Pn;
   const { document: An, window: Ln } = X;
   function Nn(e) {
     let t, n;
