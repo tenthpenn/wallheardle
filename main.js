@@ -1,449 +1,5 @@
 var app = (function () {
   "use strict";
-const Cn = ue([
-    "Talk To Me",
-    "Too Much (feat. Timbaland)",
-    "Calamity",
-    "BLUE",
-    "Rainberry",
-    "Common",
-    "PILLOWTALK REMIX (feat. Lil Wayne)",
-    "wRoNg (feat. Kehlani)",
-    "BRIGHT",
-    "To Begin Again",
-    "Satisfaction",
-    "wHo",
-    "I Don't Mind",
-    "dRuNk",
-    "Tightrope",
-    "Insomnia",
-    "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-    "SHE DON'T LOVE ME",
-    "fOoL fOr YoU",
-    "PILLOWTALK",
-    "You Wish You Knew",
-    "Freedun",
-    "Flames",
-    "If I Got You",
-    "iT's YoU",
-    "INTERMISSION: fLoWer",
-    "No Candle No Light (feat. Nicki Minaj)",
-    "Unfuckwitable",
-    "Cruel (feat. ZAYN)",
-    "Back To Sleep REMIX (feat. Usher & ZAYN)",
-    "There You Are",
-    "Fingers",
-    "TiO",
-    "Fresh Air",
-    "Windowsill (feat. Devlin)",
-    "Scripted",
-    "Flight Of The Stars",
-    "Sour Diesel",
-    "Good Guy",
-    "sHe",
-    "Tonight",
-    "Good Years",
-    "Rumors (feat. ZAYN)",
-    "Back To Life",
-    "Sweat",
-    "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
-    "BeFoUr",
-    "Vibez",
-    "Better",
-    "Icarus Interlude",
-    "Still Got Time (feat. PARTYNEXTDOOR)",
-    "BoRdErSz",
-    "LIKE I WOULD",
-    "Connexion",
-    "Natural",
-    "Trampoline (with ZAYN)",
-    "When Love's Around (feat. Syd)",
-    "Outside",
-    "rEaR vIeW",
-    "Let Me",
-    "Entertainer",
-    "Dusk Till Dawn (feat. Sia) - Radio Edit",
-    "River Road",
-    "Stand Still",
-    "lUcOzAdE",
-    "A Whole New World (End Title) - From Aladdin",
-    "All That",
-    "Entertainer",
-    "Imprint",
-    "tRuTh",
-  ]),
-  On = {
-    subscribe: ue(
-      [
-        {
-          url: "https://soundcloud.com/zaynofficial/talk-to-me",
-          answer: "Talk To Me - ZAYN",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/too-much-feat-timbaland",
-          answer: "Too Much (feat. Timbaland)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/calamity",
-          answer: "Calamity",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/blue",
-          answer: "BLUE",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/rainberry",
-          answer: "Rainberry",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/common",
-          answer: "Common",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/pillowtalk-remix-1",
-          answer: "PILLOWTALK REMIX (feat. Lil Wayne)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/wrong-1",
-          answer: "wRoNg (feat. Kehlani)",
-        },
-        {
-          url: "https://soundcloud.com/zaynofficial/bright-1",
-          answer: "BRIGHT",
-        },
-        {
-          url: "https://soundcloud.com/ingridmusic/to-begin-again",
-          answer: "To Begin Again",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/new-romantics",
-          answer: "Satisfaction",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/new-years-day",
-          answer: "wHo",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/this-is-why-we-cant-have-nice",
-          answer: "I Don't Mind",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-story-of-us-us-version",
-          answer: "dRuNk",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/me-feat-brendon-urie-of-panic",
-          answer: "Tightrope",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/speak-now",
-          answer: "Insomnia",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/its-nice-to-have-a-friend",
-          answer: "I Don’t Wanna Live Forever (Fifty Shades Darker)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-archer",
-          answer: "SHE DON'T LOVE ME",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/babe-taylors-version-from-the",
-          answer: "fOoL fOr YoU",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/fearless-taylors-version",
-          answer: "PILLOWTALK",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/long-live-1",
-          answer: "You Wish You Knew",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/i-did-something-bad",
-          answer: "Freedun",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/a-place-in-this-world",
-          answer: "Flames",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/girl-at-home-taylors-version",
-          answer: "If I Got You",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/dress",
-          answer: "iT's YoU",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/dorothea",
-          answer: "INTERMISSION: fLoWer",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/closure",
-          answer: "No Candle No Light (feat. Nicki Minaj)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/you-belong-with-me-taylors",
-          answer: "Unfuckwitable",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/august",
-          answer: "Cruel (feat. ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/chris_brown/fuck-you-back-to-sleep-remix-ft-usher-zayn",
-          answer: "Back To Sleep REMIX (feat. Usher & ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/change-taylors-version",
-          answer: "There You Are",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/soon-youll-get-better-feat",
-          answer: "Fingers",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/starlight-taylors-version",
-          answer: "TiO",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/mine-us-version",
-          answer: "Fresh Air",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/all-too-well-10-minute-version",
-          answer: "Windowsill (feat. Devlin)",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-best-day-taylors-version",
-          answer: "Scripted",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/stay-stay-stay-taylors-version",
-          answer: "Flight Of The Stars",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/i-think-he-knows",
-          answer: "Sour Diesel",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/daylight",
-          answer: "Good Guy",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/i-know-places",
-          answer: "sHe",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/love-story-taylors-version",
-          answer: "Tonight",
-        },
-        {
-          url: "https://soundcloud.com/joywave/golden-state-2",
-          answer: "Good Years",
-        },
-        {
-          url: "https://soundcloud.com/joywave/content",
-          answer: "Rumors (feat. ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/10-traveling-at-the-speed-of",
-          answer: "Back To Life",
-        },
-        {
-          url: "https://soundcloud.com/joywave/going-to-a-place",
-          answer: "Sweat",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/white-horse-taylors-version",
-          answer:
-            "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
-          answer: "BeFoUr",
-        },
-        {
-          url: "https://soundcloud.com/joywave/blank-slate",
-          answer: "Vibez",
-        },
-        {
-          url: "https://soundcloud.com/joywave/03-titan",
-          answer: "Better",
-        },
-        {
-          url: "https://soundcloud.com/joywave/london",
-          answer: "Icarus Interlude",
-        },
-        {
-          url: "https://soundcloud.com/joywave/who-owns-who",
-          answer: "Still Got Time (feat. PARTYNEXTDOOR)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/dying-well",
-          answer: "BoRdErSz",
-        },
-        {
-          url: "https://soundcloud.com/joywave/carry-me",
-          answer: "LIKE I WOULD",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-way-i-loved-you-taylors",
-          answer: "Connexion",
-        },
-        {
-          url: "https://soundcloud.com/joywave/destruction",
-          answer: "Natural",
-        },
-        {
-          url: "https://soundcloud.com/joywave/smokestacks",
-          answer: "Trampoline (with ZAYN)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/little-lies-youre-told",
-          answer: "When Love's Around (feat. Syd)",
-        },
-        {
-          url: "https://soundcloud.com/joywave/cold-open",
-          answer: "Outside",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/the-man",
-          answer: "rEaR vIeW",
-        },
-        {
-          url: "https://soundcloud.com/joywave/theme-from-88888",
-          answer: "Let Me",
-        },
-        {
-          url: "https://soundcloud.com/joywave/doubt",
-          answer: "Entertainer",
-        },
-        {
-          url: "https://soundcloud.com/joywave/feels-like-a-lie",
-          answer: "Dusk Till Dawn (feat. Sia) - Radio Edit",
-        },
-        {
-          url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
-          answer: "River Road",
-        },
-        {
-          url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
-          answer: "Stand Still",
-        },
-        {
-          url: "https://soundcloud.com/joywave/06-virus-exe",
-          answer: "lUcOzAdE",
-        },
-        {
-          url: "https://soundcloud.com/joywave/08-hang-with-me",
-          answer: "A Whole New World (End Title) - From Aladdin",
-        },
-        {
-          url: "https://soundcloud.com/joywave/f-e-a-r",
-          answer: "All That",
-        },
-        {
-          url: "https://soundcloud.com/joywave/like-a-kennedy",
-          answer: "Entertainer",
-        },
-        {
-          url: "https://soundcloud.com/joywave/the-inversion",
-          answer: "Imprint",
-        },
-        {
-          url: "https://soundcloud.com/joywave/numbers-station",
-          answer: "tRuTh",
-        },
-      ],
-      Pn
-    ).subscribe,
-  };
-  function fn(e, t, n) {
-    let { userGuesses: r } = t,
-      { currentHeardle: s } = t,
-      { config: i } = t,
-      { hasFinished: o } = t,
-      { gotCorrect: a } = t,
-      { guessRef: l } = t,
-      { isPrime: u } = t,
-      c = !1;
-    return (
-      A(),
-      (e.$$set = (e) => {
-        "userGuesses" in e && n(0, (r = e.userGuesses)),
-          "currentHeardle" in e && n(7, (s = e.currentHeardle)),
-          "config" in e && n(1, (i = e.config)),
-          "hasFinished" in e && n(2, (o = e.hasFinished)),
-          "gotCorrect" in e && n(8, (a = e.gotCorrect)),
-          "guessRef" in e && n(3, (l = e.guessRef)),
-          "isPrime" in e && n(4, (u = e.isPrime));
-      }),
-      [
-        r,
-        i,
-        o,
-        l,
-        u,
-        c,
-        () => {
-          let e = "🌙 LOONA Heardle #" + (s.id + 1),
-            t = "";
-          a
-            ? r.length < i.maxAttempts / 3
-              ? (t += "🔊")
-              : r.length < (i.maxAttempts / 3) * 2
-              ? (t += "🔉")
-              : r.length <= i.maxAttempts && (t += "🔈")
-            : (t += "🔇");
-          for (let e = 0; e < i.maxAttempts; e++)
-            r.length > e
-              ? 1 == r[e].isCorrect
-                ? (t += "🟩")
-                : 1 == r[e].isSkipped
-                ? (t += "⬛️")
-                : (t += "🟥")
-              : (t += "⬜️");
-          //let o = e + "\n\n" + t + "\n\nhttps://loona-heardle.glitch.me";
-          let o = e + "\n\n" + t + "\n\nhttps://loona-heardle.glitch.me\n\nKeep streaming: youtu.be/ytuMObZlqOE";
-          if (
-            !navigator.share ||
-            !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-              navigator.userAgent
-            ) ||
-            /Firefox/i.test(navigator.userAgent)
-          )
-            return navigator &&
-              navigator.clipboard &&
-              navigator.clipboard.writeText
-              ? (pe("clickShareClipboard", {
-                  name: "clickShareClipboard",
-                }),
-                n(5, (c = !0)),
-                setTimeout(() => {
-                  n(5, (c = !1));
-                }, 2e3),
-                navigator.clipboard.writeText(o))
-              : Promise.reject(
-                  "There was a problem copying your result to the clipboard"
-                );
-          navigator
-            .share({
-              text: o,
-            })
-            .then(() => {
-              pe("clickSharePanel", {
-                name: "clickSharePanel",
-              });
-            })
-            .catch(console.error);
-        },
-        s,
-        a,
-      ]
-    );
-  }
   function e() {}
   function t(e) {
     return e();
@@ -1041,7 +597,11 @@ const Cn = ue([
       c() {
         (t = k("svg")),
           (n = k("path")),
-          M(n, "d" ,"M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"),
+          M(
+            n,
+            "d",
+            "M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+          ),
           M(t, "xmlns", "http://www.w3.org/2000/svg"),
           M(t, "width", "24"),
           M(t, "height", "24"),
@@ -1096,8 +656,6 @@ const Cn = ue([
   }
   function ke(e) {
     let t, n, r, s, i, o, a, l, u, c, d, h, f, m, v;
-    var currentDate = Yn(Vt.startDate, "YYYY-MM-DD");
-    let currentRound = Yn().diff(currentDate, "days") + 1;
     return (
       (i = new ae({
         props: {
@@ -1154,7 +712,7 @@ const Cn = ue([
             Q(a.$$.fragment),
             (l = x()),
             (u = w("h1")),
-            (u.textContent = "LOONA Heardle #" + currentRound),
+            (u.textContent = "ZAYN Heardle"),
             (c = x()),
             (d = w("div")),
             Q(h.$$.fragment),
@@ -1756,9 +1314,7 @@ const Cn = ue([
     let n;
     return {
       c() {
-        (n = w("div")),
-          (n.innerHTML = '<span class="loader svelte-57p3aa"></span>'),
-          M(n, "class", "flex justify-center m-3");
+        n = w("div");
       },
       m(e, t) {
         g(e, n, t);
@@ -3757,7 +3313,7 @@ const Cn = ue([
           threshold: 1,
           wrapper: !1,
           resultsList: {
-            maxResults: 6,
+            maxResults: 10,
           },
           diacritics: !0,
           noresults: !0,
@@ -3786,7 +3342,7 @@ const Cn = ue([
             },
             input: {
               selection: (t) => {
-                const s = t.detail.selection.value;
+                let s = t.detail.selection.value;
                 (e.input.value = s), n(4, (r = s));
               },
             },
@@ -3796,6 +3352,8 @@ const Cn = ue([
     });
     return (
       (e.$$set = (e) => {
+        s.pop();
+        // console.log('all', s)
         "allOptions" in e && n(6, (s = e.allOptions)),
           "currentAttempt" in e && n(0, (i = e.currentAttempt)),
           "config" in e && n(1, (o = e.config)),
@@ -4080,7 +3638,7 @@ const Cn = ue([
       c() {
         (n = w("div")),
           (n.innerHTML =
-            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a>, and <a href="https://heardle-kpop.glitch.me/" title="Heardle">K-Pop Heardle</a> but for LOONA songs.</p> \n\n<p class="mb-3">Each LOONA Heardle is randomly chosen from LOONA\'s discography. All copyright goes to Blockberry Creative/relevant artists.</p> \n\n<p class="mb-3">Songs included are OT12, Predebut, side-projects and OSTs. Thanks for playing!</p> \n\n\n\n<p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>,\n    <a href="https://svelte.dev">Svelte</a>,\n    <a href="https://tailwindcss.com">Tailwind</a>,\n    <a href="https://fonts.google.com/noto/specimen/Noto+Serif+Display">Noto Serif Display</a>, <a href="https://fonts.google.com/noto/specimen/Noto+Sans">Noto Sans</a>,\n    <a href="https://iconsvg.xyz">IconSVG</a>, <a href="https://momentjs.com">momentjs</a>,\n    <a href="https://tarekraafat.github.io/autoComplete.js/#/">autocomplete.js</a>, and powered by <a href="https://glitch.com/">Glitch</a>.         <a href="https://omakase.studio" title="Studio Omakase">Served omakase / お任せ</a>. LOONA version made by <a href ="https://twitter.com/TokkiNeukdae">TokkiNeukdae</a>.</p>'),
+            '<p class="mb-3">A clone of <a href="https://www.heardle.app/" title="Heardle">Heardle</a> but for ZAYN songs.</p> \n\n<p class="mb-3">Code remixed from <a href="https://taylor-swift-heardle.glitch.me/">Taylor Swift Heardle</a>.</p> \n\n\n\n <p class="mb-3">  </p>  \n\n\n\n <p class="text-xs mb-3 text-custom-line">Prepared with <a href="https://developers.soundcloud.com">Soundcloud</a>\n and powered by <a href="https://glitch.com/">Glitch</a>. '),
           M(n, "class", "text");
       },
       m(e, t) {
@@ -4105,15 +3663,15 @@ const Cn = ue([
       c() {
         (n = w("div")),
           (r = w("a")),
-          (r.innerHTML =
-            '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the Heardle devs on Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
-          M(
-            r,
-            "class",
-            "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
-          ),
-          M(r, "href", "https://ko-fi.com/heardle"),
-          M(r, "title", "Support the Heardle devs on Ko-Fi"),
+           (r.innerHTML =
+             '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the original Heardle on Ko-fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+           M(
+             r,
+             "class",
+             "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
+           ),
+           M(r, "href", "https://ko-fi.com/heardle"),
+           M(r, "title", "Support the original Heardle on Ko-fi"),
           M(
             n,
             "class",
@@ -4173,7 +3731,7 @@ const Cn = ue([
     let n, r, s, i, o, a, l, u, c, d;
     return {
       c() {
-          (n = w("div")),
+        (n = w("div")),
           (r = w("div")),
           (s = x()),
           (i = w("div")),
@@ -4268,7 +3826,7 @@ const Cn = ue([
       P(async function () {
         (async function () {
           const e = await fetch(
-            "https://loona-heardle.glitch.me/supporters.json"
+            "https://wjsn-heardle.glitch.me/supporters.json"
           );
           return await e.json();
         })().then((e) => {
@@ -4291,12 +3849,13 @@ const Cn = ue([
       {
         c() {
           (n = w("p")),
-            (n.textContent =
-              "If you enjoyed the game and would like to support the Heardle devs with server costs to keep the original game running, please consider donating!"),
+            (s = w("p")),
+            (n.innerHTML =
+              'If you like this game, please consider supporting the original Heardle creators on Ko-fi.'),
             (r = x()),
             (s = w("p")),
-            (s.innerHTML =
-              '<p class="mb-3">If you\'ve enjoyed playing LOONA Heardle, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a> and the <a href="https://ko-fi.com/heardlekpop">K-Pop Heardle devs</a> as this project is based on their work.</p>'),
+            // (s.innerHTML =
+            //   '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle and would like to support the Heardle devs with server costs to keep the original game running, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -4348,15 +3907,7 @@ const Cn = ue([
       maxAttempts: 6,
       startDate: "2022-04-07",
     },
-    Jt = [
-      "Preparing to leave LOONA Island...", // FAILED
-      "Haseul would be proud.", // First try
-      "You're pretty good!?",
-      "Hey, that was pretty good.",
-      "Not bad.",
-      "Could've been worse... *Gowon voice* but I still love you.",
-      "Took you 6 tries... So What?", // Sixth try
-    ];
+    Jt = ["0", "1", "2", "3", "4", "5", "6"];
   function Kt(t) {
     let n, r;
     return {
@@ -4475,14 +4026,14 @@ const Cn = ue([
             (f = w("div")),
             (m = w("div")),
             (k = w("div")),
-            (k.textContent = "Next LOONA song in:"),
+            (k.textContent = "Next ZAYN song in:"),
             (b = x()),
             Q(S.$$.fragment),
             (D = x()),
             (T = w("div")),
             (Y = w("div")),
-            (Y.innerHTML =
-              '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">LOONA Heardle?</span>'),
+            // (Y.innerHTML =
+            //   '<span class="text-custom-negative"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></span> \n                <span class="px-1">ZAYN Heardle?</span>'),
             (C = x()),
             Q(O.$$.fragment),
             M(n, "class", "text-lg text-custom-line"),
@@ -4691,7 +4242,7 @@ const Cn = ue([
       s = (e[0].length * e[1].attemptInterval) / 1e3 + "";
     return {
       c() {
-        (t = _("You got today's LOONA Heardle within the first ")),
+        (t = _("You got today's ZAYN Heardle within the first ")),
           (n = _(s)),
           (r = _(" seconds."));
       },
@@ -4718,7 +4269,7 @@ const Cn = ue([
       a = e[1].attemptIntervalAlt[e[0].length - 1] / 1e3 > 1 ? "s" : "";
     return {
       c() {
-        (t = _("You got today's LOONA Heardle within ")),
+        (t = _("You got today's ZAYN Heardle within ")),
           (n = _(o)),
           (r = _("\n                second")),
           (s = _(a)),
@@ -4748,7 +4299,9 @@ const Cn = ue([
     let n;
     return {
       c() {
-        n = _("You didn't get today's LOONA Heardle. Better luck tomorrow!");
+        n = _(
+          "You didn't get today's ZAYN Heardle. Better luck tomorrow! 💎"
+        );
       },
       m(e, t) {
         g(e, n, t);
@@ -4860,12 +4413,104 @@ const Cn = ue([
       },
     };
   }
+  function fn(e, t, n) {
+    // console.log("current", t);
+    let { userGuesses: r } = t,
+      { currentHeardle: s } = t,
+      { config: i } = t,
+      { hasFinished: o } = t,
+      { gotCorrect: a } = t,
+      { guessRef: l } = t,
+      { isPrime: u } = t,
+      c = !1;
+    return (
+      A(),
+      (e.$$set = (e) => {
+        "userGuesses" in e && n(0, (r = e.userGuesses)),
+          "currentHeardle" in e && n(7, (s = e.currentHeardle)),
+          "config" in e && n(1, (i = e.config)),
+          "hasFinished" in e && n(2, (o = e.hasFinished)),
+          "gotCorrect" in e && n(8, (a = e.gotCorrect)),
+          "guessRef" in e && n(3, (l = e.guessRef)),
+          "isPrime" in e && n(4, (u = e.isPrime));
+      }),
+      [
+        r,
+        i,
+        o,
+        l,
+        u,
+        c,
+        () => {
+          // console.log('answer', r.length)
+          let e = "ZAYN Heardle #" + (s.id + 1),
+            t = "";
+          a
+            ? r.length < i.maxAttempts / 3
+              ? (t += "🔊")
+              : r.length < (i.maxAttempts / 3) * 2
+              ? (t += "🔉")
+              : r.length <= i.maxAttempts && (t += "🔈")
+            : (t += "🔇");
+          for (let e = 0; e < i.maxAttempts; e++)
+            r.length > e
+              ? 1 == r[e].isCorrect
+                ? (t += "🟩")
+                : 1 == r[e].isSkipped
+                ? (t += "⬛️")
+                : (t += "🟥")
+              : (t += "⬜️");
+          let o =
+            e +
+            "\n\n" +
+            t +
+            "\n\n"
+            +
+            "https://irradiated-lean-buckthorn.glitch.me/"
+          ;
+          if (
+            !navigator.share ||
+            !/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+              navigator.userAgent
+            ) ||
+            /Firefox/i.test(navigator.userAgent)
+          )
+            return navigator &&
+              navigator.clipboard &&
+              navigator.clipboard.writeText
+              ? (pe("clickShareClipboard", {
+                  name: "clickShareClipboard",
+                }),
+                n(5, (c = !0)),
+                setTimeout(() => {
+                  n(5, (c = !1));
+                }, 2e3),
+                navigator.clipboard.writeText(o))
+              : Promise.reject(
+                  "There was a problem copying your result to the clipboard"
+                );
+          navigator
+            .share({
+              text: o,
+            })
+            .then(() => {
+              pe("clickSharePanel", {
+                name: "clickSharePanel",
+              });
+            })
+            .catch(console.error);
+        },
+        s,
+        a,
+      ]
+    );
+  }
   class mn extends se {
     constructor(e) {
       super(),
         re(this, e, fn, hn, i, {
           userGuesses: 0,
-          currentHeardle: 7,
+          currentHeardle: 0,
           config: 1,
           hasFinished: 2,
           gotCorrect: 8,
@@ -4908,7 +4553,7 @@ const Cn = ue([
           (t = w("div")),
             (n = w("div")),
             (n.innerHTML =
-              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct LOONA song in the list.</p></div>'),
+              '<div class="mr-4 w-8 text-custom-line"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-7 w-7"><circle cx="5.5" cy="17.5" r="2.5"></circle><circle cx="17.5" cy="15.5" r="2.5"></circle><path d="M8 17V5l12-2v12"></path></svg></div> \n        <div><p>Listen to the intro, then find the correct ZAYN song in the list.</p></div>'),
             (r = x()),
             (s = w("div")),
             (s.innerHTML =
@@ -8946,7 +8591,367 @@ const Cn = ue([
       );
     })();
   });
-  var Pn;
+const Cn = ue([
+    "Talk To Me",
+    "Too Much (feat. Timbaland)",
+    "Calamity",
+    "BLUE",
+    "Rainberry",
+    "Common",
+    "PILLOWTALK REMIX (feat. Lil Wayne)",
+    "wRoNg (feat. Kehlani)",
+    "BRIGHT",
+    "To Begin Again",
+    "Satisfaction",
+    "wHo",
+    "I Don't Mind",
+    "dRuNk",
+    "Tightrope",
+    "Insomnia",
+    "I Don’t Wanna Live Forever (Fifty Shades Darker)",
+    "SHE DON'T LOVE ME",
+    "fOoL fOr YoU",
+    "PILLOWTALK",
+    "You Wish You Knew",
+    "Freedun",
+    "Flames",
+    "If I Got You",
+    "iT's YoU",
+    "INTERMISSION: fLoWer",
+    "No Candle No Light (feat. Nicki Minaj)",
+    "Unfuckwitable",
+    "Cruel (feat. ZAYN)",
+    "Back To Sleep REMIX (feat. Usher & ZAYN)",
+    "There You Are",
+    "Fingers",
+    "TiO",
+    "Fresh Air",
+    "Windowsill (feat. Devlin)",
+    "Scripted",
+    "Flight Of The Stars",
+    "Sour Diesel",
+    "Good Guy",
+    "sHe",
+    "Tonight",
+    "Good Years",
+    "Rumors (feat. ZAYN)",
+    "Back To Life",
+    "Sweat",
+    "You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
+    "BeFoUr",
+    "Vibez",
+    "Better",
+    "Icarus Interlude",
+    "Still Got Time (feat. PARTYNEXTDOOR)",
+    "BoRdErSz",
+    "LIKE I WOULD",
+    "Connexion",
+    "Natural",
+    "Trampoline (with ZAYN)",
+    "When Love's Around (feat. Syd)",
+    "Outside",
+    "rEaR vIeW",
+    "Let Me",
+    "Entertainer",
+    "Dusk Till Dawn (feat. Sia) - Radio Edit",
+    "River Road",
+    "Stand Still",
+    "lUcOzAdE",
+    "A Whole New World (End Title) - From Aladdin",
+    "All That",
+    "Entertainer",
+    "Imprint",
+    "tRuTh",
+  ]),
+  On = {
+    subscribe: ue(
+      [
+        {
+          url: "https://soundcloud.com/zaynofficial/talk-to-me",
+          answer: "ZAYN - Talk To Me - ZAYN",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/too-much-feat-timbaland",
+          answer: "ZAYN - Too Much (feat. Timbaland)",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/calamity",
+          answer: "ZAYN - Calamity",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/blue",
+          answer: "ZAYN - BLUE",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/rainberry",
+          answer: "ZAYN - Rainberry",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/common",
+          answer: "ZAYN - Common",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/pillowtalk-remix-1",
+          answer: "ZAYN - PILLOWTALK REMIX (feat. Lil Wayne)",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/wrong-1",
+          answer: "ZAYN - wRoNg (feat. Kehlani)",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/bright-1",
+          answer: "ZAYN - BRIGHT",
+        },
+        {
+          url: "https://soundcloud.com/ingridmusic/to-begin-again",
+          answer: "Ingrid Michaelson - To Begin Again",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/satisfaction",
+          answer: "ZAYN - Satisfaction",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/who",
+          answer: "ZAYN - wHo",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/i-dont-mind",
+          answer: "ZAYN - I Don't Mind",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/drunk",
+          answer: "ZAYN - dRuNk",
+        },
+        {
+          url: "https://soundcloud.com/zaynofficial/tightrope",
+          answer: "ZAYN - Tightrope",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/speak-now",
+          answer: "ZAYN - Insomnia",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/its-nice-to-have-a-friend",
+          answer: "ZAYN - I Don’t Wanna Live Forever (Fifty Shades Darker)",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/the-archer",
+          answer: "ZAYN - SHE DON'T LOVE ME",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/babe-taylors-version-from-the",
+          answer: "ZAYN - fOoL fOr YoU",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/fearless-taylors-version",
+          answer: "ZAYN - PILLOWTALK",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/long-live-1",
+          answer: "ZAYN - You Wish You Knew",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/i-did-something-bad",
+          answer: "M.I.A. - Freedun",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/a-place-in-this-world",
+          answer: "R3HAB - Flames",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/girl-at-home-taylors-version",
+          answer: "ZAYN - If I Got You",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/dress",
+          answer: "ZAYN - iT's YoU",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/dorothea",
+          answer: "ZAYN - INTERMISSION: fLoWer",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/closure",
+          answer: "ZAYN - No Candle No Light (feat. Nicki Minaj)",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/you-belong-with-me-taylors",
+          answer: "ZAYN - Unfuckwitable",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/august",
+          answer: "ZAYN - Cruel (feat. ZAYN)",
+        },
+        {
+          url: "https://soundcloud.com/chris_brown/fuck-you-back-to-sleep-remix-ft-usher-zayn",
+          answer: "Chris Brown - Back To Sleep REMIX (feat. Usher & ZAYN)",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/change-taylors-version",
+          answer: "ZAYN - There You Are",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/soon-youll-get-better-feat",
+          answer: "ZAYN - Fingers",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/starlight-taylors-version",
+          answer: "ZAYN - TiO",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/mine-us-version",
+          answer: "ZAYN - Fresh Air",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/all-too-well-10-minute-version",
+          answer: "ZAYN - Windowsill (feat. Devlin)",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/the-best-day-taylors-version",
+          answer: "ZAYN - Scripted",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/stay-stay-stay-taylors-version",
+          answer: "ZAYN - Flight Of The Stars",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/i-think-he-knows",
+          answer: "ZAYN - Sour Diesel",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/daylight",
+          answer: "ZAYN - Good Guy",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/i-know-places",
+          answer: "ZAYN - sHe",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/love-story-taylors-version",
+          answer: "ZAYN - Tonight",
+        },
+        {
+          url: "https://soundcloud.com/joywave/golden-state-2",
+          answer: "ZAYN - Good Years",
+        },
+        {
+          url: "https://soundcloud.com/joywave/content",
+          answer: "Sabrina Claudio - Rumors (feat. ZAYN)",
+        },
+        {
+          url: "https://soundcloud.com/joywave/10-traveling-at-the-speed-of",
+          answer: "ZAYN - Back To Life",
+        },
+        {
+          url: "https://soundcloud.com/joywave/going-to-a-place",
+          answer: "ZAYN - Sweat",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/white-horse-taylors-version",
+          answer:
+            "ZAYN - You Can't Hide / You Can't Hide From Yourself (Touch of Class GMF Remix)",
+        },
+        {
+          url: "https://soundcloud.com/joywave/why-would-you-want-to-be-young",
+          answer: "ZAYN - BeFoUr",
+        },
+        {
+          url: "https://soundcloud.com/joywave/blank-slate",
+          answer: "ZAYN - Vibez",
+        },
+        {
+          url: "https://soundcloud.com/joywave/03-titan",
+          answer: "ZAYN - Better",
+        },
+        {
+          url: "https://soundcloud.com/joywave/london",
+          answer: "ZAYN - Icarus Interlude",
+        },
+        {
+          url: "https://soundcloud.com/joywave/who-owns-who",
+          answer: "ZAYN - Still Got Time (feat. PARTYNEXTDOOR)",
+        },
+        {
+          url: "https://soundcloud.com/joywave/dying-well",
+          answer: "ZAYN - BoRdErSz",
+        },
+        {
+          url: "https://soundcloud.com/joywave/carry-me",
+          answer: "ZAYN - LIKE I WOULD",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/the-way-i-loved-you-taylors",
+          answer: "ZAYN - Connexion",
+        },
+        {
+          url: "https://soundcloud.com/joywave/destruction",
+          answer: "ZAYN - Natural",
+        },
+        {
+          url: "https://soundcloud.com/joywave/smokestacks",
+          answer: "SHAED - Trampoline (with ZAYN)",
+        },
+        {
+          url: "https://soundcloud.com/joywave/little-lies-youre-told",
+          answer: "ZAYN - When Love's Around (feat. Syd)",
+        },
+        {
+          url: "https://soundcloud.com/joywave/cold-open",
+          answer: "ZAYN - Outside",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/the-man",
+          answer: "ZAYN - rEaR vIeW",
+        },
+        {
+          url: "https://soundcloud.com/joywave/theme-from-88888",
+          answer: "ZAYN - Let Me",
+        },
+        {
+          url: "https://soundcloud.com/joywave/doubt",
+          answer: "ZAYN - Entertainer",
+        },
+        {
+          url: "https://soundcloud.com/joywave/feels-like-a-lie",
+          answer: "ZAYN - Dusk Till Dawn (feat. Sia) - Radio Edit",
+        },
+        {
+          url: "https://soundcloud.com/joywave/funny-thing-about-opinions",
+          answer: "ZAYN - River Road",
+        },
+        {
+          url: "https://soundcloud.com/taylorswiftofficial/cruel-summer",
+          answer: "ZAYN - Stand Still",
+        },
+        {
+          url: "https://soundcloud.com/joywave/06-virus-exe",
+          answer: "ZAYN - lUcOzAdE",
+        },
+        {
+          url: "https://soundcloud.com/joywave/08-hang-with-me",
+          answer: "ZAYN - A Whole New World (End Title) - From Aladdin",
+        },
+        {
+          url: "https://soundcloud.com/joywave/f-e-a-r",
+          answer: "ZAYN - All That",
+        },
+        {
+          url: "https://soundcloud.com/joywave/like-a-kennedy",
+          answer: "ZAYN - Entertainer",
+        },
+        {
+          url: "https://soundcloud.com/joywave/the-inversion",
+          answer: "ZAYN - Imprint",
+        },
+        {
+          url: "https://soundcloud.com/joywave/numbers-station",
+          answer: "ZAYN - tRuTh",
+        },
+      ],
+      Pn
+    ).subscribe,
+  };
+var Pn;
   const { document: An, window: Ln } = X;
   function Nn(e) {
     let t, n;
@@ -9289,12 +9294,12 @@ const Cn = ue([
           Q(Y.$$.fragment),
           (C = x()),
           H && H.c(),
-          (An.title = "🌙 LOONA Heardle - That LOONA song intros game"),
+          (An.title = "ZAYN Heardle"),
           M(t, "name", "description"),
           M(
             t,
             "content",
-            "Guess the LOONA song from the intro in as few tries as possible"
+            "Guess the ZAYN song from the intro in as few tries as possible"
           ),
           M(n, "rel", "apple-touch-icon"),
           M(n, "sizes", "180x180"),
@@ -9441,13 +9446,14 @@ const Cn = ue([
     u(e, Cn, (e) => n(26, (r = e))), u(e, On, (e) => n(27, (s = e)));
     let a = x(Vt.startDate),
       l = {
-        url: s[a % s.length].url,
-        correctAnswer: s[a % s.length].answer,
+        url: s[a].url,
+        correctAnswer: s[a].answer,
         id: a,
         guessList: [],
         hasFinished: !1,
         hasStarted: !1,
       };
+    // console.log("a", l);
     var c, d;
     void 0 !== document.hidden
       ? ((c = "hidden"), (d = "visibilitychange"))
@@ -9524,6 +9530,7 @@ const Cn = ue([
       p,
       function (e) {
         let t = e.detail.currentSong;
+        // console.log("current song", l);
         n(2, (l.artist = l.correctAnswer.split(" - ")[1]), l),
           n(2, (l.title = l.correctAnswer.split(" - ")[0]), l),
           n(2, (l.img = t.artwork_url), l),
@@ -9532,7 +9539,7 @@ const Cn = ue([
           n(2, (l.date = t.release_date), l),
           (function (e, t, n) {
             e.set(n);
-          })(Cn, (r = [...r]), r),
+          })(Cn, (r = [...r, l.correctAnswer]), r),
           n(9, (y = r)),
           n(8, (w.playerIsReady = !0), w),
           f.hasFinished || n(8, (w.gameIsActive = !0), w);
