@@ -3854,8 +3854,6 @@ var app = (function () {
               "If you like this game, please consider supporting the original Heardle creators on Ko-fi."),
             (r = x()),
             (s = w("p")),
-            // (s.innerHTML =
-            //   '<p class="mb-3">If you\'ve enjoyed playing SEVENTEEN Heardle and would like to support the Heardle devs with server costs to keep the original game running, then please consider supporting the <a href="https://ko-fi.com/heardle">real Heardle devs</a>.</p>'),
             (i = x()),
             (o = w("div")),
             Q(a.$$.fragment),
@@ -3907,7 +3905,7 @@ var app = (function () {
       maxAttempts: 6,
       startDate: "2022-04-07",
     },
-    Jt = ["Tsk tsk", "Zquad indeed", "You must've done this BeFoUr", "Impressive", "Nicely done", "Phew", "Almost got exposed"];
+    Jt = ["Tsk tsk", "That's inZAYN!", "Zquad indeed!", "AmaZAYN", "You must've done this BeFoUr", "Nicely done", "Almost got exposed"];
   function Kt(t) {
     let n, r;
     return {
