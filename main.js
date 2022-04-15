@@ -3664,14 +3664,14 @@ var app = (function () {
         (n = w("div")),
           (r = w("a")),
            (r.innerHTML =
-             '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the creator and servers on Ko-Fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
+             '<span class="kofitext svelte-1d3p4dy"><img src="https://storage.ko-fi.com/cdn/cup-border.png" alt="Ko-fi donations" class="kofiimg mr-2 mb-1 svelte-1d3p4dy"/>Support the original Heardle on Ko-fi</span><svg xmlns="http://www.w3.org/2000/svg" class="ml-2" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h13M12 5l7 7-7 7"></path></svg>'),
            M(
              r,
              "class",
              "kofi-button py-2 px-3 rounded-lg items-center flex  svelte-1d3p4dy"
            ),
-           M(r, "href", "https://ko-fi.com/beachboysstan"),
-           M(r, "title", "Support the creator and servers on Ko-Fi"),
+           M(r, "href", "https://ko-fi.com/heardle"),
+           M(r, "title", "Support the original Heardle on Ko-fi"),
           M(
             n,
             "class",
@@ -3851,7 +3851,7 @@ var app = (function () {
           (n = w("p")),
             (s = w("p")),
             (n.innerHTML =
-              'Have questions/run into bugs? DM me @beachboysstan on twitter! <br><br> In order to abide by copyright laws, this game is powered by Soundcloud. If the song isn\'t available in your country on Soundcloud, you can check out <a href=\"https://www.techyonic.co/swiftle\" title=\"Heardle\">Swiftle</a>, a similar ZAYN Heardle game!'),
+              'If you like this game, please consider supporting the original Heardle creators on Ko-fi.'),
             (r = x()),
             (s = w("p")),
             // (s.innerHTML =
