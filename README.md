@@ -4,7 +4,7 @@
 
 This is a spin-off of the original [Heardle](https://www.heardle.app/) but for ZAYN songs. Each song
 is randomly chosen from his discography, including features. I do not own any rights to the songs
-used in this game. All copyright goes to ZAYN, RCA Records, and relevant parties.
+used in this game. All copyright goes to ZAYN, RCA Records, and other relevant parties.
 
 The code for this project is remixed from the [Taylor Swift Heardle](https://taylor-swift-heardle.glitch.me/).
 To create your own custom Heardle, follow the instructions in their [README.md](https://glitch.com/edit/#!/taylor-swift-heardle) file.
