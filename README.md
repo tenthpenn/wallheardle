@@ -6,6 +6,8 @@ This is a spin-off of the original [Heardle](https://www.heardle.app/) but for Z
 
 The code for this project is remixed from the [Taylor Swift Heardle](https://taylor-swift-heardle.glitch.me/).
 
+FYI: I am not a web developer. If you find a bug or want to help improve the code (or if you just have a question), DM me on [Instagram](https://instagram.com/emilyomgee) or [Twitter](https://twitter.com/eggtartemily).
+
 ### How to create your own custom Heardle
 1. Create a Glitch account.
 2. Remix this project (or another existing custom Heardle project on Glitch) and rename the project to what you want the game link to be (e.g. artist-heardle).
@@ -22,5 +24,3 @@ Now you're done with all the necessary changes. Congrats! Read on for optional e
 1. In the `bundle.css` file, go to line 788. Here you can change the different accent colors for your game. Simply replace the HEX color codes with ones you want.
 2. You are currently reading the `README.md` file. Once you no longer need this, you can delete all this text and write whatever information you want to include about this project.
 3. Lastly, share your custom Heardle!
-
-FYI: I am not a web developer. If you find a bug or want to help me write better code for this, DM me on [Instagram](https://instagram.com/emilyomgee) or [Twitter](https://twitter.com/eggtartemily).
