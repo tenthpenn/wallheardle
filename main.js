@@ -1674,11 +1674,12 @@ var app = (function() {
         (a = w("div")),
         (l = w("p")),
         (l.textContent =
-          "Oh no! Seems like today's track is unavailable on\n                            SoundCloud in your location"),
+          "Oh no! Seems like today's track is unavailable on\n                            SoundCloud in your location."),
         (u = x()),
         c && c.c(),
           M(i, "class", "mr-3"),
           M(l, "class", "text-sm "),
+          M(l, "style", "color:black"),
           M(s, "class", "flex items-center"),
           M(r, "class", "p-3 mb-3 bg-custom-mg rounded-sm"),
           M(n, "class", "max-w-screen-sm w-full mx-auto px-3 flex-col");
@@ -1881,7 +1882,9 @@ var app = (function() {
           ", though, if you want to maintain your streak.\n                                We won't tell..."
         )),
         M(r, "href", (i = e[1].url)),
+          M(r, "style", "color:black"),
           M(t, "class", "text-xs text-custom-line pt-1");
+          M(t, "style", "color:black");
       },
       m(e, i) {
         g(e, t, i), p(t, n), p(t, r), p(r, s), p(t, o);
