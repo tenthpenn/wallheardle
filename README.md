@@ -7,7 +7,6 @@ is randomly chosen from his discography, including features. I do not own any ri
 used in this game. All copyright goes to ZAYN, RCA Records, and other relevant parties.
 
 The code for this project is remixed from the [Taylor Swift Heardle](https://taylor-swift-heardle.glitch.me/).
-To create your own custom Heardle, follow the instructions in their [README.md](https://glitch.com/edit/#!/taylor-swift-heardle) file.
 
 FYI: I am not a web developer. If you find a bug or want to help me write better code for this, DM me on [Instagram](https://instagram.com/emilyomgee)
 or [Twitter](https://twitter.com/eggtartemily).
