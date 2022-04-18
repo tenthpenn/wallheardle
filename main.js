@@ -4085,7 +4085,7 @@ var app = (function() {
       maxAttempts: 6,
       startDate: "2022-04-07",
     },
-    Jt = ["This is why Zayn likes UFC over us", "That's inZAYN!", "Zquad indeed!", "AmaZAYN", "You must've done this BeFoUr", "Nicely done", "Almost got exposed"];
+    Jt = ["This is why Zayn likes UFC over us", "That's inZAYN!", "Zquad indeed!", "AmaZAYN", "You must've done this BeFoUr", "Almost got exposed", "Need to relisten, huh?"];
 
   function Kt(t) {
     let n, r;
