@@ -9,6 +9,7 @@ This is a spin-off of the original [Heardle](https://www.heardle.app/) but for Z
 FYI: I am not a web developer. If you find a bug or want to help improve the code (or if you just have a question), DM me on Instagram ([@emilyomgee](https://instagram.com/emilyomgee)) or Twitter ([@eggtartemily](https://twitter.com/eggtartemily)).
 
 ### How to create your own custom Heardle
+
 1. Create a Glitch account.
 2. Remix this project (or another existing custom Heardle project on Glitch) and rename the project to what you want the game link to be (e.g. artist-heardle).
 3. In the `index.html` file, **remove the Google Analytics tag** at the bottom in lines 81-94. You can replace it with your own if you want to track your site usage ([instructions here](https://support.google.com/analytics/answer/9306384?hl=en)) but it's optional.
@@ -21,6 +22,7 @@ FYI: I am not a web developer. If you find a bug or want to help improve the cod
 10. Also in this section is the variable `startDate`. Theoretically, you would change this to the current date so that the game starts with the first track you listed. However, I noticed that if you do this, it will mess up the SoundCloud player, so I ended up entering a date like a week earlier which was the latest date I could use without messing up the player. It's weird. It seems like a bug in the original Heardle code as well, but I don't know JavaScript well enough to know how to fix it. If you do, DM me.
 
 Now you're done with all the necessary changes. Congrats! Read on for optional edits.
+
 1. In the `bundle.css` file, go to line 788 (or search 'root'). Here you can change the different accent colors for your game. Simply replace the HEX color codes with ones you want.
 2. You are currently reading the `README.md` file. Once you no longer need this, you can delete all this text and write whatever information you want to include about this project.
 3. Lastly, share your custom Heardle!
