@@ -2,7 +2,7 @@
 
 _[ZAYN Heardle](https://zayn-heardle.glitch.me/) (or Zeardle, if you will) by [@eggtartemily](https://twitter.com/eggtartemily)_
 
-Updated as of May 25, 2022
+Updated as of May 27, 2022
 
 This is a spin-off of the original [Heardle](https://www.heardle.app/) but for ZAYN songs. Each song is randomly chosen from his discography, including features. I do not own any rights to the songs used in this game. All copyright goes to ZAYN, RCA Records, and other relevant parties.
 
@@ -20,6 +20,7 @@ This is a spin-off of the original [Heardle](https://www.heardle.app/) but for Z
 8. In the `main.js` file, search for every instance of 'ZAYN'. These will include the text for the about tab, game link, game messages, etc. Replace these with your artist and customize the text to your liking. **Important:** Change the game link in the clipboard copy to your custom Heardle link. If you forget, users who copy their results will copy the link to this ZAYN Heardle instead. Search 'zayn-heardle.glitch.me' if you can't find the line of code. Also, **please remove my Twitter username** (unless you're giving credit) from the About section, as mentioned in the note above.
 9. In the `main.js` file, find where `const Vt` is defined. Below that, there will be a list of game messages that will show depending on how many tries the user guesses the song in. The order goes: failure, 1 try, 2 tries,..., 6 tries. Customize these to your liking.
 10. Also in this section is the variable `startDate`. Theoretically, you would change this to the current date so that the game starts with the first track you listed. However, I noticed that if you do this, it will mess up the SoundCloud player. I ended up entering a date like a week earlier which was the latest date I could use without messing up the player, so unfortunately, the game starts at #8. I don't know why this happens. It seems like a bug in the original Heardle code as well, but I don't know JavaScript well enough to know how to fix it. If you do, DM me.
+11. As a final check, search the `index.html` and `main.js` files one more time for any instances of 'Zayn' or 'eggtartemily' to ensure you customized everything.
 
 **UPDATE 5/17:** I was told that the bug in Step 10 was fixed (maybe by Glitch?). Hopefully it now works for you without issue.
 
