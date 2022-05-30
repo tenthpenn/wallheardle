@@ -9036,7 +9036,7 @@ var app = (function() {
         (r.isDate = d),
         (r.locale = pn),
         (r.invalid = v),
-        (r.duration = Tr),
+        (r.duration = Tr)
         (r.isMoment = b),
         (r.weekdays = vi),
         (r.parseZone = ci),
@@ -9069,14 +9069,14 @@ var app = (function() {
     })();
   });
   const Cn = ue([
-      "ZAYN - Talk To Me",
-      "ZAYN - Too Much (feat. Timbaland)",
-      "ZAYN - Calamity",
-      "ZAYN - BLUE",
-      "M.I.A. - Freedun",
-      "ZAYN - Common",
-      "ZAYN - PILLOWTALK REMIX (feat. Lil Wayne)",
-      "ZAYN - wRoNg (feat. Kehlani)",
+      "Pleaser - Wallows",
+      "Sun Tan - Wallows",
+      "Uncomfortable - Wallows",
+      "Pulling Leaves Off Trees - Wallows",
+      "These Days - Wallows",
+      "Picture of Girls - Wallows",
+      "Ground - Wallows",
+      "1980s Horror Film - Wallows",
       "ZAYN - BRIGHT",
       "Ingrid Michaelson - To Begin Again",
       "ZAYN - Satisfaction",
